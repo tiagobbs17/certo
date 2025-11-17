@@ -4,17 +4,21 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
+  const heroImage = PlaceHolderImages.find(img => img.id === 'panettone-hero');
+
   return (
     <section className="relative w-full py-12 md:py-24 lg:py-32 xl:py-48 overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Image
-          src={PlaceHolderImages.find(img => img.id === 'panettone-hero')?.imageUrl || ''}
-          alt="Background of a delicious panettone"
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint="panettone christmas"
-        />
+        {heroImage && (
+            <Image
+            src={heroImage.imageUrl}
+            alt="Background of a delicious panettone"
+            fill
+            className="object-cover"
+            priority
+            data-ai-hint={heroImage.imageHint}
+            />
+        )}
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="container relative z-10 px-4 md:px-6">
