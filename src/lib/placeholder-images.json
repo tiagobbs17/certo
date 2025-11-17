@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "panettone-hero",
+      "description": "A festive hero image of a panettone, with Christmas decorations.",
+      "imageUrl": "https://images.unsplash.com/photo-1608644281564-6d7ff23a47e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwYW5ldHRvbmUlMjBjaHJpc3RtYXN8ZW58MHx8fHwxNzYzMjYyMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "panettone christmas"
+    },
+    {
+      "id": "tablet-mockup-panettone",
+      "description": "A tablet displaying a cooking course interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1612187209234-3b9a15d327e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3Vyc2UlMjB0YWJsZXR8ZW58MHx8fHwxNzYzMzYxOTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "course tablet"
+    },
+    {
+      "id": "certificate-mockup",
+      "description": "A professional-looking certificate of completion.",
+      "imageUrl": "https://images.unsplash.com/photo-1657114162943-04988ff671d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMG1vY2t1cHxlbnwwfHx8fDE3NjMzNjE5ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate mockup"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Avatar for the first testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzMyODY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Avatar for the second testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzMyODY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Avatar for the third testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzMyODY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Avatar for the fourth testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzMyODY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    }
+  ]
 }
