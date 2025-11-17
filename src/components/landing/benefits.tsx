@@ -56,7 +56,7 @@ export function Benefits() {
           {benefits.map((benefit, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div className="mb-4 rounded-full bg-primary/10 p-4">{benefit.icon}</div>
-              <h3 className="text-xl font-bold font-headline">{benefit.title}</h3>
+              <h3 className="text-xl font-bold font-headline text-accent">{benefit.title}</h3>
               <p className="text-muted-foreground">{benefit.description}</p>
             </div>
           ))}
