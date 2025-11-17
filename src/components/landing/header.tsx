@@ -1,9 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { Cake, Clock } from 'lucide-react';
+import { Clock } from 'lucide-react';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -50,13 +49,9 @@ export function Header() {
         </div>
       </div>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <a href="#" className="flex items-center gap-2 font-headline text-lg font-bold">
-          <Cake className="h-6 w-6 text-primary" />
-          <span className={cn(isScrolled ? 'text-foreground' : 'text-white')}>Deus é perfeito</span>
-        </a>
-        <Button asChild size="sm" className="hidden sm:flex font-bold">
-          <a href="#offer">Quero a oferta</a>
-        </Button>
+        {/* Placeholder to keep the layout consistent */}
+        <div className="w-24"></div> 
+        <div className="w-24"></div>
       </div>
     </header>
   );

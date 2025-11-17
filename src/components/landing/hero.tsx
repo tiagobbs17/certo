@@ -1,10 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
-
-const tabletMockup = PlaceHolderImages.find(img => img.id === 'tablet-mockup-panettone');
 
 export function Hero() {
   return (
@@ -29,26 +26,19 @@ export function Hero() {
             <p className="max-w-[700px] mx-auto text-lg md:text-xl">
               Aprende en menos de 7 días las recetas más deliciosas y rentables de panetones italianos artesanales y comienza tu propio negocio rentable desde casa. ¡Perfecto para ganar dinero extra esta Navidad!
             </p>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-              <Button asChild size="lg" className="font-bold">
-                <a href="#offer">
-                  Obtener ahora por solo $5,90 USD
-                  <ArrowRight className="ml-2" />
-                </a>
-              </Button>
-            </div>
           </div>
-          <div className="flex items-center justify-center w-full max-w-2xl">
-            {tabletMockup && (
-              <Image
-                src={tabletMockup.imageUrl}
-                width={600}
-                height={450}
-                alt="Maquete do curso de panettone em um tablet"
-                className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover"
-                data-ai-hint={tabletMockup.imageHint}
-              />
-            )}
+          
+          <div className="w-full max-w-2xl aspect-video bg-black/50 rounded-xl flex items-center justify-center text-muted-foreground">
+            {/* Seu vídeo será inserido aqui */}
+          </div>
+
+          <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
+            <Button asChild size="lg" className="font-bold bg-green-600 hover:bg-green-700">
+              <a href="#offer">
+                Obtener ahora por solo $5,90 USD
+                <ArrowRight className="ml-2" />
+              </a>
+            </Button>
           </div>
         </div>
       </div>
