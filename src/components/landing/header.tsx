@@ -43,7 +43,7 @@ export function Header() {
         isScrolled ? 'bg-background/80 backdrop-blur-sm shadow-md' : 'bg-transparent'
       )}
     >
-      <div className="bg-primary text-primary-foreground py-2 text-center text-sm font-bold">
+      <div className="bg-accent text-accent-foreground py-2 text-center text-sm font-bold">
         <div className="container flex items-center justify-center gap-2">
           <Clock className="h-5 w-5" />
           <span>¡Oferta de Navidad! Termina en: {formatTime(timeLeft)}</span>
