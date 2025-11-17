@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Panettone Pro',
+  title: 'Deus é perfeito',
   description: 'Conviértete en experta en Panetones estilo Milán',
 };
 
