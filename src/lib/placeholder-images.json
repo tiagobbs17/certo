@@ -41,6 +41,12 @@
       "description": "Avatar for the fourth testimonial.",
       "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzMyODY5NXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
+    },
+    {
+      "id": "feature-1",
+      "description": "Icon for 'Aprende todo desde cero' feature.",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/p1.webp",
+      "imageHint": "learning icon"
     }
   ]
 }
