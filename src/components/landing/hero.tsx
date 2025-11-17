@@ -21,15 +21,15 @@ export function Hero() {
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="container relative z-10 px-4 md:px-6">
-        <div className="grid gap-6 lg:grid-cols-2 lg:gap-16">
+        <div className="flex flex-col items-center text-center space-y-6">
           <div className="flex flex-col justify-center space-y-4 text-white">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
               Conviértete en experta en Panetones estilo Milán
             </h1>
-            <p className="max-w-[600px] text-lg md:text-xl">
+            <p className="max-w-[700px] mx-auto text-lg md:text-xl">
               Aprende en menos de 7 días las recetas más deliciosas y rentables de panetones italianos artesanales y comienza tu propio negocio rentable desde casa. ¡Perfecto para ganar dinero extra esta Navidad!
             </p>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row">
+            <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
               <Button asChild size="lg" className="font-bold">
                 <a href="#offer">
                   Obtener ahora por solo $5,90 USD
@@ -38,7 +38,7 @@ export function Hero() {
               </Button>
             </div>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center w-full max-w-2xl">
             {tabletMockup && (
               <Image
                 src={tabletMockup.imageUrl}
