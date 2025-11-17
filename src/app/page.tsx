@@ -1,3 +1,4 @@
+import { Header } from '@/components/landing/header';
 import { Hero } from '@/components/landing/hero';
 import { Benefits } from '@/components/landing/benefits';
 import { Features } from '@/components/landing/features';
@@ -9,11 +10,11 @@ import { FinalOffer } from '@/components/landing/final-offer';
 import { Faq } from '@/components/landing/faq';
 import { Footer } from '@/components/landing/footer';
 import { RecipeCustomizer } from '@/components/landing/recipe-customizer';
-import { Separator } from '@/components/ui/separator';
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground overflow-x-hidden">
+      <Header />
       <main className="flex-1">
         <Hero />
         <Benefits />
