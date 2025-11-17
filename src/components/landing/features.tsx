@@ -1,19 +1,18 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { BookOpen, TrendingUp, Sparkles } from 'lucide-react';
 
 const features = [
   {
-    icon: <BookOpen className="h-10 w-10 text-accent" />,
+    icon: <div className="h-16 w-16 bg-muted rounded-full" />,
     title: "Aprende todo desde cero",
     description: "Paso a paso, totalmente didáctico, no importa si no tienes conocimientos previos en la materia."
   },
   {
-    icon: <TrendingUp className="h-10 w-10 text-accent" />,
+    icon: <div className="h-16 w-16 bg-muted rounded-full" />,
     title: "Mejora y evoluciona tus técnicas",
     description: "Para ti que ya trabajas en el área o que ya haces Panetones y quieres mejorar tus técnicas."
   },
   {
-    icon: <Sparkles className="h-10 w-10 text-accent" />,
+    icon: <div className="h-16 w-16 bg-muted rounded-full" />,
     title: "Conquista muchos más clientes",
     description: "Conviértete en especialista en Panetones, destácate en tu ciudad y comienza en el campo de la forma correcta."
   }
@@ -24,7 +23,7 @@ export function Features() {
     <section className="w-full py-16 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
             Ventajas del producto digital Dulce Navidad
           </h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
