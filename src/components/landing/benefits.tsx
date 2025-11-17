@@ -62,7 +62,7 @@ export function Benefits() {
           ))}
         </div>
         <div className="mx-auto max-w-3xl mt-16 text-center">
-            <h3 className="text-2xl font-headline font-bold mb-6">Además, recibirás acceso a:</h3>
+            <h3 className="text-2xl font-headline font-bold mb-6 text-accent">Además, recibirás acceso a:</h3>
             <ul className="grid gap-4 sm:grid-cols-2 text-left">
                 {additionalBenefits.map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
