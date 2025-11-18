@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Check } from 'lucide-react';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const includedItems = [
   { name: 'Libro Dulce Navidad', value: '74,99' },
@@ -13,14 +12,17 @@ const includedItems = [
 ];
 
 export function FinalOffer() {
-  const tabletMockup = PlaceHolderImages.find(img => img.id === 'tablet-mockup-panettone');
+  const tabletMockup = {
+    imageUrl: "https://ik.imagekit.io/cbes7rupj/mokap.png",
+    imageHint: "course mockup"
+  };
 
   return (
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-primary/10">
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-4">
-            <h2 className="text-3xl sm:text-4xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-400">
+            <h2 className="text-3xl sm:text-4xl text-center lg:text-left font-headline font-bold tracking-tighter text-yellow-400">
               ¡Oferta Especial por Tiempo Limitado!
             </h2>
             {tabletMockup && (
@@ -37,20 +39,20 @@ export function FinalOffer() {
 
           <Card className="shadow-2xl">
             <CardContent className="p-6 md:p-8">
-              <ul className="space-y-3 mb-4">
+              <ul className="space-y-2 mb-4">
                 {includedItems.map((item, index) => (
-                  <li key={index} className="flex flex-wrap justify-between items-center text-sm md:text-base gap-x-2">
+                  <li key={index} className="flex justify-between items-center text-sm md:text-base gap-2">
                     <span className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
                       <span>{item.name}</span>
                     </span>
-                    <span className="font-mono text-muted-foreground line-through whitespace-nowrap">${item.value}</span>
+                    <span className="font-mono text-red-500 line-through whitespace-nowrap ml-2">${item.value}</span>
                   </li>
                 ))}
               </ul>
               
               <div className="bg-muted/50 rounded-lg p-4 text-center my-6">
-                <p className="text-5xl font-bold font-headline text-primary my-2">$5,90 <span className="text-xl font-body font-normal">USD</span></p>
+                <p className="text-5xl font-bold font-headline text-green-600 my-2">$5,90 <span className="text-xl font-body font-normal text-foreground">USD</span></p>
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 
