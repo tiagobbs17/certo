@@ -9,6 +9,7 @@ import { Guarantee } from '@/components/landing/guarantee';
 import { FinalOffer } from '@/components/landing/final-offer';
 import { Faq } from '@/components/landing/faq';
 import { Footer } from '@/components/landing/footer';
+import { NotificationPopup } from '@/components/landing/notification-popup';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Faq />
       </main>
       <Footer />
+      <NotificationPopup />
     </div>
   );
 }
