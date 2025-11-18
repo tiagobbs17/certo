@@ -29,8 +29,24 @@ export function Testimonials() {
               className="object-cover w-full h-full"
             />
           </Card>
-          <Card className="aspect-square bg-muted"></Card>
-          <Card className="aspect-square bg-muted"></Card>
+          <Card className="aspect-square bg-muted overflow-hidden">
+            <Image 
+              src="https://ik.imagekit.io/cbes7rupj/depoimento%204.jpeg" 
+              alt="Depoimento 3" 
+              width={400} 
+              height={400}
+              className="object-cover w-full h-full"
+            />
+          </Card>
+          <Card className="aspect-square bg-muted overflow-hidden">
+            <Image 
+              src="https://ik.imagekit.io/cbes7rupj/depoimento%202.jpeg" 
+              alt="Depoimento 4" 
+              width={400} 
+              height={400}
+              className="object-cover w-full h-full"
+            />
+          </Card>
         </div>
       </div>
     </section>
