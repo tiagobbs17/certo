@@ -1,4 +1,5 @@
 import { Card } from '@/components/ui/card';
+import Image from 'next/image';
 
 export function Testimonials() {
   return (
@@ -10,7 +11,15 @@ export function Testimonials() {
           </h2>
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-4 mt-12">
-          <Card className="aspect-square bg-muted"></Card>
+          <Card className="aspect-square bg-muted overflow-hidden">
+            <Image 
+              src="https://ik.imagekit.io/cbes7rupj/depoimento%201.jpeg" 
+              alt="Depoimento 1" 
+              width={400} 
+              height={400}
+              className="object-cover w-full h-full"
+            />
+          </Card>
           <Card className="aspect-square bg-muted"></Card>
           <Card className="aspect-square bg-muted"></Card>
           <Card className="aspect-square bg-muted"></Card>
