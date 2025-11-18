@@ -58,9 +58,10 @@ export function FinalOffer() {
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 
-              <div className="text-center mb-4">
-                  <p className="text-sm"><span className="font-bold text-red-500">Importante:</span> El precio de referencia está en dólares, pero el pago se realiza en la moneda de tu país.</p>
-                  <p className="text-sm mt-2">Haz clic para ver el precio en tu moneda y reservar tu libro👇</p>
+              <div className="text-center mb-4 text-sm flex flex-col items-center">
+                  <p><span className="font-bold text-red-500">Importante:</span> El precio de referencia está en dólares,</p>
+                  <p>pero el pago se realiza en la moneda de tu país.</p>
+                  <p className="mt-2">Haz clic para ver el precio en tu moneda y reservar tu libro👇</p>
               </div>
 
               <div className="flex flex-col items-center">
