@@ -38,7 +38,7 @@ export function Header() {
   const formatTime = (time: number) => time.toString().padStart(2, '0');
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-green-600 text-white p-2 text-center font-bold">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-green-600 text-white p-2 text-center font-bold h-10">
       <div className="container mx-auto">
         <p>
           🎄 ¡OFERTA ESPECIAL! La oferta termina en: {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)} 🎄

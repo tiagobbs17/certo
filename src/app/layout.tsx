@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
+import { Header } from '@/components/landing/header';
 
 export const metadata: Metadata = {
   title: 'Deus é perfeito',
@@ -37,7 +38,10 @@ export default function RootLayout({
         ></Script>
       </head>
       <body className="font-body antialiased">
-        {children}
+        <Header />
+        <div className="pt-10">
+          {children}
+        </div>
         <Toaster />
       </body>
     </html>
