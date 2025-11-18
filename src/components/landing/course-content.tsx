@@ -121,7 +121,7 @@ export function CourseContent() {
                     {item.lessons.map((lesson, lessonIndex) => (
                       <li key={lessonIndex} className="flex items-center gap-3">
                         <CircleDot className="h-4 w-4 text-primary" />
-                        <span className="text-foreground/80">{lesson}</span>
+                        <span className="text-foreground">{lesson}</span>
                       </li>
                     ))}
                   </ul>
