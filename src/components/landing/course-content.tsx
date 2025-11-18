@@ -71,13 +71,13 @@ const bonuses = [
     title: "Bonificación 4 - Navidad Encantada",
     description: "3 recetas irresistibles de comidas tradicionales para la Navidad.",
     lessons: ["Pavo relleno", "Ensalada de manzana", "Cordero al horno"],
-    image: null
+    image: "https://ik.imagekit.io/cbes7rupj/bonus%204.jpg"
   },
 ]
 
 export function CourseContent() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32 bg-secondary/30">
+    <section className="w-full py-16 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -131,7 +131,7 @@ export function CourseContent() {
           </Accordion>
         </div>
         <div className="mt-12 flex justify-center">
-          <Button size="lg" asChild className="font-bold">
+          <Button size="lg" asChild className="font-bold bg-green-600 hover:bg-green-700">
             <a href="#offer">¡Quiero empezar ahora!</a>
           </Button>
         </div>
