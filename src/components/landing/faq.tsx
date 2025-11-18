@@ -37,9 +37,6 @@ export function Faq() {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Preguntas Frecuentes
           </h2>
-          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">
-            ¿Tienes dudas? Aquí resolvemos las más comunes.
-          </p>
         </div>
         <div className="mx-auto mt-12 max-w-3xl">
           <Accordion type="single" collapsible className="w-full">
