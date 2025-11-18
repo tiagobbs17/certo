@@ -43,8 +43,12 @@ export function FinalOffer() {
                 {includedItems.map((item, index) => (
                   <li key={index} className="flex items-center text-sm md:text-base gap-2">
                     <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
-                    <span className="flex-1">{item.name}</span>
-                    <span className="font-mono text-red-500 line-through whitespace-nowrap">${item.value}</span>
+                    <span>
+                      {item.name}{' '}
+                      <span className="font-mono text-red-500 line-through whitespace-nowrap">
+                        ${item.value}
+                      </span>
+                    </span>
                   </li>
                 ))}
               </ul>
