@@ -42,13 +42,13 @@ export function Features() {
                     <Image 
                       src={featureImage.imageUrl}
                       alt={feature.title}
-                      width={64}
-                      height={64}
-                      className="rounded-full object-cover h-16 w-16"
+                      width={96}
+                      height={96}
+                      className="rounded-full object-cover h-24 w-24"
                       data-ai-hint={featureImage.imageHint}
                     />
                   ) : (
-                    <div className="h-16 w-16 bg-muted rounded-full" />
+                    <div className="h-24 w-24 bg-muted rounded-full" />
                   )}
                   <h3 className="text-2xl font-bold font-headline">{feature.title}</h3>
                   <p className="text-muted-foreground">{feature.description}</p>
