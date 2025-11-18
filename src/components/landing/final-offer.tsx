@@ -20,7 +20,7 @@ export function FinalOffer() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-4">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-headline font-bold tracking-tighter text-yellow-400">
+            <h2 className="text-3xl sm:text-4xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-400">
               ¡Oferta Especial por Tiempo Limitado!
             </h2>
             {tabletMockup && (
@@ -37,25 +37,24 @@ export function FinalOffer() {
 
           <Card className="shadow-2xl">
             <CardContent className="p-6 md:p-8">
-              <ul className="space-y-2 mb-4">
+              <ul className="space-y-3 mb-4">
                 {includedItems.map((item, index) => (
-                  <li key={index} className="flex justify-between items-center text-sm md:text-base">
+                  <li key={index} className="flex flex-wrap justify-between items-center text-sm md:text-base gap-x-2">
                     <span className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
-                      <span className="flex-1">{item.name}</span>
+                      <span>{item.name}</span>
                     </span>
-                    <span className="font-mono text-muted-foreground line-through ml-2 whitespace-nowrap">${item.value}</span>
+                    <span className="font-mono text-muted-foreground line-through whitespace-nowrap">${item.value}</span>
                   </li>
                 ))}
               </ul>
               
               <div className="bg-muted/50 rounded-lg p-4 text-center my-6">
-                <p className="text-sm text-muted-foreground">Todo esto valorado en <span className="line-through">$190,95</span>, hoy te lo llevas por:</p>
                 <p className="text-5xl font-bold font-headline text-primary my-2">$5,90 <span className="text-xl font-body font-normal">USD</span></p>
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 
-              <Button size="lg" className="w-full font-bold text-lg h-14" asChild>
+              <Button size="lg" className="w-full font-bold text-lg h-14 bg-green-600 hover:bg-green-700" asChild>
                 <a href="#">
                   ¡SÍ, QUIERO APROVECHAR LA OFERTA!
                 </a>
