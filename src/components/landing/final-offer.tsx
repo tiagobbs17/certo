@@ -4,11 +4,11 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Check } from 'lucide-react';
 
 const includedItems = [
-  { name: 'Libro Dulce Navidad', value: '74,99' },
-  { name: 'Libro Amplía Tu Cardápio con Recetas Premium', value: '54,99' },
-  { name: 'Hoja de cálculo Emprendimiento y Estrategias de Venta', value: '17,99' },
-  { name: 'Libro postres navideños', value: '24,99' },
-  { name: 'Libro navidad encantada', value: '17,99' },
+  { name: 'Libro Dulce Navidad', value: '$74,99' },
+  { name: 'Libro Amplía Tu Cardápio con Recetas Premium', value: '$54,99' },
+  { name: 'Hoja de cálculo Emprendimiento y Estrategias de Venta', value: '$17,99' },
+  { name: 'Libro postres navideños', value: '$24,99' },
+  { name: 'Libro navidad encantada', value: '$17,99' },
 ];
 
 export function FinalOffer() {
@@ -46,7 +46,7 @@ export function FinalOffer() {
                     <span>
                       {item.name}{' '}
                       <span className="font-mono text-red-500 line-through whitespace-nowrap">
-                        ${item.value}
+                        {item.value}
                       </span>
                     </span>
                   </li>
@@ -65,7 +65,7 @@ export function FinalOffer() {
 
               <div className="flex flex-col items-center">
                 <Button size="lg" className="font-bold bg-green-600 hover:bg-green-700 rounded-full px-10 h-auto py-3 text-base" asChild>
-                  <a href="#">
+                  <a href="https://pay.hotmart.com/B102877180F">
                     ¡SÍ, QUIERO APROVECHAR LA OFERTA!
                   </a>
                 </Button>
