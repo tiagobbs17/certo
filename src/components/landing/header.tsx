@@ -6,7 +6,6 @@ import { Clock } from 'lucide-react';
 
 export function Header() {
   const [timeLeft, setTimeLeft] = useState(18 * 60 * 60);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     if (timeLeft <= 0) return;
@@ -18,14 +17,6 @@ export function Header() {
     return () => clearInterval(timer);
   }, [timeLeft]);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   const formatTime = (seconds: number) => {
     const hours = Math.floor(seconds / 3600);
     const minutes = Math.floor((seconds % 3600) / 60);
@@ -36,8 +27,7 @@ export function Header() {
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled ? 'bg-background/80 backdrop-blur-sm shadow-md' : 'bg-transparent'
+        'fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm shadow-md'
       )}
     >
       <div className="bg-green-600 text-white py-2 text-center text-sm font-bold">
