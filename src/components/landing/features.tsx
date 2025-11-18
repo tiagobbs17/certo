@@ -9,12 +9,12 @@ const features = [
     description: "Paso a paso, totalmente didáctico, no importa si no tienes conocimientos previos en la materia."
   },
   {
-    icon: null,
+    icon: "feature-2",
     title: "Mejora y evoluciona tus técnicas",
     description: "Para ti que ya trabajas en el área o que ya haces Panetones y quieres mejorar tus técnicas."
   },
   {
-    icon: null,
+    icon: "feature-3",
     title: "Conquista muchos más clientes",
     description: "Conviértete en especialista en Panetones, destácate en tu ciudad y comienza en el campo de la forma correcta."
   }

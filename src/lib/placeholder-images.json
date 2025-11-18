@@ -3,7 +3,7 @@
     {
       "id": "panettone-hero",
       "description": "A festive hero image of a panettone, with Christmas decorations.",
-      "imageUrl": "https://ik.imagekit.io/cbes7rupj/pp.jpg",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/p.jpg",
       "imageHint": "panettone christmas"
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "testimonial-3",
       "description": "Avatar for the third testimonial.",
-      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzMyODY5NXww&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzMyODY5NXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
@@ -47,6 +47,18 @@
       "description": "Icon for 'Aprende todo desde cero' feature.",
       "imageUrl": "https://ik.imagekit.io/cbes7rupj/p1.webp",
       "imageHint": "learning icon"
+    },
+    {
+      "id": "feature-2",
+      "description": "Icon for 'Mejora y evoluciona tus técnicas' feature.",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/p2.webp",
+      "imageHint": "improving techniques"
+    },
+    {
+      "id": "feature-3",
+      "description": "Icon for 'Conquista muchos más clientes' feature.",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/p3.webp",
+      "imageHint": "attracting customers"
     }
   ]
 }
