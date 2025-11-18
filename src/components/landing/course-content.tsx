@@ -88,7 +88,8 @@ export function CourseContent() {
               <AccordionItem key={index} value={`item-${index}`} className="border-border">
                 <AccordionTrigger className="text-left hover:no-underline">
                   <div className="flex items-start gap-4">
-                    <Badge variant={index < modules.length ? "destructive" : "default"} className="mt-1 bg-primary text-primary-foreground">{index < modules.length ? `Módulo ${index + 1}` : "Bonus"}</Badge>
+                    <div className="h-16 w-16 bg-muted rounded-full flex-shrink-0 mt-1" />
+                    <Badge variant={index < modules.length ? "destructive" : "default"} className="absolute top-4 left-4 bg-primary text-primary-foreground">{index < modules.length ? `Módulo ${index + 1}` : "Bonus"}</Badge>
                     <div className="flex-1">
                       <h3 className="font-headline text-lg font-bold">{item.title}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{item.description}</p>
