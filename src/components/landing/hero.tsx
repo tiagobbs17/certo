@@ -2,12 +2,14 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
+import { Header } from './header';
 
 export function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'panettone-hero');
 
   return (
-    <section className="relative w-full py-12 md:py-24 lg:py-32 xl:py-48 overflow-hidden">
+    <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-12 md:pb-24 lg:pb-32 overflow-hidden">
+      <Header />
       <div className="absolute inset-0 z-0">
         {heroImage && (
             <Image
