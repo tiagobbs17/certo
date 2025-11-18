@@ -51,7 +51,7 @@ export function Faq() {
           </Accordion>
         </div>
         <div className="mt-12 flex justify-center">
-          <Button size="lg" asChild className="font-bold">
+          <Button size="lg" asChild className="font-bold bg-green-600 hover:bg-green-700">
             <a href="#offer">Resolví mis dudas, ¡quiero comprar ahora!</a>
           </Button>
         </div>
