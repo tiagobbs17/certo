@@ -3,45 +3,37 @@
 import { useState, useEffect } from 'react';
 
 export function Header() {
-  const calculateTimeLeft = () => {
-    const now = new Date();
-    const target = new Date(now);
-    
-    // Set target time to next occurrence of 23:59:59
-    if (now.getHours() >= 23 && now.getMinutes() >= 59 && now.getSeconds() >= 59) {
-      target.setDate(target.getDate() + 1);
-    }
-    target.setHours(23, 59, 59, 999);
-
-    const difference = target.getTime() - now.getTime();
-
-    let timeLeft = {
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-    };
-
-    if (difference > 0) {
-      timeLeft = {
-        hours: Math.floor(difference / (1000 * 60 * 60)),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-      };
-    }
-
-    return timeLeft;
-  };
-
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState({
+    hours: 18,
+    minutes: 35,
+    seconds: 47,
+  });
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
+      setTimeLeft(prevTime => {
+        let { hours, minutes, seconds } = prevTime;
+
+        if (seconds > 0) {
+          seconds--;
+        } else if (minutes > 0) {
+          minutes--;
+          seconds = 59;
+        } else if (hours > 0) {
+          hours--;
+          minutes = 59;
+          seconds = 59;
+        } else {
+          // Timer finished
+          return prevTime;
+        }
+
+        return { hours, minutes, seconds };
+      });
     }, 1000);
 
     return () => clearTimeout(timer);
-  });
-
+  }, [timeLeft]);
 
   const formatTime = (time: number) => time.toString().padStart(2, '0');
 
