@@ -68,7 +68,7 @@ const bonuses = [
     image: "https://ik.imagekit.io/cbes7rupj/bon%203.jpg"
   },
   {
-    title: "Bonificación 4 - Navidad Encantada",
+    title: "Navidad Encantada",
     description: "3 recetas irresistibles de comidas tradicionales para la Navidad.",
     lessons: ["Pavo relleno – Un suculento pavo con un relleno de frutas y hierbas que hará que todos pidan más.", "Ensalada de manzana – Una ensalada fresca y cremosa, con manzanas, nueces y un toque de crema, perfecta para acompañar.", "Cordero al horno – Un tierno cordero asado, bañado en salsa de vino tinto, que deleitará a tus invitados."],
     image: "https://ik.imagekit.io/cbes7rupj/bonus%204.jpg"
