@@ -36,12 +36,13 @@ export function Hero() {
           
           <div className="w-full max-w-4xl aspect-video rounded-xl overflow-hidden">
             <iframe
-              src="https://player.vimeo.com/video/972322339?badge=0&autopause=0&player_id=0&app_id=58479"
-              frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
+              id="panda-6b457b34-ad47-48e0-a8be-27320a0d6b27"
+              src="https://player-vz-a9f2bf80-f29.tv.pandavideo.com.br/embed/?v=6b457b34-ad47-48e0-a8be-27320a0d6b27"
+              style={{border: 'none'}}
+              allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+              allowFullScreen={true}
               className="w-full h-full"
-              title="Panettone Pro"
+              fetchPriority="high"
             ></iframe>
           </div>
 
