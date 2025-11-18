@@ -20,7 +20,7 @@ export function FinalOffer() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-6">
-            <h2 className="text-3xl font-headline font-bold tracking-tighter text-primary sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-headline font-bold tracking-tighter text-accent sm:text-4xl md:text-5xl">
               ¡Oferta Especial por Tiempo Limitado!
             </h2>
             <p className="text-lg text-muted-foreground">
@@ -40,7 +40,6 @@ export function FinalOffer() {
 
           <Card className="shadow-2xl">
             <CardContent className="p-6 md:p-8">
-              <h3 className="font-headline text-2xl font-bold mb-4">Recibirás todo esto:</h3>
               <ul className="space-y-3 mb-6">
                 {includedItems.map((item, index) => (
                   <li key={index} className="flex justify-between items-center">
