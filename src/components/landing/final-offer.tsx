@@ -22,7 +22,7 @@ export function FinalOffer() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-4">
-            <h2 className="text-3xl sm:text-4xl text-center lg:text-left font-headline font-bold tracking-tighter text-yellow-400">
+            <h2 className="text-3xl sm:text-4xl lg:text-3xl text-center lg:text-left font-headline font-bold tracking-tighter text-yellow-400">
               ¡Oferta Especial por Tiempo Limitado!
             </h2>
             {tabletMockup && (
