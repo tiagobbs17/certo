@@ -8,7 +8,6 @@ import { Certificate } from '@/components/landing/certificate';
 import { Guarantee } from '@/components/landing/guarantee';
 import { FinalOffer } from '@/components/landing/final-offer';
 import { Faq } from '@/components/landing/faq';
-import { RecipeCustomizer } from '@/components/landing/recipe-customizer';
 import { Footer } from '@/components/landing/footer';
 
 export default function Home() {
@@ -21,9 +20,6 @@ export default function Home() {
         <Features />
         <CourseContent />
         <Testimonials />
-        <div className="bg-card py-16 sm:py-24">
-          <RecipeCustomizer />
-        </div>
         <Certificate />
         <Guarantee />
         <FinalOffer />
