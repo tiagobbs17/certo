@@ -36,7 +36,7 @@ export default function RootLayout({
           defer
         ></Script>
       </head>
-      <body className="font-body antialiased overflow-x-hidden">
+      <body className="font-body antialiased">
         {children}
         <Toaster />
       </body>
