@@ -34,8 +34,15 @@ export function Hero() {
             </p>
           </div>
           
-          <div className="w-full max-w-2xl aspect-video bg-black/50 rounded-xl flex items-center justify-center text-muted-foreground">
-            {/* Seu vídeo será inserido aqui */}
+          <div className="w-full max-w-4xl aspect-video rounded-xl overflow-hidden">
+            <iframe
+              src="https://player.vimeo.com/video/972322339?badge=0&autopause=0&player_id=0&app_id=58479"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+              title="Panettone Pro"
+            ></iframe>
           </div>
 
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
