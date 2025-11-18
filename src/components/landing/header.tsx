@@ -1,21 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Clock } from 'lucide-react';
 
 export function Header() {
-  const [timeLeft, setTimeLeft] = useState(18 * 60 * 60);
-
-  useEffect(() => {
-    if (timeLeft <= 0) return;
-
-    const timer = setInterval(() => {
-      setTimeLeft((prevTime) => prevTime - 1);
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [timeLeft]);
 
   const formatTime = (seconds: number) => {
     const hours = Math.floor(seconds / 3600);
@@ -23,6 +11,8 @@ export function Header() {
     const secs = seconds % 60;
     return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
   };
+
+  const initialTimeInSeconds = 18 * 60 * 60;
 
   return (
     <header
@@ -33,7 +23,7 @@ export function Header() {
       <div className="bg-green-600 text-white py-2 text-center text-sm font-bold">
         <div className="container flex items-center justify-center gap-2">
           <Clock className="h-5 w-5" />
-          <span>¡Oferta de Navidad! Termina en: {formatTime(timeLeft)}</span>
+          <span>¡Oferta de Navidad! Termina en: {formatTime(initialTimeInSeconds)}</span>
         </div>
       </div>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
