@@ -14,7 +14,7 @@ const modules = [
     title: "Módulo 1 - Organización y Primeros Pasos",
     description: "Organiza tu espacio de trabajo, domina los materiales y practica los cuidados básicos necesarios para comenzar la producción de panettone de forma segura y profesional.",
     lessons: ["Introducción al curso - Bienvenida", "Materiales y utensilios necesarios", "Higiene y organización del lugar de trabajo"],
-    image: "https://ik.imagekit.io/cbes7rupj/panetone%20l.png"
+    image: "https://ik.imagekit.io/cbes7rupj/m1.png"
   },
   {
     title: "Módulo 2 - Bases y Primera Producción",
