@@ -51,7 +51,7 @@ const modules = [
 const bonuses = [
   {
     title: "Bonificación 1 - Amplía Tu Cardápio con Recetas Premium",
-    description: "Brownie navideño, tarta navideña en forma de corona y panettone sin gluten para diversificar tu oferta y satisfacer a distintos perfiles de clientes.",
+    description: "Brownie navideño, tarta navideña en forma de corona y panettone sin gluten para diversificar tu oferta, satisfacer a distintos perfiles de clientes y aumentar el valor de tus productos.",
     lessons: ["Brownie navideño", "Tarta navideña en forma de corona", "Panettone sin gluten"],
     image: "https://ik.imagekit.io/cbes7rupj/b1.webp"
   },
@@ -63,14 +63,14 @@ const bonuses = [
   },
   {
     title: "Bonificación 3 - Postres Navideños",
-    description: "3 deliciosas recetas de postres navideños para sorprender a tus seres queridos.",
-    lessons: ["Tarta de manzana especiada", "Tronco de Navidad", "Galletas de jengibre"],
+    description: "Para que este curso sea aún más completo, incluye 3 deliciosas recetas de postres navideños que te encantarán. ¡Sorprende a tus seres queridos con estas delicias!",
+    lessons: ["Tarta de manzana especiada: Una combinación perfecta de manzana, canela y nuez moscada.", "Tronco de Navidad: El clásico tronco de Navidad, con su corteza esponjosa y su cremoso relleno de chocolate.", "Galletas de jengibre: Pequeñas y sabrosas, ideales para disfrutar con un café después de la cena de Navidad."],
     image: "https://ik.imagekit.io/cbes7rupj/bon%203.jpg"
   },
   {
     title: "Bonificación 4 - Navidad Encantada",
     description: "3 recetas irresistibles de comidas tradicionales para la Navidad.",
-    lessons: ["Pavo relleno", "Ensalada de manzana", "Cordero al horno"],
+    lessons: ["Pavo relleno – Un suculento pavo con un relleno de frutas y hierbas que hará que todos pidan más.", "Ensalada de manzana – Una ensalada fresca y cremosa, con manzanas, nueces y un toque de crema, perfecta para acompañar.", "Cordero al horno – Un tierno cordero asado, bañado en salsa de vino tinto, que deleitará a tus invitados."],
     image: "https://ik.imagekit.io/cbes7rupj/bonus%204.jpg"
   },
 ]
@@ -119,12 +119,22 @@ export function CourseContent() {
                 <AccordionContent>
                   <ul className="pl-8 pr-4 space-y-2 mt-2">
                     {item.lessons.map((lesson, lessonIndex) => (
-                      <li key={lessonIndex} className="flex items-center gap-3">
-                        <CircleDot className="h-4 w-4 text-primary" />
+                      <li key={lessonIndex} className="flex items-start gap-3">
+                        <CircleDot className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                         <span className="text-foreground">{lesson}</span>
                       </li>
                     ))}
                   </ul>
+                  {
+                    index === (modules.length + bonuses.length - 2) && (
+                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Haz que esta Navidad sea inolvidable con estos dulces tradicionales!</p>
+                    )
+                  }
+                  {
+                    index === (modules.length + bonuses.length - 1) && (
+                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Celebra con sabor y tradición esta Navidad!</p>
+                    )
+                  }
                 </AccordionContent>
               </AccordionItem>
             ))}
