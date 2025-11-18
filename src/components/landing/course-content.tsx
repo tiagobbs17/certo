@@ -53,19 +53,19 @@ const bonuses = [
     title: "Bonificación 1 - Amplía Tu Cardápio con Recetas Premium",
     description: "Brownie navideño, tarta navideña en forma de corona y panettone sin gluten para diversificar tu oferta y satisfacer a distintos perfiles de clientes.",
     lessons: ["Brownie navideño", "Tarta navideña en forma de corona", "Panettone sin gluten"],
-    image: null
+    image: "https://ik.imagekit.io/cbes7rupj/b1.webp"
   },
   {
     title: "Bonificación 2 - Emprendimiento y Estrategias de Venta",
     description: "Técnicas de envasado, precios adecuados, promoción de tu trabajo y cómo usar el manual completo del curso para convertir tu producción artesanal en un negocio rentable.",
     lessons: ["Envasado de panettone", "Consejos de envasado", "Cómo promocionar mi trabajo", "Precios", "Manual del curso con recetas completas"],
-    image: null
+    image: "https://ik.imagekit.io/cbes7rupj/plan.png"
   },
   {
     title: "Bonificación 3 - Postres Navideños",
     description: "3 deliciosas recetas de postres navideños para sorprender a tus seres queridos.",
     lessons: ["Tarta de manzana especiada", "Tronco de Navidad", "Galletas de jengibre"],
-    image: null
+    image: "https://ik.imagekit.io/cbes7rupj/bon%203.jpg"
   },
   {
     title: "Bonificación 4 - Navidad Encantada",
