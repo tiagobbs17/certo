@@ -39,14 +39,12 @@ export function FinalOffer() {
 
           <Card className="shadow-2xl">
             <CardContent className="p-6 md:p-8">
-              <ul className="space-y-2 mb-4">
+              <ul className="space-y-3 mb-6">
                 {includedItems.map((item, index) => (
-                  <li key={index} className="flex justify-between items-center text-sm md:text-base gap-2">
-                    <span className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
-                      <span>{item.name}</span>
-                    </span>
-                    <span className="font-mono text-red-500 line-through whitespace-nowrap ml-2">${item.value}</span>
+                  <li key={index} className="flex items-center text-sm md:text-base gap-2">
+                    <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
+                    <span className="flex-1">{item.name}</span>
+                    <span className="font-mono text-red-500 line-through whitespace-nowrap">${item.value}</span>
                   </li>
                 ))}
               </ul>
