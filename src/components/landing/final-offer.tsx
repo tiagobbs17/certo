@@ -56,11 +56,13 @@ export function FinalOffer() {
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 
-              <Button size="lg" className="w-full font-bold text-lg h-14 bg-green-600 hover:bg-green-700" asChild>
-                <a href="#">
-                  ¡SÍ, QUIERO APROVECHAR LA OFERTA!
-                </a>
-              </Button>
+              <div className="flex justify-center">
+                <Button size="lg" className="font-bold bg-green-600 hover:bg-green-700 rounded-full px-10" asChild>
+                  <a href="#">
+                    ¡SÍ, QUIERO APROVECHAR LA OFERTA!
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>
