@@ -59,8 +59,8 @@ export function FinalOffer() {
               </div>
 
               <div className="text-center mb-4">
-                  <p className="text-sm font-bold">Importante : O preço de referência está em dólares,mas o pagamento é feito na moeda do seu país.</p>
-                  <p className="text-sm mt-2">Clique para ver o preço na sua moeda e reservar o seu livro👇</p>
+                  <p className="text-sm font-bold">Importante: El precio de referencia está en dólares, pero el pago se realiza en la moneda de tu país.</p>
+                  <p className="text-sm mt-2">Haz clic para ver el precio en tu moneda y reservar tu libro👇</p>
               </div>
 
               <div className="flex justify-center">
