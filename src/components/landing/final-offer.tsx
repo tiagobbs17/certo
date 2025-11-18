@@ -19,13 +19,10 @@ export function FinalOffer() {
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-primary/10">
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
-          <div className="space-y-6">
-            <h2 className="text-3xl font-headline font-bold tracking-tighter text-accent sm:text-4xl md:text-5xl">
+          <div className="space-y-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-headline font-bold tracking-tighter text-yellow-400">
               ¡Oferta Especial por Tiempo Limitado!
             </h2>
-            <p className="text-lg text-muted-foreground">
-              ¡Más de 10,000 mujeres ya están ganando dinero con Dulce Navidad! No te quedes fuera.
-            </p>
             {tabletMockup && (
               <Image
                 src={tabletMockup.imageUrl}
@@ -40,14 +37,14 @@ export function FinalOffer() {
 
           <Card className="shadow-2xl">
             <CardContent className="p-6 md:p-8">
-              <ul className="space-y-3 mb-6">
+              <ul className="space-y-2 mb-4">
                 {includedItems.map((item, index) => (
-                  <li key={index} className="flex justify-between items-center">
+                  <li key={index} className="flex justify-between items-center text-sm md:text-base">
                     <span className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-green-500" />
-                      <span>{item.name}</span>
+                      <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
+                      <span className="flex-1">{item.name}</span>
                     </span>
-                    <span className="font-mono text-muted-foreground line-through">${item.value}</span>
+                    <span className="font-mono text-muted-foreground line-through ml-2 whitespace-nowrap">${item.value}</span>
                   </li>
                 ))}
               </ul>
