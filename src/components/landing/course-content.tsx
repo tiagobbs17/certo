@@ -50,7 +50,7 @@ const modules = [
     title: "🎓 MÓDULO 7 – Producción Manual Profesional (Para quienes NO tienen batidora)",
     description: "Este módulo está diseñado especialmente para las personas que no tienen batidora planetaria o equipos profesionales. Aquí el alumno aprenderá a:",
     lessons: ["Preparar masas a mano", "Amasar correctamente sin cansarse", "Desarrollar el gluten manualmente", "Incorporar mantequilla sin que la masa se deshaga", "Trabajar masas pegajosas con técnica (no con fuerza)", "Lograr un panettone con estructura profesional sin máquina"],
-    image: "https://ik.imagekit.io/cbes7rupj/m7.png"
+    image: "https://ik.imagekit.io/cbes7rupj/p.jpg"
   }
 ];
 
