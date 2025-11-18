@@ -22,7 +22,7 @@ export function FinalOffer() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-4">
-            <h2 className="text-3xl sm:text-4xl lg:text-3xl text-center lg:text-left font-headline font-bold tracking-tighter text-yellow-400">
+            <h2 className="text-2xl sm:text-3xl lg:text-3xl text-center lg:text-left font-headline font-bold tracking-tighter text-yellow-400">
               ¡Oferta Especial por Tiempo Limitado!
             </h2>
             {tabletMockup && (
@@ -58,8 +58,13 @@ export function FinalOffer() {
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 
+              <div className="text-center mb-4">
+                  <p className="text-sm font-bold">Importante : O preço de referência está em dólares,mas o pagamento é feito na moeda do seu país.</p>
+                  <p className="text-sm mt-2">Clique para ver o preço na sua moeda e reservar o seu livro👇</p>
+              </div>
+
               <div className="flex justify-center">
-                <Button size="lg" className="font-bold bg-green-600 hover:bg-green-700 rounded-full px-10" asChild>
+                <Button size="lg" className="font-bold bg-green-600 hover:bg-green-700 rounded-full px-10 h-auto py-3 text-base" asChild>
                   <a href="#">
                     ¡SÍ, QUIERO APROVECHAR LA OFERTA!
                   </a>
