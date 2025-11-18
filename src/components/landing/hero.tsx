@@ -34,7 +34,7 @@ export function Hero() {
             </p>
           </div>
           
-          <div className="w-full max-w-4xl aspect-video rounded-xl overflow-hidden">
+          <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden">
             <iframe
               id="panda-6b457b34-ad47-48e0-a8be-27320a0d6b27"
               src="https://player-vz-a9f2bf80-f29.tv.pandavideo.com.br/embed/?v=6b457b34-ad47-48e0-a8be-27320a0d6b27"
