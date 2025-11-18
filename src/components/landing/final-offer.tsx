@@ -6,7 +6,7 @@ import { Check } from 'lucide-react';
 const includedItems = [
   { name: 'Libro Dulce Navidad', value: '$74,99' },
   { name: 'Libro Amplía Tu Cardápio con Recetas Premium', value: '$54,99' },
-  { name: 'Hoja de cálculo Emprendimiento y Estrategias de Venta', value: '$17,99' },
+  { name: 'Hoja de cálculo de ventas y estrategias', value: '$17,99' },
   { name: 'Libro postres navideños', value: '$24,99' },
   { name: 'Libro navidad encantada', value: '$17,99' },
 ];
