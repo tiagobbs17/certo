@@ -111,7 +111,7 @@ export function CourseContent() {
                     )}
                     <Badge variant={index < modules.length ? "destructive" : "default"} className="absolute top-4 left-4 bg-primary text-primary-foreground">{index < modules.length ? `Módulo ${index + 1}` : "Bonus"}</Badge>
                     <div className="flex-1">
-                      <h3 className="font-headline text-lg font-bold">{item.title}</h3>
+                      <h3 className="font-headline text-lg font-bold text-accent">{item.title}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{item.description}</p>
                     </div>
                   </div>
