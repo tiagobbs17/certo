@@ -23,7 +23,7 @@ export function FinalOffer() {
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl lg:text-3xl text-center lg:text-left font-headline font-bold tracking-tighter text-yellow-400">
-              Oferta por Tiempo Limitado
+              oferta por tiempo limitado
             </h2>
             {tabletMockup && (
               <Image
@@ -41,9 +41,9 @@ export function FinalOffer() {
             <CardContent className="p-6 md:p-8">
               <ul className="space-y-3 mb-6">
                 {includedItems.map((item, index) => (
-                  <li key={index} className="flex items-center text-sm md:text-base gap-2">
-                    <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
-                    <span>
+                  <li key={index} className="flex items-start text-sm md:text-base gap-2">
+                    <Check className="h-5 w-5 text-green-500 flex-shrink-0 mt-1" />
+                    <span className="flex-1">
                       {item.name}{' '}
                       <span className="font-mono text-red-500 line-through whitespace-nowrap">
                         {item.value}
