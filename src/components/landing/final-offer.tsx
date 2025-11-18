@@ -59,16 +59,23 @@ export function FinalOffer() {
               </div>
 
               <div className="text-center mb-4">
-                  <p className="text-sm font-bold">Importante: El precio de referencia está en dólares, pero el pago se realiza en la moneda de tu país.</p>
+                  <p className="text-sm"><span className="font-bold text-red-500">Importante:</span> El precio de referencia está en dólares, pero el pago se realiza en la moneda de tu país.</p>
                   <p className="text-sm mt-2">Haz clic para ver el precio en tu moneda y reservar tu libro👇</p>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex flex-col items-center">
                 <Button size="lg" className="font-bold bg-green-600 hover:bg-green-700 rounded-full px-10 h-auto py-3 text-base" asChild>
                   <a href="#">
                     ¡SÍ, QUIERO APROVECHAR LA OFERTA!
                   </a>
                 </Button>
+                <Image 
+                  src="https://ik.imagekit.io/cbes7rupj/Compra-Segura-2.png"
+                  alt="Compra Segura"
+                  width={300}
+                  height={80}
+                  className="mt-4"
+                />
               </div>
             </CardContent>
           </Card>
