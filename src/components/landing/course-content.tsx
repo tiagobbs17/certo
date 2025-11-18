@@ -7,6 +7,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CircleDot } from 'lucide-react';
+import Image from "next/image";
 
 const modules = [
   {
@@ -72,9 +73,13 @@ export function CourseContent() {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Lo que vas a aprender
           </h2>
-          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Un currículo completo para transformarte en una experta en panetones, desde los conceptos básicos hasta las técnicas avanzadas de gourmet.
-          </p>
+          <Image
+            src="https://ik.imagekit.io/cbes7rupj/panetone%20l.png"
+            alt="Panetones"
+            width={700}
+            height={200}
+            className="mx-auto mt-6"
+          />
         </div>
 
         <div className="mx-auto mt-12 max-w-3xl">
