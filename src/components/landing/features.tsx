@@ -62,7 +62,7 @@ export function Features() {
                     <div className="h-24 w-24 bg-muted rounded-full" />
                   )}
                   <h3 className="text-2xl font-bold font-headline text-accent">{feature.title}</h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
+                  <p className="text-card-foreground">{feature.description}</p>
                 </CardContent>
               </Card>
             )
