@@ -45,7 +45,7 @@ export function Testimonials() {
               <Card key={testimonial.name} className="bg-card">
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    {avatar && (
+                    {avatar ? (
                       <Image
                         src={avatar.imageUrl}
                         alt={`Avatar de ${testimonial.name}`}
@@ -54,6 +54,8 @@ export function Testimonials() {
                         className="rounded-full"
                         data-ai-hint={avatar.imageHint}
                       />
+                    ) : (
+                      <div className="w-12 h-12 rounded-full bg-muted" />
                     )}
                     <div>
                       <p className="font-bold">{testimonial.name}</p>
