@@ -18,7 +18,7 @@ export function FinalOffer() {
   };
 
   return (
-    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-primary/10">
+    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-primary/10 scroll-mt-20">
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-4">
