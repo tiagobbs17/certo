@@ -36,8 +36,8 @@ export function Hero() {
           
           <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden">
             <iframe
-              id="panda-0f4a115e-60ab-4f02-9a24-b763df1e0f03"
-              src="https://player-vz-a9f2bf80-f29.tv.pandavideo.com.br/embed/?v=0f4a115e-60ab-4f02-9a24-b763df1e0f03"
+              id="panda-7366d89f-27ac-46c1-8ce9-dec81482a1c6"
+              src="https://player-vz-a9f2bf80-f29.tv.pandavideo.com.br/embed/?v=7366d89f-27ac-46c1-8ce9-dec81482a1c6"
               style={{border: 'none'}}
               allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
               allowFullScreen={true}
