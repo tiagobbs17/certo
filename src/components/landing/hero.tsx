@@ -49,7 +49,7 @@ export function Hero() {
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
             <Button asChild size="lg" className="font-bold bg-green-600 hover:bg-green-700 animate-button-pulse">
               <a href="https://pay.hotmart.com/B102877180F?checkoutMode=10">
-                Obtener ahora por solo $5,90 USD
+                Obtener ahora por solo $9,90 Dólares
                 <ArrowRight className="ml-2" />
               </a>
             </Button>
