@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "product-hero",
-      "description": "A festive hero image of mini donuts, with colorful sprinkles.",
-      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78d8d590e?q=80&w=1200&auto=format&fit=crop",
-      "imageHint": "donuts sprinkles"
+      "description": "Person kneading dough.",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/p.jpg",
+      "imageHint": "kneading dough"
     },
     {
       "id": "tablet-mockup-panettone",

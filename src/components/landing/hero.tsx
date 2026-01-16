@@ -14,7 +14,7 @@ export function Hero() {
         {heroImage && (
             <Image
             src={heroImage.imageUrl}
-            alt="Background of delicious mini donuts"
+            alt="Pessoa preparando a massa"
             fill
             className="object-cover"
             priority
