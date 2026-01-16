@@ -11,7 +11,12 @@ const names = [
 ];
 
 const locations = [
-  'de São Paulo, Brasil', 'da Cidade do México, México', 'de Bogotá, Colômbia', 'de Lima, Peru', 'de Santiago, Chile', 'de Buenos Aires, Argentina', 'de Madrid, Espanha'
+  'de Espanha',
+  'do México',
+  'da Colômbia',
+  'da Argentina',
+  'do Chile',
+  'do Uruguai'
 ]
 
 export function NotificationPopup() {
