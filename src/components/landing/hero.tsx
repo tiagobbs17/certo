@@ -34,16 +34,14 @@ export function Hero() {
             </p>
           </div>
           
-          <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden">
-            <iframe
-              id="panda-7366d89f-27ac-46c1-8ce9-dec81482a1c6"
-              src="https://player-vz-a9f2bf80-f29.tv.pandavideo.com.br/embed/?v=7366d89f-27ac-46c1-8ce9-dec81482a1c6"
-              style={{border: 'none'}}
-              allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
-              allowFullScreen={true}
-              className="w-full h-full"
-              fetchPriority="high"
-            ></iframe>
+          <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden shadow-2xl">
+            <Image
+              src="https://ik.imagekit.io/cbes7rupj/1768596852.png"
+              alt="Prévia do curso de mini donuts"
+              width={1280}
+              height={720}
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
