@@ -5,7 +5,7 @@ import { Header } from './header';
 
 export function Hero() {
   const heroImage = {
-    imageUrl: "https://ik.imagekit.io/cbes7rupj/donuts%20capa.jpg",
+    imageUrl: "https://ik.imagekit.io/cbes7rupj/donas%20capa%20fundo%201.jpg",
     imageHint: "donuts",
   };
 
@@ -26,7 +26,7 @@ export function Hero() {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-6">
           <div className="flex flex-col justify-center space-y-4 text-white">
-            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white">
               Conviértete en experta en Mini Donas Caseras
             </h1>
             <p className="max-w-[700px] mx-auto text-lg md:text-xl">
