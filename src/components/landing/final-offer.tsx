@@ -12,9 +12,9 @@ const includedItems = [
 ];
 
 export function FinalOffer() {
-  const tabletMockup = {
-    imageUrl: "https://ik.imagekit.io/cbes7rupj/mokap.png",
-    imageHint: "course mockup"
+  const offerImage = {
+    imageUrl: "https://ik.imagekit.io/cbes7rupj/1768596852.png",
+    imageHint: "course preview"
   };
 
   return (
@@ -25,14 +25,14 @@ export function FinalOffer() {
             <h2 className="text-2xl sm:text-3xl lg:text-3xl text-center lg:text-left font-headline font-bold tracking-tighter text-yellow-400">
               oferta por tiempo limitado
             </h2>
-            {tabletMockup && (
+            {offerImage && (
               <Image
-                src={tabletMockup.imageUrl}
+                src={offerImage.imageUrl}
                 width={600}
                 height={450}
-                alt="Maquete do curso de mini donuts em um tablet"
+                alt="Prévia do curso de mini donuts"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-xl"
-                data-ai-hint={tabletMockup.imageHint}
+                data-ai-hint={offerImage.imageHint}
               />
             )}
           </div>
