@@ -56,7 +56,7 @@ const modules = [
 
 const bonuses = [
   {
-    title: "🌱 Bonificación – Donuts Especiales (Línea Alternativa)",
+    title: "🌱 Bonificación 1 – Donuts Especiales (Línea Alternativa)",
     description: "Aprende a preparar donuts especiales para atender a un público más amplio, aumentar tus oportunidades de venta y diferenciarte de la competencia con opciones modernas y muy solicitadas.",
     lessons: [
         "Donuts sin lactosa",
@@ -69,7 +69,7 @@ const bonuses = [
     image: "https://ik.imagekit.io/cbes7rupj/b1.webp"
   },
   {
-    title: "💰 Bonificación – Precificación Fácil para Donuts",
+    title: "💰 Bonificación 2 – Precificación Fácil para Donuts",
     description: "Aprende a poner precio a tus donuts de forma correcta y rentable, sin perder dinero y con total claridad sobre tus ganancias.",
     lessons: [
         "Cómo calcular el costo por unidad",
@@ -82,7 +82,7 @@ const bonuses = [
     image: "https://ik.imagekit.io/cbes7rupj/plan.png"
   },
   {
-    title: "📦 Bonificación – Embalajes que Venden",
+    title: "📦 Bonificación 3 – Embalajes que Venden",
     description: "Descubre cómo elegir el empaque correcto para tus donuts y cómo presentarlos de forma profesional para aumentar el valor percibido y las ventas.",
     lessons: [
         "Tipos de embalaje para donuts",
@@ -130,7 +130,7 @@ export function CourseContent() {
                     ) : (
                       <div className="h-16 w-16 bg-muted rounded-full flex-shrink-0 mt-1" />
                     )}
-                    <Badge variant={index < modules.length ? "destructive" : "default"} className="absolute top-4 left-4 bg-primary text-primary-foreground">{index < modules.length ? `Módulo ${index + 1}` : `Bono ${index === 7 ? 1 : 3}`}</Badge>
+                    <Badge variant={index < modules.length ? "destructive" : "default"} className="absolute top-4 left-4 bg-primary text-primary-foreground">{index < modules.length ? `Módulo ${index + 1}` : `Bono ${index - modules.length + 1}`}</Badge>
                     <div className="flex-1">
                       <h3 className="font-headline text-lg font-bold text-accent">{item.title}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{item.description}</p>
