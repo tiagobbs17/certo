@@ -49,7 +49,7 @@ const modules = [
   {
     title: "🎓 MÓDULO 7 – Producción Manual Profesional (Para quienes NO tienen batidora)",
     description: "Este módulo está diseñado especialmente para las personas que no tienen batidora planetaria o equipos profesionales. Aquí el alumno aprenderá a:",
-    lessons: ["Preparar masas a mano", "Amasar correctamente sin cansarse", "Desarrollar el gluten manualmente", "Incorporar mantequilla sin que la masa se deshaga", "Trabajar masas pegajosas con técnica (no con fuerza)", "Lograr una dona con estructura profesional sin máquina"],
+    lessons: ["Preparar masas a mano", "Amasar correctamente sin cansarse", "Desarrollar el gluten manually", "Incorporar mantequilla sin que la masa se deshaga", "Trabajar masas pegajosas con técnica (no con fuerza)", "Lograr una dona con estructura profesional sin máquina"],
     image: "https://ik.imagekit.io/cbes7rupj/p.jpg"
   }
 ];
@@ -57,8 +57,8 @@ const modules = [
 const bonuses = [
   {
     title: "Bonificación 1 - Amplía Tu Menú con Recetas Premium",
-    description: "Brownie navideño, tarta navideña en forma de corona y donas sin gluten para diversificar tu oferta, satisfacer a distintos perfiles de clientes y aumentar el valor de tus productos.",
-    lessons: ["Brownie navideño", "Tarta navideña en forma de corona", "Donas sin gluten"],
+    description: "Brownie especial, tarta festiva en forma de corona y donas sin gluten para diversificar tu oferta, satisfacer a distintos perfiles de clientes y aumentar el valor de tus productos.",
+    lessons: ["Brownie especial", "Tarta festiva en forma de corona", "Donas sin gluten"],
     image: "https://ik.imagekit.io/cbes7rupj/b1.webp"
   },
   {
@@ -68,14 +68,14 @@ const bonuses = [
     image: "https://ik.imagekit.io/cbes7rupj/plan.png"
   },
   {
-    title: "Bonificación 3 - Postres Navideños",
-    description: "Para que este curso sea aún más completo, incluye 3 deliciosas recetas de postres navideños que te encantarán. ¡Sorprende a tus seres queridos con estas delicias!",
-    lessons: ["Tarta de manzana especiada: Una combinación perfecta de manzana, canela y nuez moscada.", "Tronco de Navidad: El clásico tronco de Navidad, con su corteza esponjosa y su cremoso relleno de chocolate.", "Galletas de jengibre: Pequeñas y sabrosas, ideales para disfrutar con un café después de la cena de Navidad."],
+    title: "Bonificación 3 - Postres Adicionales",
+    description: "Para que este curso sea aún más completo, incluye 3 deliciosas recetas de postres que te encantarán. ¡Sorprende a tus seres queridos con estas delicias!",
+    lessons: ["Tarta de manzana especiada: Una combinación perfecta de manzana, canela y nuez moscada.", "Tronco de chocolate: El clásico tronco de chocolate, con su corteza esponjosa y su cremoso relleno de chocolate.", "Galletas de jengibre: Pequeñas y sabrosas, ideales para disfrutar con un café después de la cena."],
     image: "https://ik.imagekit.io/cbes7rupj/bon%203.jpg"
   },
   {
-    title: "Navidad Encantada",
-    description: "3 recetas irresistibles de comidas tradicionales para la Navidad.",
+    title: "Recetas Saladas",
+    description: "3 recetas irresistibles de comidas tradicionales para fiestas.",
     lessons: ["Pavo relleno – Un suculento pavo con un relleno de frutas y hierbas que hará que todos pidan más.", "Ensalada de manzana – Una ensalada fresca y cremosa, con manzanas, nueces y un toque de crema, perfecta para acompañar.", "Cordero al horno – Un tierno cordero asado, bañado en salsa de vino tinto, que deleitará a tus invitados."],
     image: "https://ik.imagekit.io/cbes7rupj/bonus%204.jpg"
   },
@@ -133,12 +133,12 @@ export function CourseContent() {
                   </ul>
                   {
                     index === (modules.length + bonuses.length - 2) && (
-                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Haz que esta Navidad sea inolvidable con estos dulces tradicionales!</p>
+                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Haz que tus celebraciones sean inolvidables con estos dulces tradicionales!</p>
                     )
                   }
                   {
                     index === (modules.length + bonuses.length - 1) && (
-                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Celebra con sabor y tradición esta Navidad!</p>
+                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Celebra con sabor y tradición!</p>
                     )
                   }
                 </AccordionContent>

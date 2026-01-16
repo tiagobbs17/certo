@@ -41,7 +41,7 @@ export function Header() {
     <header className="absolute top-0 left-0 right-0 z-20 bg-green-600 text-white p-2 text-center font-bold h-10">
       <div className="container mx-auto">
         <p>
-          🎄 La oferta termina en: {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)} 🎄
+          🍩 La oferta termina en: {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)} 🍩
         </p>
       </div>
     </header>
