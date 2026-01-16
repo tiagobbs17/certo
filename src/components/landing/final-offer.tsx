@@ -45,7 +45,7 @@ export function FinalOffer() {
                     <Check className="h-5 w-5 text-green-500 flex-shrink-0 mt-1" />
                     <span className="flex-1">
                       {item.name}{' '}
-                      <span className="font-mono text-red-500 line-through whitespace-nowrap">
+                      <span className="font-mono text-green-500 line-through whitespace-nowrap">
                         {item.value}
                       </span>
                     </span>
@@ -59,7 +59,7 @@ export function FinalOffer() {
               </div>
 
               <div className="text-center mb-4 text-sm flex flex-col items-center">
-                  <p><span className="font-bold text-red-500">Importante:</span> El precio de referencia está en dólares,</p>
+                  <p><span className="font-bold text-green-500">Importante:</span> El precio de referencia está en dólares,</p>
                   <p>pero el pago se realiza en la moneda de tu país.</p>
                   <p className="mt-2">Haz clic para ver el precio en tu moneda y reservar tu libro👇</p>
               </div>
