@@ -147,7 +147,7 @@ export function CourseContent() {
           </Accordion>
         </div>
         <div className="mt-12 flex justify-center">
-          <Button size="lg" asChild className="font-bold bg-green-600 hover:bg-green-700 animate-button-pulse">
+          <Button size="lg" asChild className="font-bold animate-button-pulse">
             <a href="https://pay.hotmart.com/B102877180F?checkoutMode=10">¡Quiero empezar ahora!</a>
           </Button>
         </div>

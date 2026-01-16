@@ -27,10 +27,10 @@ export function Hero() {
         <div className="flex flex-col items-center text-center space-y-6">
           <div className="flex flex-col justify-center space-y-4 text-white">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-              Conviértete en experta en <span className="text-green-500">Mini Donas Caseras</span>
+              Conviértete en experta en <span className="text-primary">Mini Donas Caseras</span>
             </h1>
             <p className="max-w-[700px] mx-auto text-lg md:text-xl">
-              Aprende <span className="text-green-500 font-bold">en menos de 7 días</span> las recetas más deliciosas y rentables de mini donas caseras y comienza <span className="text-green-500 font-bold">tu propio negocio rentable desde casa</span>. ¡Perfecto para ganar dinero extra!
+              Aprende <span className="text-primary font-bold">en menos de 7 días</span> las recetas más deliciosas y rentables de mini donas caseras y comienza <span className="text-primary font-bold">tu propio negocio rentable desde casa</span>. ¡Perfecto para ganar dinero extra!
             </p>
           </div>
           
@@ -47,7 +47,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-            <Button asChild size="lg" className="font-bold bg-green-600 hover:bg-green-700 animate-button-pulse">
+            <Button asChild size="lg" className="font-bold animate-button-pulse">
               <a href="https://pay.hotmart.com/B102877180F?checkoutMode=10">
                 Obtener ahora por solo $9,90 Dólares
                 <ArrowRight className="ml-2" />

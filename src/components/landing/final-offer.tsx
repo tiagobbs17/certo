@@ -45,7 +45,7 @@ export function FinalOffer() {
                     <Check className="h-5 w-5 text-green-500 flex-shrink-0 mt-1" />
                     <span className="flex-1">
                       {item.name}{' '}
-                      <span className="font-mono text-green-500 line-through whitespace-nowrap">
+                      <span className="font-mono text-primary line-through whitespace-nowrap">
                         {item.value}
                       </span>
                     </span>
@@ -54,18 +54,18 @@ export function FinalOffer() {
               </ul>
               
               <div className="bg-muted/50 rounded-lg p-4 text-center my-6">
-                <p className="text-5xl font-bold font-headline text-green-600 my-2">$9,90 <span className="text-xl font-body font-normal text-foreground">Dólares</span></p>
+                <p className="text-5xl font-bold font-headline text-primary my-2">$9,90 <span className="text-xl font-body font-normal text-foreground">Dólares</span></p>
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 
               <div className="text-center mb-4 text-sm flex flex-col items-center">
-                  <p><span className="font-bold text-green-500">Importante:</span> El precio de referencia está en dólares,</p>
+                  <p><span className="font-bold text-primary">Importante:</span> El precio de referencia está en dólares,</p>
                   <p>pero el pago se realiza en la moneda de tu país.</p>
                   <p className="mt-2">Haz clic para ver el precio en tu moneda y reservar tu libro👇</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <Button className="font-bold bg-green-600 hover:bg-green-700 animate-button-pulse" asChild>
+                <Button className="font-bold animate-button-pulse" asChild>
                   <a href="https://pay.hotmart.com/B102877180F?checkoutMode=10">
                     ¡SÍ, QUIERO APROVECHAR LA OFERTA!
                   </a>
