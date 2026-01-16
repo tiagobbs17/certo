@@ -49,7 +49,7 @@ const modules = [
   {
     title: "🎓 Módulo 7 – Producción Manual Profesional",
     description: "Especial para quienes no tienen batidora ni equipos profesionales. Aprende a preparar masas y donuts de forma totalmente manual, logrando resultados profesionales.",
-    lessons: ["Preparación de masas a mano", "Técnicas de amasado sin cansancio", "Desarrollo correcto del gluten manually", "Incorporación de la mantequilla sin dañar la masa", "Cómo trabajar masas pegajosas con técnica", "Donuts con estructura profesional sin máquinas"],
+    lessons: ["Preparación de masas a mano", "Técnicas de amasado sin cansancio", "Desarrollo correcto del gluten manualmente", "Incorporación de la mantequilla sin dañar la masa", "Cómo trabajar masas pegajosas con técnica", "Donuts con estructura profesional sin máquinas"],
     image: "https://ik.imagekit.io/cbes7rupj/p.jpg"
   }
 ];
