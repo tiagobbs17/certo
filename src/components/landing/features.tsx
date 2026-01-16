@@ -21,7 +21,7 @@ const features = [
 ]
 
 export function Features() {
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/p.jpg";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/capa%20fundo%202.jpg";
   
   return (
     <section className="relative w-full py-16 md:py-24 lg:py-32">
