@@ -11,45 +11,45 @@ import Image from "next/image";
 
 const modules = [
   {
-    title: "Módulo 1 - Organización y Primeros Pasos",
-    description: "Organiza tu espacio de trabajo, domina los materiales y practica los cuidados básicos necesarios para comenzar la producción de mini donas de forma segura y profesional.",
-    lessons: ["Introducción al curso - Bienvenida", "Materiales y utensilios necesarios", "Higiene y organización del lugar de trabajo", "Videos prácticos: Elaboración de mini donas paso a paso"],
+    title: "🔹 Módulo 1 – Organización y Primeros Pasos",
+    description: "Aprende a organizar tu espacio de trabajo, conocer los materiales correctos y aplicar los cuidados esenciales para iniciar la producción de mini donuts de forma segura y profesional.",
+    lessons: ["Bienvenida e introducción al curso", "Materiales y utensilios necesarios para donuts", "Higiene y organización del área de trabajo", "Preparación inicial de las masas para mini donuts", "Videos prácticos: elaboración de mini donuts paso a paso"],
     image: "https://ik.imagekit.io/cbes7rupj/m1.png"
   },
   {
-    title: "Módulo 2 - Bases y Primera Producción",
-    description: "Domina la masa, aprende técnicas de fritura y horneado y usa el horno con precisión para lograr una dona con la estructura perfecta.",
-    lessons: ["Masa base", "Técnicas de fritura y horneado", "Temperatura e instrucciones"],
+    title: "🔹 Módulo 2 – Masas y Preparación Básica",
+    description: "Aprende a preparar la masa perfecta para donuts, entendiendo cada etapa del proceso para lograr textura, sabor y estructura ideales.",
+    lessons: ["Preparación de la masa base para mini donuts", "Punto correcto de amasado", "Fermentación y tiempos ideales", "Técnicas de fritura y horneado", "Control de temperatura para donuts perfectos"],
     image: "https://ik.imagekit.io/cbes7rupj/m2.png"
   },
   {
-    title: "Módulo 3 - Donas Artesanales Clásicas",
-    description: "Aprende a preparar, dar forma, hornear y decorar la dona tradicional, dominando las masas y coberturas clásicas que realzan su sabor y presentación.",
-    lessons: ["Preparación de la masa de la dona", "Formado de las donas", "Horneado y fritura de las donas", "Donas con azúcar glas", "Donas con chispas", "Donas con glaseado clásico"],
+    title: "🔹 Módulo 3 – Mini Donuts Clásicos",
+    description: "Domina el proceso completo de los donuts tradicionales, desde la masa hasta la decoración final.",
+    lessons: ["Preparación de la masa tradicional", "Formado correcto de los mini donuts", "Fritura y horneado paso a paso", "Donuts con azúcar glas", "Donuts con chispas", "Donuts con glaseado clásico", "Técnicas de acabado profesional"],
     image: "https://ik.imagekit.io/cbes7rupj/m3.png"
   },
   {
-    title: "Módulo 4 - Donas Especiales",
-    description: "Crea rellenos y masas innovadoras, como queso crema, Red Velvet, Brownie y Romeo y Julieta, y amplía tu menú con sabores exclusivos.",
-    lessons: ["Relleno de queso crema", "Dona Red Velvet", "Masa de brownie", "Dona-Brownie", "Dona Romeo y Julieta"],
+    title: "🔹 Módulo 4 – Mini Donuts Rellenos y Especiales",
+    description: "Aprende a preparar rellenos cremosos y masas especiales para crear donuts diferenciados y muy deseados.",
+    lessons: ["Preparación de rellenos cremosos", "Relleno de queso crema", "Donut Red Velvet", "Masa de brownie para donuts", "Donut brownie", "Donut Romeo y Julieta (queso y guayaba)", "Técnicas correctas de relleno sin romper el donut"],
     image: "https://ik.imagekit.io/cbes7rupj/m4.png"
   },
   {
-    title: "Módulo 5 - Donas Gourmet Premium",
-    description: "Rellenos y combinaciones de alto valor, como Nutella con leche en polvo, brigadeiro gourmet y dona de helado, creando versiones premium que aumentan tu margen de beneficio.",
-    lessons: ["Relleno de Ninho", "Dona Gourmet de Nutella y Ninho", "Dona Gourmet de helado con cobertura de chocolate", "Relleno de brigadeiro gourmet", "Dona Gourmet de brigadeiro"],
+    title: "🔹 Módulo 5 – Mini Donuts Gourmet Premium",
+    description: "Aprende a crear donuts de alto valor, con rellenos y coberturas premium que aumentan tu ticket medio y tus ganancias.",
+    lessons: ["Preparación de relleno de leche en polvo", "Donut gourmet de Nutella y leche en polvo", "Donut gourmet de helado con cobertura de chocolate", "Preparación de brigadeiro gourmet", "Donut gourmet relleno de brigadeiro", "Presentación y acabado premium"],
     image: "https://ik.imagekit.io/cbes7rupj/m5.png"
   },
   {
-    title: "Módulo 6 - Donas de Chocolate",
-    description: "Aprende todo el proceso de la dona de chocolate artesanal, desde la preparación de la masa hasta las versiones trufadas y rellenas con Nutella y chocolate blanco.",
-    lessons: ["Preparación de la masa de dona de chocolate", "Finalizando la masa para cada tipo de dona", "Modelando y dando forma a las donas de chocolate", "Horneando las donas de chocolate", "Relleno trufado", "Dona trufada", "Relleno trufado blanco", "Dona con chocolate y Nutella"],
+    title: "🔹 Módulo 6 – Mini Donuts de Chocolate",
+    description: "Domina todo el proceso de elaboración de donuts de chocolate, desde la masa hasta los rellenos trufados.",
+    lessons: ["Preparación de la masa de donut de chocolate", "Ajuste de la masa para diferentes versiones", "Formado de los donuts de chocolate", "Fritura y horneado", "Preparación de relleno trufado", "Donut trufado", "Preparación de relleno trufado blanco", "Donut de chocolate relleno con Nutella"],
     image: "https://ik.imagekit.io/cbes7rupj/m6.png"
   },
   {
-    title: "🎓 MÓDULO 7 – Producción Manual Profesional (Para quienes NO tienen batidora)",
-    description: "Este módulo está diseñado especialmente para las personas que no tienen batidora planetaria o equipos profesionales. Aquí el alumno aprenderá a:",
-    lessons: ["Preparar masas a mano", "Amasar correctamente sin cansarse", "Desarrollar el gluten manually", "Incorporar mantequilla sin que la masa se deshaga", "Trabajar masas pegajosas con técnica (no con fuerza)", "Lograr una dona con estructura profesional sin máquina"],
+    title: "🎓 Módulo 7 – Producción Manual Profesional",
+    description: "Especial para quienes no tienen batidora ni equipos profesionales. Aprende a preparar masas y donuts de forma totalmente manual, logrando resultados profesionales.",
+    lessons: ["Preparación de masas a mano", "Técnicas de amasado sin cansancio", "Desarrollo correcto del gluten manually", "Incorporación de la mantequilla sin dañar la masa", "Cómo trabajar masas pegajosas con técnica", "Donuts con estructura profesional sin máquinas"],
     image: "https://ik.imagekit.io/cbes7rupj/p.jpg"
   }
 ];
