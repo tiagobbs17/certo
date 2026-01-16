@@ -92,7 +92,7 @@ const bonuses = [
         "Cómo cobrar más con una buena presentación",
         "👉 El empaque correcto puede duplicar el valor de tu producto."
     ],
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%203.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%2033.jpg"
   }
 ]
 
