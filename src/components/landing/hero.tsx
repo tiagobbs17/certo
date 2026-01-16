@@ -1,26 +1,26 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 import { Header } from './header';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'product-hero');
+  const heroImage = {
+    imageUrl: "https://ik.imagekit.io/cbes7rupj/p.jpg",
+    imageHint: "kneading dough",
+  };
 
   return (
     <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-12 md:pb-24 lg:pb-32 overflow-hidden">
       <Header />
       <div className="absolute inset-0 z-0">
-        {heroImage && (
-            <Image
-            src={heroImage.imageUrl}
-            alt="Pessoa preparando a massa"
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-            />
-        )}
+        <Image
+          src={heroImage.imageUrl}
+          alt="Pessoa preparando a massa"
+          fill
+          className="object-cover"
+          priority
+          data-ai-hint={heroImage.imageHint}
+        />
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="container relative z-10 px-4 md:px-6">
