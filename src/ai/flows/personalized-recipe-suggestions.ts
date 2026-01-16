@@ -1,9 +1,9 @@
 'use server';
 
 /**
- * @fileOverview A personalized panettone recipe suggestion AI agent.
+ * @fileOverview A personalized mini donut recipe suggestion AI agent.
  *
- * - personalizedRecipeSuggestions - A function that generates personalized panettone recipe suggestions.
+ * - personalizedRecipeSuggestions - A function that generates personalized mini donut recipe suggestions.
  */
 
 import {ai} from '@/ai/genkit';
@@ -25,13 +25,13 @@ const prompt = ai.definePrompt({
   name: 'personalizedRecipeSuggestionsPrompt',
   input: {schema: PersonalizedRecipeSuggestionsInputSchema},
   output: {schema: PersonalizedRecipeSuggestionsOutputSchema},
-  prompt: `You are an expert panettone recipe creator. A user will provide their dietary restrictions, available ingredients, and flavor preferences. You will generate a personalized panettone recipe tailored to their needs and tastes.
+  prompt: `You are an expert mini donut recipe creator. A user will provide their dietary restrictions, available ingredients, and flavor preferences. You will generate a personalized mini donut recipe tailored to their needs and tastes.
 
 Dietary Restrictions: {{{dietaryRestrictions}}}
 Available Ingredients: {{{availableIngredients}}}
 Flavor Preferences: {{{flavorPreferences}}}
 
-Based on these inputs, create a unique panettone recipe. Be sure to provide the Recipe Name, ingredients, instructions, and reasoning behind the recipe suggestion.
+Based on these inputs, create a unique mini donut recipe. Be sure to provide the Recipe Name, ingredients, instructions, and reasoning behind the recipe suggestion.
 
 Recipe Name:
 Ingredients:

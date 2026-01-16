@@ -1,5 +1,5 @@
 /**
- * @fileOverview Schemas for the personalized panettone recipe suggestion AI agent.
+ * @fileOverview Schemas for the personalized mini donut recipe suggestion AI agent.
  */
 import { z } from 'zod';
 

@@ -79,7 +79,7 @@ export function RecipeCustomizer() {
           <CardHeader className="text-center">
             <CardTitle className="font-headline text-3xl">Personaliza tu Receta con IA</CardTitle>
             <CardDescription className="text-lg">
-              ¿No tienes todos los ingredientes o tienes alguna alergia? Describe tus necesidades y nuestra IA creará una receta de panettone única para ti.
+              ¿No tienes todos los ingredientes o tienes alguna alergia? Describe tus necesidades y nuestra IA creará una receta de mini dona única para ti.
             </CardDescription>
           </CardHeader>
           <Form {...form}>

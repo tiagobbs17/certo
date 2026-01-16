@@ -30,7 +30,7 @@ export function FinalOffer() {
                 src={tabletMockup.imageUrl}
                 width={600}
                 height={450}
-                alt="Maquete do curso de panettone em um tablet"
+                alt="Maquete do curso de mini donas em um tablet"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-xl"
                 data-ai-hint={tabletMockup.imageHint}
               />

@@ -12,59 +12,59 @@ import Image from "next/image";
 const modules = [
   {
     title: "Módulo 1 - Organización y Primeros Pasos",
-    description: "Organiza tu espacio de trabajo, domina los materiales y practica los cuidados básicos necesarios para comenzar la producción de panettone de forma segura y profesional.",
-    lessons: ["Introducción al curso - Bienvenida", "Materiales y utensilios necesarios", "Higiene y organización del lugar de trabajo", "Videos prácticos: Elaboración de panettone paso a paso"],
+    description: "Organiza tu espacio de trabajo, domina los materiales y practica los cuidados básicos necesarios para comenzar la producción de mini donas de forma segura y profesional.",
+    lessons: ["Introducción al curso - Bienvenida", "Materiales y utensilios necesarios", "Higiene y organización del lugar de trabajo", "Videos prácticos: Elaboración de mini donas paso a paso"],
     image: "https://ik.imagekit.io/cbes7rupj/m1.png"
   },
   {
     title: "Módulo 2 - Bases y Primera Producción",
-    description: "Domina la fermentación, aprende técnicas de congelación y usa el horno con precisión para lograr un panettone con la estructura perfecta.",
-    lessons: ["Masa base de fermentación", "Congelación del panettone", "Horno e instrucciones"],
+    description: "Domina la masa, aprende técnicas de fritura y horneado y usa el horno con precisión para lograr una dona con la estructura perfecta.",
+    lessons: ["Masa base", "Técnicas de fritura y horneado", "Temperatura e instrucciones"],
     image: "https://ik.imagekit.io/cbes7rupj/m2.png"
   },
   {
-    title: "Módulo 3 - Panetones Artesanales Clásicos",
-    description: "Aprende a preparar, dar forma, hornear y decorar el panettone tradicional, dominando las masas y coberturas clásicas que realzan su sabor y presentación.",
-    lessons: ["Preparación de la masa del panettone", "Dado y moldeado del panettone", "Horneado del panettone", "Panettone con azúcar glas", "Panettone con frutos secos", "Panettone con frutas"],
+    title: "Módulo 3 - Donas Artesanales Clásicas",
+    description: "Aprende a preparar, dar forma, hornear y decorar la dona tradicional, dominando las masas y coberturas clásicas que realzan su sabor y presentación.",
+    lessons: ["Preparación de la masa de la dona", "Formado de las donas", "Horneado y fritura de las donas", "Donas con azúcar glas", "Donas con chispas", "Donas con glaseado clásico"],
     image: "https://ik.imagekit.io/cbes7rupj/m3.png"
   },
   {
-    title: "Módulo 4 - Panetones Especiales",
-    description: "Crea rellenos y masas innovadoras, como queso crema, Red Velvet, Brownietone y Romeo y Julieta, y amplía tu menú con sabores exclusivos.",
-    lessons: ["Relleno de queso crema", "Panettone Red Velvet", "Masa de brownie", "Brownietone", "Panettone Romeo y Julieta"],
+    title: "Módulo 4 - Donas Especiales",
+    description: "Crea rellenos y masas innovadoras, como queso crema, Red Velvet, Brownie y Romeo y Julieta, y amplía tu menú con sabores exclusivos.",
+    lessons: ["Relleno de queso crema", "Dona Red Velvet", "Masa de brownie", "Dona-Brownie", "Dona Romeo y Julieta"],
     image: "https://ik.imagekit.io/cbes7rupj/m4.png"
   },
   {
-    title: "Módulo 5 - Panetones Gourmet Premium",
-    description: "Rellenos y combinaciones de alto valor, como Nutella con leche en polvo, brigadeiro gourmet y panettone de helado, creando versiones premium que aumentan tu margen de beneficio.",
-    lessons: ["Relleno de Ninho", "Panettone Gourmet de Nutella y Ninho", "Panettone Gourmet de helado con cobertura de chocolate", "Relleno de brigadeiro gourmet", "Panettone Gourmet de brigadeiro"],
+    title: "Módulo 5 - Donas Gourmet Premium",
+    description: "Rellenos y combinaciones de alto valor, como Nutella con leche en polvo, brigadeiro gourmet y dona de helado, creando versiones premium que aumentan tu margen de beneficio.",
+    lessons: ["Relleno de Ninho", "Dona Gourmet de Nutella y Ninho", "Dona Gourmet de helado con cobertura de chocolate", "Relleno de brigadeiro gourmet", "Dona Gourmet de brigadeiro"],
     image: "https://ik.imagekit.io/cbes7rupj/m5.png"
   },
   {
-    title: "Módulo 6 - Chocotones Artesanales",
-    description: "Aprende todo el proceso del chocotone artesanal, desde la preparación de la masa hasta las versiones trufadas y rellenas con Nutella y chocolate blanco.",
-    lessons: ["Preparación de la masa de chocotone", "Finalizando la masa para cada tipo de chocotone", "Modelando y dando forma a los chocotones", "Horneando los chocotones", "Relleno trufado", "Chocotone trufado", "Relleno trufado blanco", "Chocotone con chocolate Chocotone con Nutella"],
+    title: "Módulo 6 - Donas de Chocolate",
+    description: "Aprende todo el proceso de la dona de chocolate artesanal, desde la preparación de la masa hasta las versiones trufadas y rellenas con Nutella y chocolate blanco.",
+    lessons: ["Preparación de la masa de dona de chocolate", "Finalizando la masa para cada tipo de dona", "Modelando y dando forma a las donas de chocolate", "Horneando las donas de chocolate", "Relleno trufado", "Dona trufada", "Relleno trufado blanco", "Dona con chocolate y Nutella"],
     image: "https://ik.imagekit.io/cbes7rupj/m6.png"
   },
   {
     title: "🎓 MÓDULO 7 – Producción Manual Profesional (Para quienes NO tienen batidora)",
     description: "Este módulo está diseñado especialmente para las personas que no tienen batidora planetaria o equipos profesionales. Aquí el alumno aprenderá a:",
-    lessons: ["Preparar masas a mano", "Amasar correctamente sin cansarse", "Desarrollar el gluten manualmente", "Incorporar mantequilla sin que la masa se deshaga", "Trabajar masas pegajosas con técnica (no con fuerza)", "Lograr un panettone con estructura profesional sin máquina"],
+    lessons: ["Preparar masas a mano", "Amasar correctamente sin cansarse", "Desarrollar el gluten manualmente", "Incorporar mantequilla sin que la masa se deshaga", "Trabajar masas pegajosas con técnica (no con fuerza)", "Lograr una dona con estructura profesional sin máquina"],
     image: "https://ik.imagekit.io/cbes7rupj/p.jpg"
   }
 ];
 
 const bonuses = [
   {
-    title: "Bonificación 1 - Amplía Tu Cardápio con Recetas Premium",
-    description: "Brownie navideño, tarta navideña en forma de corona y panettone sin gluten para diversificar tu oferta, satisfacer a distintos perfiles de clientes y aumentar el valor de tus productos.",
-    lessons: ["Brownie navideño", "Tarta navideña en forma de corona", "Panettone sin gluten"],
+    title: "Bonificación 1 - Amplía Tu Menú con Recetas Premium",
+    description: "Brownie navideño, tarta navideña en forma de corona y donas sin gluten para diversificar tu oferta, satisfacer a distintos perfiles de clientes y aumentar el valor de tus productos.",
+    lessons: ["Brownie navideño", "Tarta navideña en forma de corona", "Donas sin gluten"],
     image: "https://ik.imagekit.io/cbes7rupj/b1.webp"
   },
   {
     title: "Bonificación 2 - Emprendimiento y Estrategias de Venta",
     description: "Técnicas de envasado, precios adecuados, promoción de tu trabajo y cómo usar el manual completo del curso para convertir tu producción artesanal en un negocio rentable.",
-    lessons: ["Envasado de panettone", "Consejos de envasado", "Cómo promocionar mi trabajo", "Precios", "Manual del curso con recetas completas"],
+    lessons: ["Envasado de donas", "Consejos de envasado", "Cómo promocionar mi trabajo", "Precios", "Manual del curso con recetas completas"],
     image: "https://ik.imagekit.io/cbes7rupj/plan.png"
   },
   {
@@ -91,7 +91,7 @@ export function CourseContent() {
           </h2>
           <Image
             src="https://ik.imagekit.io/cbes7rupj/panetone%20l.png"
-            alt="Panetones"
+            alt="Mini Donas"
             width={700}
             height={200}
             className="mx-auto mt-6"

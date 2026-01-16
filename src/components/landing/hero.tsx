@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import { Header } from './header';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'panettone-hero');
+  const heroImage = PlaceHolderImages.find(img => img.id === 'product-hero');
 
   return (
     <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-12 md:pb-24 lg:pb-32 overflow-hidden">
@@ -14,7 +14,7 @@ export function Hero() {
         {heroImage && (
             <Image
             src={heroImage.imageUrl}
-            alt="Background of a delicious panettone"
+            alt="Background of delicious mini donuts"
             fill
             className="object-cover"
             priority
@@ -27,10 +27,10 @@ export function Hero() {
         <div className="flex flex-col items-center text-center space-y-6">
           <div className="flex flex-col justify-center space-y-4 text-white">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-              Conviértete en experta en Panetones estilo Milán
+              Conviértete en experta en Mini Donas Caseras
             </h1>
             <p className="max-w-[700px] mx-auto text-lg md:text-xl">
-              Aprende <span className="text-red-500 font-bold">en menos de 7 días</span> las recetas más deliciosas y rentables de panetones italianos artesanales y comienza <span className="text-red-500 font-bold">tu propio negocio rentable desde casa</span>. ¡Perfecto para ganar dinero extra esta Navidad!
+              Aprende <span className="text-red-500 font-bold">en menos de 7 días</span> las recetas más deliciosas y rentables de mini donas caseras y comienza <span className="text-red-500 font-bold">tu propio negocio rentable desde casa</span>. ¡Perfecto para ganar dinero extra esta Navidad!
             </p>
           </div>
           
