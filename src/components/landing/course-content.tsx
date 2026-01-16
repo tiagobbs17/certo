@@ -106,7 +106,7 @@ export function CourseContent() {
           </h2>
           <Image
             src="https://ik.imagekit.io/cbes7rupj/confeitera.jpg"
-            alt="Mini Donas"
+            alt="Mini Donuts"
             width={700}
             height={200}
             className="mx-auto mt-6"

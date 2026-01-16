@@ -4,13 +4,13 @@ import { CheckCircle2, UtensilsCrossed, Zap, Briefcase, BadgeCheck, Clock, Messa
 const benefits = [
   {
     icon: <UtensilsCrossed className="h-8 w-8 text-primary" />,
-    title: 'Mini Donas Artesanales',
-    description: 'Hacer mini donas artesanales, con recetas tradicionales y gourmet.',
+    title: 'Mini Donuts Artesanales',
+    description: 'Hacer mini donuts artesanales, con recetas tradicionales y gourmet.',
   },
   {
     icon: <Zap className="h-8 w-8 text-primary" />,
     title: 'Técnicas Profesionales',
-    description: 'Técnicas de preparación de la masa, fritura y horneado, garantizando donas suaves y sabrosas.',
+    description: 'Técnicas de preparación de la masa, fritura y horneado, garantizando donuts suaves y sabrosas.',
   },
   {
     icon: <CheckCircle2 className="h-8 w-8 text-primary" />,
@@ -20,7 +20,7 @@ const benefits = [
   {
     icon: <Briefcase className="h-8 w-8 text-primary" />,
     title: 'Tu Propio Negocio',
-    description: 'Desarrollar tu propio negocio de mini donas artesanales, ofreciendo productos exclusivos.',
+    description: 'Desarrollar tu propio negocio de mini donuts artesanales, ofreciendo productos exclusivos.',
   },
 ];
 

@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Check } from 'lucide-react';
 
 const includedItems = [
-  { name: 'Libro Mini Donas Caseras', value: '$74,99' },
+  { name: 'Libro Mini Donuts Caseras', value: '$74,99' },
   { name: 'Libro Amplía Tu Cardápio con Recetas Premium', value: '$54,99' },
   { name: 'Hoja de cálculo de ventas y estrategias', value: '$17,99' },
   { name: 'Libro postres adicionales', value: '$24,99' },
@@ -30,7 +30,7 @@ export function FinalOffer() {
                 src={tabletMockup.imageUrl}
                 width={600}
                 height={450}
-                alt="Maquete do curso de mini donas em um tablet"
+                alt="Maquete do curso de mini donuts em um tablet"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-xl"
                 data-ai-hint={tabletMockup.imageHint}
               />

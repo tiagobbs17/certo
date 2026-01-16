@@ -79,7 +79,7 @@ export function NotificationPopup() {
           <div className="flex-shrink-0">
              <Image 
                 src="https://ik.imagekit.io/cbes7rupj/pp.jpg"
-                alt="Mini Donas"
+                alt="Mini Donuts"
                 width={60}
                 height={60}
                 className="rounded-md object-cover"
@@ -87,7 +87,7 @@ export function NotificationPopup() {
           </div>
           <div>
             <p className="font-bold text-sm text-foreground">{currentName} {currentLocation}</p>
-            <p className="text-sm text-muted-foreground">acabou de comprar o curso <span className="font-bold text-primary">Mini Donas Caseras</span></p>
+            <p className="text-sm text-muted-foreground">acabou de comprar o curso <span className="font-bold text-primary">Mini Donuts Caseras</span></p>
             <p className="text-xs text-muted-foreground/80 mt-1">há poucos segundos</p>
           </div>
         </div>

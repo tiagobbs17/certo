@@ -11,12 +11,12 @@ const features = [
   {
     icon: "feature-2",
     title: "Mejora y evoluciona tus técnicas",
-    description: "Para ti que ya trabajas en el área o que ya haces Mini Donas y quieres mejorar tus técnicas."
+    description: "Para ti que ya trabajas en el área o que ya haces Mini Donuts y quieres mejorar tus técnicas."
   },
   {
     icon: "feature-3",
     title: "Conquista muchos más clientes",
-    description: "Conviértete en especialista en Mini Donas, destácate en tu ciudad y comienza en el campo de la forma correcta."
+    description: "Conviértete en especialista en Mini Donuts, destácate en tu ciudad y comienza en el campo de la forma correcta."
   }
 ]
 
@@ -40,7 +40,7 @@ export function Features() {
             Ventajas del producto digital
           </h2>
           <p className="max-w-[900px] text-white/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Nunca fue tan fácil aprender todo sobre Donas.
+            Nunca fue tan fácil aprender todo sobre Donuts.
           </p>
         </div>
         <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 mt-12">

@@ -27,10 +27,10 @@ export function Hero() {
         <div className="flex flex-col items-center text-center space-y-6">
           <div className="flex flex-col justify-center space-y-4 text-white">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white">
-              Conviértete en experta en Mini Donas Caseras
+              Conviértete en experta en Mini Donuts Caseras
             </h1>
             <p className="max-w-[700px] mx-auto text-lg md:text-xl">
-              Aprende <span className="text-primary font-bold">en menos de 7 días</span> las recetas más deliciosas y rentables de mini donas caseras y comienza <span className="text-primary font-bold">tu propio negocio rentable desde casa</span>. ¡Perfecto para ganar dinero extra!
+              Aprende <span className="text-primary font-bold">en menos de 7 días</span> las recetas más deliciosas y rentables de mini donuts caseras y comienza <span className="text-primary font-bold">tu propio negocio rentable desde casa</span>. ¡Perfecto para ganar dinero extra!
             </p>
           </div>
           
