@@ -90,7 +90,7 @@ export function CourseContent() {
             Lo que vas a aprender
           </h2>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/panetone%20l.png"
+            src="https://ik.imagekit.io/cbes7rupj/confeitera.jpg"
             alt="Mini Donas"
             width={700}
             height={200}
