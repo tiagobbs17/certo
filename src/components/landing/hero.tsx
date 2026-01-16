@@ -5,8 +5,8 @@ import { Header } from './header';
 
 export function Hero() {
   const heroImage = {
-    imageUrl: "https://ik.imagekit.io/cbes7rupj/p.jpg",
-    imageHint: "kneading dough",
+    imageUrl: "https://ik.imagekit.io/cbes7rupj/donuts%20capa.jpg",
+    imageHint: "donuts",
   };
 
   return (
