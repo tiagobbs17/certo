@@ -56,29 +56,44 @@ const modules = [
 
 const bonuses = [
   {
-    title: "Bonificación 1 - Amplía Tu Menú con Recetas Premium",
-    description: "Brownie especial, tarta festiva en forma de corona y donas sin gluten para diversificar tu oferta, satisfacer a distintos perfiles de clientes y aumentar el valor de tus productos.",
-    lessons: ["Brownie especial", "Tarta festiva en forma de corona", "Donas sin gluten"],
+    title: "🌱 Bonificación – Donuts Especiales (Línea Alternativa)",
+    description: "Aprende a preparar donuts especiales para atender a un público más amplio, aumentar tus oportunidades de venta y diferenciarte de la competencia con opciones modernas y muy solicitadas.",
+    lessons: [
+        "Donuts sin lactosa",
+        "Donuts sin gluten",
+        "Donuts veganos",
+        "Adaptación de masas y recetas sin perder sabor ni textura",
+        "Cómo vender donuts especiales con mayor valor",
+        "👉 Ideal para atraer nuevos clientes y ampliar tu mercado."
+    ],
     image: "https://ik.imagekit.io/cbes7rupj/b1.webp"
   },
   {
-    title: "Bonificación 2 - Emprendimiento y Estrategias de Venta",
-    description: "Técnicas de envasado, precios adecuados, promoción de tu trabajo y cómo usar el manual completo del curso para convertir tu producción artesanal en un negocio rentable.",
-    lessons: ["Envasado de donas", "Consejos de envasado", "Cómo promocionar mi trabajo", "Precios", "Manual del curso con recetas completas"],
+    title: "💰 Bonificación – Precificación Fácil para Donuts",
+    description: "Aprende a poner precio a tus donuts de forma correcta y rentable, sin perder dinero y con total claridad sobre tus ganancias.",
+    lessons: [
+        "Cómo calcular el costo por unidad",
+        "Cálculo de insumos, tiempo y gastos",
+        "Cuánto cobrar en ventas al por menor y al por mayor",
+        "Margen de ganancia ideal para donuts",
+        "Estrategias para aumentar el lucro sin subir demasiado el precio",
+        "👉 Este bono es clave para transformar tu producción en un negocio rentable."
+    ],
     image: "https://ik.imagekit.io/cbes7rupj/plan.png"
   },
   {
-    title: "Bonificación 3 - Postres Adicionales",
-    description: "Para que este curso sea aún más completo, incluye 3 deliciosas recetas de postres que te encantarán. ¡Sorprende a tus seres queridos con estas delicias!",
-    lessons: ["Tarta de manzana especiada: Una combinación perfecta de manzana, canela y nuez moscada.", "Tronco de chocolate: El clásico tronco de chocolate, con su corteza esponjosa y su cremoso relleno de chocolate.", "Galletas de jengibre: Pequeñas y sabrosas, ideales para disfrutar con un café después de la cena."],
+    title: "📦 Bonificación – Embalajes que Venden",
+    description: "Descubre cómo elegir el empaque correcto para tus donuts y cómo presentarlos de forma profesional para aumentar el valor percibido y las ventas.",
+    lessons: [
+        "Tipos de embalaje para donuts",
+        "Embalajes económicos vs. embalajes premium",
+        "Cómo montar kits para fechas especiales y eventos",
+        "Presentación atractiva para aumentar las ventas",
+        "Cómo cobrar más con una buena presentación",
+        "👉 El empaque correcto puede duplicar el valor de tu producto."
+    ],
     image: "https://ik.imagekit.io/cbes7rupj/bon%203.jpg"
-  },
-  {
-    title: "Recetas Saladas",
-    description: "3 recetas irresistibles de comidas tradicionales para fiestas.",
-    lessons: ["Pavo relleno – Un suculento pavo con un relleno de frutas y hierbas que hará que todos pidan más.", "Ensalada de manzana – Una ensalada fresca y cremosa, con manzanas, nueces y un toque de crema, perfecta para acompañar.", "Cordero al horno – Un tierno cordero asado, bañado en salsa de vino tinto, que deleitará a tus invitados."],
-    image: "https://ik.imagekit.io/cbes7rupj/bonus%204.jpg"
-  },
+  }
 ]
 
 export function CourseContent() {
@@ -131,16 +146,6 @@ export function CourseContent() {
                       </li>
                     ))}
                   </ul>
-                  {
-                    index === (modules.length + bonuses.length - 2) && (
-                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Haz que tus celebraciones sean inolvidables con estos dulces tradicionales!</p>
-                    )
-                  }
-                  {
-                    index === (modules.length + bonuses.length - 1) && (
-                        <p className="pl-8 pr-4 mt-4 text-foreground">¡Celebra con sabor y tradición!</p>
-                    )
-                  }
                 </AccordionContent>
               </AccordionItem>
             ))}
