@@ -66,7 +66,7 @@ const bonuses = [
         "Cómo vender donuts especiales con mayor valor",
         "👉 Ideal para atraer nuevos clientes y ampliar tu mercado."
     ],
-    image: "https://ik.imagekit.io/cbes7rupj/b1.webp"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%201.jpg"
   },
   {
     title: "💰 Bonificación 2 – Precificación Fácil para Donuts",
@@ -92,7 +92,7 @@ const bonuses = [
         "Cómo cobrar más con una buena presentación",
         "👉 El empaque correcto puede duplicar el valor de tu producto."
     ],
-    image: "https://ik.imagekit.io/cbes7rupj/bon%203.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%203.jpg"
   }
 ]
 
