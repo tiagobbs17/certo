@@ -40,8 +40,8 @@ export function NotificationPopup() {
       }, 8000); // Fica visível por 8 segundos
     };
 
-    // Mostra a primeira notificação após um pequeno atraso
-    const firstTimeout = setTimeout(showNotification, 15000);
+    // Mostra a primeira notificação após 1 minuto
+    const firstTimeout = setTimeout(showNotification, 60000);
 
     // Mostra notificações subsequentes a cada 1 minuto
     const interval = setInterval(showNotification, 60000);
@@ -78,7 +78,7 @@ export function NotificationPopup() {
         <div className="flex items-center gap-4">
           <div className="flex-shrink-0">
              <Image 
-                src="https://ik.imagekit.io/cbes7rupj/pp.jpg"
+                src="https://ik.imagekit.io/cbes7rupj/donas%20capa%201.jpg"
                 alt="Mini Donuts"
                 width={60}
                 height={60}
