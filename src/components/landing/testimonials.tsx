@@ -6,11 +6,11 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  type CarouselApi,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
 import * as React from "react"
+import { cn } from '@/lib/utils';
 
 const testimonials = [
   { 
@@ -37,6 +37,23 @@ export function Testimonials() {
     Autoplay({ delay: 2000, stopOnInteraction: false })
   )
 
+  const [api, setApi] = React.useState<CarouselApi>()
+  const [current, setCurrent] = React.useState(0)
+  const [count, setCount] = React.useState(0)
+
+  React.useEffect(() => {
+    if (!api) {
+      return
+    }
+
+    setCount(api.scrollSnapList().length)
+    setCurrent(api.selectedScrollSnap())
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap())
+    })
+  }, [api])
+
   return (
     <section className="w-full py-16 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -47,6 +64,7 @@ export function Testimonials() {
         </div>
         <div className="mx-auto max-w-5xl mt-12 px-10">
           <Carousel
+            setApi={setApi}
             plugins={[plugin.current]}
             opts={{
               align: "start",
@@ -69,9 +87,20 @@ export function Testimonials() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
           </Carousel>
+          <div className="flex justify-center gap-2 mt-4">
+            {Array.from({ length: count }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => api?.scrollTo(index)}
+                className={cn(
+                  'h-3 w-3 rounded-full',
+                  current === index ? 'bg-primary' : 'bg-muted'
+                )}
+                aria-label={`Ir al slide ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
