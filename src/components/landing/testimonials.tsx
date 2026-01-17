@@ -1,5 +1,32 @@
 import { Card } from '@/components/ui/card';
 import Image from 'next/image';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+
+const testimonials = [
+  { 
+    src: "https://ik.imagekit.io/cbes7rupj/depoimento%201.jpeg",
+    alt: "Depoimento 1"
+  },
+  {
+    src: "https://ik.imagekit.io/cbes7rupj/depoimento%203.jpeg",
+    alt: "Depoimento 2"
+  },
+  {
+    src: "https://ik.imagekit.io/cbes7rupj/depoimento%204.jpeg",
+    alt: "Depoimento 3"
+  },
+  {
+    src: "https://ik.imagekit.io/cbes7rupj/depoimento%202.jpeg",
+    alt: "Depoimento 4"
+  }
+];
+
 
 export function Testimonials() {
   return (
@@ -10,43 +37,32 @@ export function Testimonials() {
             ¡Mira lo que dicen nuestras alumnas sobre el curso!
           </h2>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-4 mt-12">
-          <Card className="aspect-square bg-muted overflow-hidden">
-            <Image 
-              src="https://ik.imagekit.io/cbes7rupj/depoimento%201.jpeg" 
-              alt="Depoimento 1" 
-              width={400} 
-              height={400}
-              className="object-cover w-full h-full"
-            />
-          </Card>
-          <Card className="aspect-square bg-muted overflow-hidden">
-            <Image 
-              src="https://ik.imagekit.io/cbes7rupj/depoimento%203.jpeg" 
-              alt="Depoimento 2" 
-              width={400} 
-              height={400}
-              className="object-cover w-full h-full"
-            />
-          </Card>
-          <Card className="aspect-square bg-muted overflow-hidden">
-            <Image 
-              src="https://ik.imagekit.io/cbes7rupj/depoimento%204.jpeg" 
-              alt="Depoimento 3" 
-              width={400} 
-              height={400}
-              className="object-cover w-full h-full"
-            />
-          </Card>
-          <Card className="aspect-square bg-muted overflow-hidden">
-            <Image 
-              src="https://ik.imagekit.io/cbes7rupj/depoimento%202.jpeg" 
-              alt="Depoimento 4" 
-              width={400} 
-              height={400}
-              className="object-cover w-full h-full"
-            />
-          </Card>
+        <div className="mx-auto max-w-5xl mt-12 px-10">
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-4">
+              {testimonials.map((testimonial, index) => (
+                <CarouselItem key={index} className="pl-4 sm:basis-1/2 lg:basis-1/4">
+                  <Card className="aspect-square bg-muted overflow-hidden">
+                    <Image 
+                      src={testimonial.src} 
+                      alt={testimonial.alt} 
+                      width={400} 
+                      height={400}
+                      className="object-cover w-full h-full"
+                    />
+                  </Card>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </div>
       </div>
     </section>
