@@ -1,3 +1,5 @@
+"use client"
+
 import { Card } from '@/components/ui/card';
 import Image from 'next/image';
 import {
@@ -7,6 +9,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
+import * as React from "react"
 
 const testimonials = [
   { 
@@ -29,6 +33,10 @@ const testimonials = [
 
 
 export function Testimonials() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 2000, stopOnInteraction: true })
+  )
+
   return (
     <section className="w-full py-16 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -39,11 +47,14 @@ export function Testimonials() {
         </div>
         <div className="mx-auto max-w-5xl mt-12 px-10">
           <Carousel
+            plugins={[plugin.current]}
             opts={{
               align: "start",
               loop: true,
             }}
             className="w-full"
+            onMouseEnter={plugin.current.stop}
+            onMouseLeave={plugin.current.reset}
           >
             <CarouselContent className="-ml-4">
               {testimonials.map((testimonial, index) => (
