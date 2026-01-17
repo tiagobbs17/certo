@@ -4,11 +4,11 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Check } from 'lucide-react';
 
 const includedItems = [
-  { name: 'Libro Mini Donuts Caseras', value: '$74,99' },
-  { name: 'Libro Amplía Tu Cardápio con Recetas Premium', value: '$54,99' },
-  { name: 'Hoja de cálculo de ventas y estrategias', value: '$17,99' },
-  { name: 'Libro postres adicionales', value: '$24,99' },
-  { name: 'Libro recetas saladas', value: '$17,99' },
+  { name: 'Libro Mini Donuts Caseros', value: 'US$ 74,99' },
+  { name: 'Libro Amplía Tu Menú con Recetas Premium', value: 'US$ 54,99' },
+  { name: 'Hoja de Cálculo de Ventas y Estrategias', value: 'US$ 17,99' },
+  { name: 'Libro Embalajes que Venden', value: 'US$ 24,99' },
+  { name: 'Libro Recetas Sin Gluten', value: 'US$ 17,99' },
 ];
 
 export function FinalOffer() {
