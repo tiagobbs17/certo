@@ -105,7 +105,7 @@ export function CourseContent() {
             Lo que vas a aprender
           </h2>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/confeitera.jpg"
+            src="https://ik.imagekit.io/cbes7rupj/Round%20Family%20Photo%20Frame%20in%20Beige%20and%20Green%20Delicate%20Watercolor%20Leaves%20Style.png"
             alt="Mini Donuts"
             width={700}
             height={200}
