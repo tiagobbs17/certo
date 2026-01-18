@@ -14,20 +14,12 @@ import { cn } from '@/lib/utils';
 
 const testimonials = [
   { 
-    src: "https://ik.imagekit.io/cbes7rupj/prova%202.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-01-18%20at%2012.24.25.jpeg",
     alt: "Depoimento 1"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/prova%204.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-01-18%20at%2012.31.39.jpeg",
     alt: "Depoimento 2"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/prova%201.jpeg",
-    alt: "Depoimento 3"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/prova%203.jpeg",
-    alt: "Depoimento 4"
   }
 ];
 
@@ -74,14 +66,14 @@ export function Testimonials() {
           >
             <CarouselContent className="-ml-4">
               {testimonials.map((testimonial, index) => (
-                <CarouselItem key={index} className="pl-4 sm:basis-1/2 lg:basis-1/4">
-                  <Card className="aspect-square bg-muted overflow-hidden">
+                <CarouselItem key={index} className="pl-4 sm:basis-1/2">
+                  <Card className="bg-muted overflow-hidden">
                     <Image 
                       src={testimonial.src} 
                       alt={testimonial.alt} 
                       width={400} 
-                      height={400}
-                      className="object-cover w-full h-full"
+                      height={800}
+                      className="object-contain w-full h-auto"
                     />
                   </Card>
                 </CarouselItem>
