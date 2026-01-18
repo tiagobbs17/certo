@@ -54,7 +54,7 @@ export function FinalOffer() {
               </ul>
               
               <div className="bg-muted/50 rounded-lg p-4 text-center my-6">
-                <p className="text-5xl font-bold font-headline text-primary my-2">$9,90 <span className="text-xl font-body font-normal text-foreground">Dólares</span></p>
+                <p className="text-5xl font-bold font-headline text-primary my-2">$6,90 <span className="text-xl font-body font-normal text-foreground">Dólares</span></p>
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 
