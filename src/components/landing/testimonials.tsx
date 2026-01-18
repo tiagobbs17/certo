@@ -28,6 +28,14 @@ const testimonials = [
   {
     src: "https://ik.imagekit.io/cbes7rupj/prova%203.jpeg",
     alt: "Depoimento 4"
+  },
+  {
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-01-18%20at%2012.24.25.jpeg",
+    alt: "Depoimento 5"
+  },
+  {
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-01-18%20at%2012.31.39.jpeg",
+    alt: "Depoimento 6"
   }
 ];
 
