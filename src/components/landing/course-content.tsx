@@ -153,7 +153,7 @@ export function CourseContent() {
         </div>
         <div className="mt-12 flex justify-center">
           <Button size="lg" asChild className="font-bold animate-button-pulse">
-            <a href="https://pay.hotmart.com/J103933545W?off=ox4eio1y">¡Quiero empezar ahora!</a>
+            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">¡Quiero empezar ahora!</a>
           </Button>
         </div>
       </div>
