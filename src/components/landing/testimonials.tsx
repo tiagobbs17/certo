@@ -14,19 +14,19 @@ import { cn } from '@/lib/utils';
 
 const testimonials = [
   { 
-    src: "https://ik.imagekit.io/cbes7rupj/depoimento%201.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/prova%202.jpeg",
     alt: "Depoimento 1"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/depoimento%203.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/prova%204.jpeg",
     alt: "Depoimento 2"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/depoimento%204.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/prova%201.jpeg",
     alt: "Depoimento 3"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/depoimento%202.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/prova%203.jpeg",
     alt: "Depoimento 4"
   }
 ];

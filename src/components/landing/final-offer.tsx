@@ -66,7 +66,7 @@ export function FinalOffer() {
 
               <div className="flex flex-col items-center">
                 <Button className="font-bold animate-button-pulse" asChild>
-                  <a href="https://pay.hotmart.com/B102877180F?checkoutMode=10">
+                  <a href="https://pay.hotmart.com/J103933545W?off=ox4eio1y">
                     ¡SÍ, QUIERO APROVECHAR LA OFERTA!
                   </a>
                 </Button>
