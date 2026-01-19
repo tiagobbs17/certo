@@ -6,7 +6,7 @@ const bonuses = [
   {
     title: "🌱 Donuts Especiales",
     description: "Aprende a preparar donuts sin lactosa, sin gluten y veganos para atender a un público más amplio y diferenciarte de la competencia.",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%201.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20ebook%20especiales.png"
   },
   {
     title: "💰 Precificación Fácil",
