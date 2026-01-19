@@ -12,9 +12,11 @@ const bonuses = [
     isSpecial: true,
   },
   {
-    title: "💰 Precificación Fácil",
+    title: "Precificación Fácil",
     description: "Domina cómo poner precio a tus donuts de forma rentable, calculando costos y márgenes de ganancia para transformar tu producción en un negocio lucrativo.",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%20valor.png"
+    image: "https://ik.imagekit.io/cbes7rupj/1768855841.png",
+    price: "24,00",
+    isSpecial: true,
   },
   {
     title: "📦 Embalajes que Venden",
