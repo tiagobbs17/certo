@@ -43,7 +43,7 @@ export function Bonuses() {
                 alt={bonus.title}
                 width={500}
                 height={300}
-                className={cn("w-full h-48", bonus.isSpecial ? "object-contain" : "object-cover")}
+                className={cn("w-full h-48 object-cover")}
               />
               <CardContent className="p-6">
                 <h3 className="font-headline text-xl font-bold mb-2 text-accent">{bonus.title}</h3>
