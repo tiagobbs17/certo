@@ -45,7 +45,7 @@ export function FinalOffer() {
                     <Check className="h-5 w-5 text-green-500 flex-shrink-0 mt-1" />
                     <span className="flex-1">
                       {item.name}{' '}
-                      <span className="font-mono text-primary line-through whitespace-nowrap">
+                      <span className="font-mono text-destructive line-through whitespace-nowrap">
                         {item.value}
                       </span>
                     </span>
@@ -54,7 +54,7 @@ export function FinalOffer() {
               </ul>
               
               <div className="bg-muted/50 rounded-lg p-4 text-center my-6">
-                <p className="text-5xl font-bold font-headline text-primary my-2">$6,90 <span className="text-xl font-body font-normal text-foreground">Dólares</span></p>
+                <p className="text-5xl font-bold font-headline text-destructive my-2">$6,90 <span className="text-xl font-body font-normal text-foreground">Dólares</span></p>
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
 

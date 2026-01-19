@@ -61,7 +61,7 @@ export function Bonuses() {
                 <p className="text-muted-foreground flex-grow">{bonus.description}</p>
                 {bonus.isSpecial && (
                     <div className="mt-4 flex items-baseline gap-3">
-                        <span className="text-muted-foreground line-through text-lg">US$ {bonus.price}</span>
+                        <span className="text-destructive line-through text-lg">US$ {bonus.price}</span>
                         <span className="font-bold text-accent text-xl">Hoy gratis</span>
                     </div>
                 )}
