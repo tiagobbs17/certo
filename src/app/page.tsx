@@ -10,6 +10,7 @@ import { FinalOffer } from '@/components/landing/final-offer';
 import { Faq } from '@/components/landing/faq';
 import { Footer } from '@/components/landing/footer';
 import { NotificationPopup } from '@/components/landing/notification-popup';
+import { Bonuses } from '@/components/landing/bonuses';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Benefits />
         <Features />
         <CourseContent />
+        <Bonuses />
         <Testimonials />
         <Certificate />
         <Guarantee />

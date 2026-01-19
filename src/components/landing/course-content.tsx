@@ -54,48 +54,6 @@ const modules = [
   }
 ];
 
-const bonuses = [
-  {
-    title: "🌱 Bonificación 1 – Donuts Especiales (Línea Alternativa)",
-    description: "Aprende a preparar donuts especiales para atender a un público más amplio, aumentar tus oportunidades de venta y diferenciarte de la competencia con opciones modernas y muy solicitadas.",
-    lessons: [
-        "Donuts sin lactosa",
-        "Donuts sin gluten",
-        "Donuts veganos",
-        "Adaptación de masas y recetas sin perder sabor ni textura",
-        "Cómo vender donuts especiales con mayor valor",
-        "👉 Ideal para atraer nuevos clientes y ampliar tu mercado."
-    ],
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%201.jpg"
-  },
-  {
-    title: "💰 Bonificación 2 – Precificación Fácil para Donuts",
-    description: "Aprende a poner precio a tus donuts de forma correcta y rentable, sin perder dinero y con total claridad sobre tus ganancias.",
-    lessons: [
-        "Cómo calcular el costo por unidad",
-        "Cálculo de insumos, tiempo y gastos",
-        "Cuánto cobrar en ventas al por menor y al por mayor",
-        "Margen de ganancia ideal para donuts",
-        "Estrategias para aumentar el lucro sin subir demasiado el precio",
-        "👉 Este bono es clave para transformar tu producción en un negocio rentable."
-    ],
-    image: "https://ik.imagekit.io/cbes7rupj/plan.png"
-  },
-  {
-    title: "📦 Bonificación 3 – Embalajes que Venden",
-    description: "Descubre cómo elegir el empaque correcto para tus donuts y cómo presentarlos de forma profesional para aumentar el valor percibido y las ventas.",
-    lessons: [
-        "Tipos de embalaje para donuts",
-        "Embalajes económicos vs. embalajes premium",
-        "Cómo montar kits para fechas especiales y eventos",
-        "Presentación atractiva para aumentar las ventas",
-        "Cómo cobrar más con una buena presentación",
-        "👉 El empaque correcto puede duplicar el valor de tu producto."
-    ],
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%2033.jpg"
-  }
-]
-
 export function CourseContent() {
   return (
     <section id="bonus" className="w-full py-16 md:py-24 lg:py-32 bg-background">
@@ -115,7 +73,7 @@ export function CourseContent() {
 
         <div className="mx-auto mt-12 max-w-3xl">
           <Accordion type="single" collapsible className="w-full">
-            {[...modules, ...bonuses].map((item, index) => (
+            {modules.map((item, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border-border">
                 <AccordionTrigger className="text-left hover:no-underline">
                   <div className="flex items-start gap-4">
@@ -130,7 +88,7 @@ export function CourseContent() {
                     ) : (
                       <div className="h-16 w-16 bg-muted rounded-full flex-shrink-0 mt-1" />
                     )}
-                    <Badge variant={index < modules.length ? "destructive" : "default"} className="absolute top-4 left-4 bg-primary text-primary-foreground">{index < modules.length ? `Módulo ${index + 1}` : `Bono ${index - modules.length + 1}`}</Badge>
+                    <Badge variant="destructive" className="absolute top-4 left-4 bg-primary text-primary-foreground">{`Módulo ${index + 1}`}</Badge>
                     <div className="flex-1">
                       <h3 className="font-headline text-lg font-bold text-accent">{item.title}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{item.description}</p>
