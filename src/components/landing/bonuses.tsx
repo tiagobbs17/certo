@@ -24,6 +24,13 @@ const bonuses = [
     image: "https://ik.imagekit.io/cbes7rupj/1768856318.png",
     price: "14,00",
     isSpecial: true,
+  },
+  {
+    title: "Textos Listos para Ventas Rápidas en Instagram y WhatsApp",
+    description: "Mensajes listos y probados para atraer clientes, responder dudas y cerrar ventas de mini donuts de forma simple y rápida, incluso sin experiencia en ventas. 🍩📲",
+    image: "https://ik.imagekit.io/cbes7rupj/1768856977.png",
+    price: "17,00",
+    isSpecial: true,
   }
 ];
 
@@ -36,10 +43,10 @@ export function Bonuses() {
             🎁 ¡Aprovecha estos regalos gratis!
           </h2>
         </div>
-        <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+        <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-4">
           {bonuses.map((bonus, index) => (
             <Card key={index} className={cn(
-              "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl",
+              "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl flex flex-col",
               bonus.isSpecial && "border-2 border-accent"
             )}>
               <Image 
@@ -49,9 +56,9 @@ export function Bonuses() {
                 height={300}
                 className={cn("w-full h-48 object-contain")}
               />
-              <CardContent className="p-6">
+              <CardContent className="p-6 flex flex-col flex-grow">
                 <h3 className="font-headline text-xl font-bold mb-2 text-accent">{bonus.title}</h3>
-                <p className="text-muted-foreground">{bonus.description}</p>
+                <p className="text-muted-foreground flex-grow">{bonus.description}</p>
                 {bonus.isSpecial && (
                     <div className="mt-4 flex items-baseline gap-3">
                         <span className="text-muted-foreground line-through text-lg">US$ {bonus.price}</span>
