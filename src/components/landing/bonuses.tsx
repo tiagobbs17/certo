@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 const bonuses = [
   {
@@ -44,6 +45,11 @@ export function Bonuses() {
               </CardContent>
             </Card>
           ))}
+        </div>
+        <div className="mt-12 flex justify-center">
+          <Button size="lg" asChild className="font-bold animate-button-pulse">
+            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">¡Quiero empezar ahora!</a>
+          </Button>
         </div>
       </div>
     </section>
