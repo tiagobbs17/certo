@@ -21,14 +21,14 @@ const bonuses = [
   {
     title: "📦 Embalajes que Venden",
     description: "Descubre cómo elegir y presentar tus donuts en embalajes profesionales para aumentar su valor percibido y potenciar tus ventas.",
-    image: "https://ik.imagekit.io/cbes7rupj/1768857556.png",
+    image: "https://ik.imagekit.io/cbes7rupj/1768856318.png",
     price: "14,00",
     isSpecial: true,
   },
   {
     title: "Textos Listos para Ventas Rápidas en Instagram y WhatsApp",
     description: "Mensajes listos y probados para atraer clientes, responder dudas y cerrar ventas de mini donuts de forma simple y rápida, incluso sin experiencia en ventas. 🍩📲",
-    image: "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2019%20de%20jan.%20de%202026,%2014_52_23.png",
+    image: "https://ik.imagekit.io/cbes7rupj/1768857556.png",
     price: "17,00",
     isSpecial: true,
   }
