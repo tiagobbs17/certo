@@ -28,7 +28,7 @@ const bonuses = [
   {
     title: "Textos Listos para Ventas Rápidas en Instagram y WhatsApp",
     description: "Mensajes listos y probados para atraer clientes, responder dudas y cerrar ventas de mini donuts de forma simple y rápida, incluso sin experiencia en ventas. 🍩📲",
-    image: "https://ik.imagekit.io/cbes7rupj/1768856977.png",
+    image: "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2019%20de%20jan.%20de%202026,%2014_52_23.png",
     price: "17,00",
     isSpecial: true,
   }
