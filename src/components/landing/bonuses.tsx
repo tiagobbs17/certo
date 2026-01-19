@@ -1,12 +1,15 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 
 const bonuses = [
   {
-    title: "🌱 Donuts Especiales",
+    title: "Donuts especiales sin gluten, veganos y sin lactosa",
     description: "Aprende a preparar donuts sin lactosa, sin gluten y veganos para atender a un público más amplio y diferenciarte de la competencia.",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20ebook%20especiales.png"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20ebook%20especiales.png",
+    price: "17,00",
+    isSpecial: true,
   },
   {
     title: "💰 Precificación Fácil",
@@ -31,17 +34,26 @@ export function Bonuses() {
         </div>
         <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
           {bonuses.map((bonus, index) => (
-            <Card key={index} className="overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl">
+            <Card key={index} className={cn(
+              "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl",
+              bonus.isSpecial && "border-2 border-accent"
+            )}>
               <Image 
                 src={bonus.image}
                 alt={bonus.title}
                 width={500}
                 height={300}
-                className="object-cover w-full h-48"
+                className={cn("w-full h-48", bonus.isSpecial ? "object-contain" : "object-cover")}
               />
               <CardContent className="p-6">
                 <h3 className="font-headline text-xl font-bold mb-2 text-accent">{bonus.title}</h3>
                 <p className="text-muted-foreground">{bonus.description}</p>
+                {bonus.isSpecial && (
+                    <div className="mt-4 flex items-baseline gap-3">
+                        <span className="text-muted-foreground line-through text-lg">US$ {bonus.price}</span>
+                        <span className="font-bold text-accent text-xl">Hoy gratis</span>
+                    </div>
+                )}
               </CardContent>
             </Card>
           ))}
