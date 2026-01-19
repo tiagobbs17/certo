@@ -21,7 +21,9 @@ const bonuses = [
   {
     title: "📦 Embalajes que Venden",
     description: "Descubre cómo elegir y presentar tus donuts en embalajes profesionales para aumentar su valor percibido y potenciar tus ventas.",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%2033.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/1768856318.png",
+    price: "14,00",
+    isSpecial: true,
   }
 ];
 
