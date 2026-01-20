@@ -29,8 +29,8 @@ export function Hero() {
             </p>
           </div>
           
-          <div className="w-full max-w-2xl overflow-hidden shadow-2xl aspect-video">
-            <iframe id="panda-7db8ac89-ff17-4d3d-9820-ac84a18501c6" src="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/?v=7db8ac89-ff17-4d3d-9820-ac84a18501c6" style={{border: 'none'}} allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowFullScreen={true} className="w-full h-full" fetchPriority="high"></iframe>
+          <div className="w-full max-w-2xl overflow-hidden shadow-2xl relative pb-[56.25%]">
+            <iframe id="panda-8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b" src="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/?v=8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b" style={{border: 'none'}} allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowFullScreen={true} className="absolute top-0 left-0 w-full h-full" fetchPriority="high"></iframe>
           </div>
 
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
