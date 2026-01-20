@@ -1,28 +1,11 @@
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Header } from './header';
 
 export function Hero() {
-  const heroImage = {
-    imageUrl: "https://ik.imagekit.io/cbes7rupj/donas%20capa%20fundo%201.jpg",
-    imageHint: "donuts",
-  };
-
   return (
-    <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-12 md:pb-24 lg:pb-32 overflow-hidden">
+    <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-12 md:pb-24 lg:pb-32 overflow-hidden bg-gray-900">
       <Header />
-      <div className="absolute inset-0 z-0">
-        <Image
-          src={heroImage.imageUrl}
-          alt="Pessoa preparando a massa"
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-      </div>
       <div className="container relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-6">
           <div className="flex flex-col justify-center space-y-4 text-white">
@@ -34,14 +17,8 @@ export function Hero() {
             </p>
           </div>
           
-          <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden shadow-2xl">
-            <Image
-              src="https://ik.imagekit.io/cbes7rupj/1768596852.png"
-              alt="Prévia do curso de mini donuts"
-              width={1280}
-              height={720}
-              className="w-full h-full object-cover"
-            />
+          <div className="w-full max-w-3xl aspect-video rounded-xl overflow-hidden shadow-2xl">
+            <iframe id="panda-8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b" src="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/?v=8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b" style={{border: 'none'}} allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowFullScreen={true} className="w-full h-full" fetchPriority="high"></iframe>
           </div>
 
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
