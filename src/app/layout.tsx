@@ -20,12 +20,12 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
         <link rel="preload" href="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/css/styles.css" as="style" />
-        <link rel="prerender" href="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/?v=456c288d-4d2c-4239-b12b-6e55d7b2bca9" />
+        <link rel="prerender" href="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/?v=8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b" />
         <link rel="preload" href="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/js/hls.js" as="script" />
         <link rel="preload" href="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/js/plyr.polyfilled.min.js" as="script" />
-        <link rel="preload" href="https://config.tv.pandavideo.com.br/vz-208f6759-5ea/456c288d-4d2c-4239-b12b-6e55d7b2bca9.json" as="fetch" crossOrigin="anonymous" />
+        <link rel="preload" href="https://config.tv.pandavideo.com.br/vz-208f6759-5ea/8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b.json" as="fetch" crossOrigin="anonymous" />
         <link rel="preload" href="https://config.tv.pandavideo.com.br/vz-208f6759-5ea/config.json" as="fetch" crossOrigin="anonymous" />
-        <link rel="preload" href="https://b-vz-208f6759-5ea.tv.pandavideo.com.br/456c288d-4d2c-4239-b12b-6e55d7b2bca9/playlist.m3u8" as="fetch" crossOrigin="anonymous" />
+        <link rel="preload" href="https://b-vz-208f6759-5ea.tv.pandavideo.com.br/8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b/playlist.m3u8" as="fetch" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://b-vz-208f6759-5ea.tv.pandavideo.com.br" />
         <link rel="dns-prefetch" href="https://player-vz-208f6759-5ea.tv.pandavideo.com.br" />
         <link rel="dns-prefetch" href="https://vz-208f6759-5ea.b-cdn.net" />
