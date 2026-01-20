@@ -53,7 +53,11 @@ export function FinalOffer() {
                 ))}
               </ul>
               
-              <div className="bg-muted/50 rounded-lg p-4 text-center my-6">
+              <div className="text-center my-6">
+                <p className="font-bold text-lg">Todo esto saldría por más de <span className="text-destructive line-through">US$ 180</span>, ¡pero hoy te lo llevas todo por solo!</p>
+              </div>
+
+              <div className="bg-muted/50 rounded-lg p-4 text-center my-6 animate-button-pulse">
                 <p className="text-5xl font-bold font-headline text-primary my-2">$6,90 <span className="text-xl font-body font-normal text-foreground">Dólares</span></p>
                 <p className="text-xs text-muted-foreground">Pago único. Sin cargos ocultos ni mensualidades.</p>
               </div>
