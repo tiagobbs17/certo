@@ -18,10 +18,6 @@ const testimonials = [
     alt: "Depoimento 1"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/prova%204.jpeg",
-    alt: "Depoimento 2"
-  },
-  {
     src: "https://ik.imagekit.io/cbes7rupj/prova%201.jpeg",
     alt: "Depoimento 3"
   },
