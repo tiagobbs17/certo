@@ -29,7 +29,7 @@ export function Hero() {
             </p>
           </div>
           
-          <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden shadow-2xl">
+          <div className="w-full max-w-2xl aspect-[720/360] rounded-xl overflow-hidden shadow-2xl">
             <iframe id="panda-8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b" src="https://player-vz-208f6759-5ea.tv.pandavideo.com.br/embed/?v=8864ef1f-1e0f-4884-9fbd-e6c50dd2de1b" style={{border: 'none'}} allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowFullScreen={true} className="w-full h-full" fetchPriority="high"></iframe>
           </div>
 
