@@ -78,11 +78,11 @@ export function NotificationPopup() {
         <div className="flex items-center gap-4">
           <div className="flex-shrink-0">
              <Image 
-                src="https://ik.imagekit.io/cbes7rupj/donas%20capa%201.jpg"
-                alt="Mini Donuts"
+                src="https://ik.imagekit.io/cbes7rupj/1768596852.png"
+                alt="Ebook Mini Donuts Caseras"
                 width={60}
                 height={60}
-                className="rounded-md object-cover"
+                className="rounded-md object-contain"
              />
           </div>
           <div>
