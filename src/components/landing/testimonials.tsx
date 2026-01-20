@@ -90,7 +90,7 @@ export function Testimonials() {
                           alt={testimonial.alt} 
                           width={400} 
                           height={400}
-                          className="object-cover w-full h-auto"
+                          className="object-contain w-full h-auto"
                         />
                     </Card>
                   </div>
