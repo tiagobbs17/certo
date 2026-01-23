@@ -1,10 +1,5 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { CircleDot } from 'lucide-react';
 import Image from "next/image";
 
@@ -63,31 +58,24 @@ export function CourseContent() {
           </h2>
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl">
-          <Accordion type="single" collapsible className="w-full">
+        <div className="mx-auto mt-12 grid max-w-sm items-stretch gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-3">
             {modules.map((item, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border-border">
-                <AccordionTrigger className="text-left hover:no-underline">
-                  <div className="flex items-center gap-6">
-                     {item.image ? (
-                      <Image 
-                        src={item.image}
-                        alt={item.title}
-                        width={128}
-                        height={128}
-                        className="rounded-md flex-shrink-0 object-contain h-32 w-32"
-                      />
-                    ) : (
-                      <div className="h-32 w-32 bg-muted rounded-md flex-shrink-0" />
-                    )}
-                    <div className="flex-1">
-                      <h3 className="font-headline text-xl font-bold text-accent">{item.title}</h3>
-                      <p className="text-sm text-muted-foreground mt-2">{item.description}</p>
-                    </div>
-                  </div>
-                </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="pl-8 pr-4 space-y-2 mt-2">
+              <Card key={index} className="overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl flex flex-col">
+                <div className="p-6 text-center">
+                  <h3 className="font-headline text-xl font-bold text-accent">{item.title}</h3>
+                </div>
+                {item.image && (
+                  <Image 
+                    src={item.image}
+                    alt={item.title}
+                    width={500}
+                    height={300}
+                    className="w-full h-48 object-contain"
+                  />
+                )}
+                <CardContent className="p-6 flex flex-col flex-grow">
+                  <p className="text-sm text-muted-foreground flex-grow">{item.description}</p>
+                  <ul className="pl-4 space-y-2 mt-4 text-sm">
                     {item.lessons.map((lesson, lessonIndex) => (
                       <li key={lessonIndex} className="flex items-start gap-3">
                         <CircleDot className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
@@ -95,11 +83,11 @@ export function CourseContent() {
                       </li>
                     ))}
                   </ul>
-                </AccordionContent>
-              </AccordionItem>
+                </CardContent>
+              </Card>
             ))}
-          </Accordion>
         </div>
+        
         <div className="mt-12 flex justify-center">
           <Button size="lg" asChild className="font-bold animate-button-pulse">
             <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">¡Quiero empezar ahora!</a>
