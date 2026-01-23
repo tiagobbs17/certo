@@ -55,7 +55,7 @@ export function CourseContent() {
                     alt={item.title}
                     width={500}
                     height={300}
-                    className="w-full h-48 object-contain"
+                    className="w-full h-64 object-contain"
                   />
                 )}
               </Card>
