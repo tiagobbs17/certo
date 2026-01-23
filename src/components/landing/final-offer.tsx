@@ -27,7 +27,7 @@ export function FinalOffer() {
             <p className="text-sm text-gray-600">(Puedes pagar en tu moneda local)</p>
           </div>
           
-          <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy a BOLOS SIN LÍMITES, recibirás:</h3>
+          <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy a Pasteles Sin Límites, recibirás:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg">
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin azúcar</span></li>
@@ -57,7 +57,7 @@ export function FinalOffer() {
           </div>
           
           <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
-            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">QUIERO BOLOS SIN LÍMITES</a>
+            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">QUIERO Pasteles Sin Límites</a>
           </Button>
 
           <Image

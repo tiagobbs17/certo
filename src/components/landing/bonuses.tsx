@@ -64,7 +64,7 @@ export function Bonuses() {
               "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl flex flex-col",
               bonus.isSpecial && "border-2 border-accent"
             )}>
-              <CardHeader className="text-center p-6">
+              <CardHeader className="text-center p-6 pt-6">
                 <h3 className="font-headline text-xl font-bold text-accent">{bonus.title}</h3>
               </CardHeader>
               <Image 
@@ -72,7 +72,7 @@ export function Bonuses() {
                 alt={bonus.title}
                 width={500}
                 height={400}
-                className={cn("w-full h-auto object-contain")}
+                className={cn("w-full h-auto object-contain mt-2")}
               />
               <CardContent className="flex flex-col flex-grow p-6 pt-2">
                 <p className="text-muted-foreground flex-grow whitespace-pre-line">{bonus.description}</p>
@@ -91,7 +91,7 @@ export function Bonuses() {
             
             <div className="space-y-2">
                 <p className="font-bold text-lg">⏳ Oferta por tiempo limitado</p>
-                <p className="text-muted-foreground">Aprovecha esta oportunidad especial para aprender a preparar Bolos Sin Límites, más saludables, adaptables y llenos de sabor — sin complicaciones y sin miedo a equivocarte.</p>
+                <p className="text-muted-foreground">Aprovecha esta oportunidad especial para aprender a preparar Pasteles Sin Límites, más saludables, adaptables y llenos de sabor — sin complicaciones y sin miedo a equivocarte.</p>
             </div>
             
             <div className="space-y-2">
