@@ -15,7 +15,7 @@ export function Hero() {
               Pasteles Sin Límites
             </h1>
             <p className="max-w-[700px] mx-auto text-xl md:text-2xl font-bold">
-              Recetas de Pasteles para Comer sin Culpa, Todos los Días
+              Recetas de Pasteles para Comer <span className="text-destructive">sin Culpa</span>, Todos los Días
             </p>
             <p className="max-w-[700px] mx-auto text-base md:text-lg text-muted-foreground">
               Recetas saludables y deliciosas para todos los amantes del pastel — sin gluten
