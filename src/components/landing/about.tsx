@@ -8,7 +8,7 @@ export function About() {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
             ¿Qué es PASTELES SIN LÍMITES?
           </h2>
-          <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
+          <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed font-bold">
             Es un material exclusivo que te guía paso a paso en la preparación de recetas de pasteles adaptables, con instrucciones claras, combinaciones inteligentes y opciones con o sin ingredientes específicos, diseñado para que disfrutes pasteles saludables, deliciosos y sin restricciones, como nunca antes.
           </p>
         </div>
