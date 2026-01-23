@@ -5,7 +5,7 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Pasteles Sin Límites',
-  description: 'Conviértete en experta en Bolos Caseros',
+  description: 'Domina el arte de la pastelería y crea pasteles sin límites.',
 };
 
 export default function RootLayout({
