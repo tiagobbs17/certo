@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -50,7 +51,7 @@ export function Bonuses() {
                 alt={bonus.title}
                 width={500}
                 height={300}
-                className={cn("w-full h-48 object-contain")}
+                className={cn("w-full h-64 object-contain")}
               />
               <CardContent className="p-6 flex flex-col flex-grow">
                 <h3 className="font-headline text-xl font-bold mb-2 text-accent">{bonus.title}</h3>
