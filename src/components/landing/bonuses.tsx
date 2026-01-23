@@ -7,21 +7,21 @@ const bonuses = [
   {
     title: "Bolos especiales sin gluten, veganos y sin lactosa",
     description: "Aprende a preparar bolos sin lactosa, sin gluten y veganos para atender a un público más amplio y diferenciarte de la competencia.",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20ebook%20especiales.png",
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20b1.jpg",
     price: "17,00",
     isSpecial: true,
   },
   {
     title: "Precificación Fácil",
     description: "Domina cómo poner precio a tus bolos de forma rentable, calculando costos y márgenes de ganancia para transformar tu producción en un negocio lucrativo.",
-    image: "https://ik.imagekit.io/cbes7rupj/1768855841.png",
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20b2.jpg",
     price: "24,00",
     isSpecial: true,
   },
   {
     title: "📦 Embalajes que Venden",
     description: "Descubre cómo elegir y presentar tus bolos en embalajes profesionales para aumentar su valor percibido y potenciar tus ventas.",
-    image: "https://ik.imagekit.io/cbes7rupj/1768856318.png",
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20b3.jpg",
     price: "14,00",
     isSpecial: true,
   }
