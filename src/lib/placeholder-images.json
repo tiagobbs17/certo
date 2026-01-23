@@ -44,21 +44,21 @@
     },
     {
       "id": "feature-1",
-      "description": "Icon for 'Aprende todo desde cero' feature.",
-      "imageUrl": "https://ik.imagekit.io/cbes7rupj/donas%20capa%201.jpg",
-      "imageHint": "learning icon"
+      "description": "Ingredients for a cake on a wooden surface.",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/bolo%20ingredientes.jpg",
+      "imageHint": "cake ingredients"
     },
     {
       "id": "feature-2",
-      "description": "Icon for 'Mejora y evoluciona tus técnicas' feature.",
-      "imageUrl": "https://ik.imagekit.io/cbes7rupj/capa%202.jpg",
-      "imageHint": "improving techniques"
+      "description": "A person filling layered cakes with cream.",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/bolos%20sendo%20recehados.webp",
+      "imageHint": "cake filling"
     },
     {
       "id": "feature-3",
-      "description": "Icon for 'Conquista muchos más clientes' feature.",
-      "imageUrl": "https://ik.imagekit.io/cbes7rupj/capa%203.jpg",
-      "imageHint": "attracting customers"
+      "description": "A variety of decorated cakes on a table.",
+      "imageUrl": "https://ik.imagekit.io/cbes7rupj/bolos%20mesa.jpg",
+      "imageHint": "cakes table"
     }
   ]
 }
