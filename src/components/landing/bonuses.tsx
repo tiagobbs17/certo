@@ -5,29 +5,29 @@ import { cn } from '@/lib/utils';
 
 const bonuses = [
   {
-    title: "Donuts especiales sin gluten, veganos y sin lactosa",
-    description: "Aprende a preparar donuts sin lactosa, sin gluten y veganos para atender a un público más amplio y diferenciarte de la competencia.",
+    title: "Bolos especiales sin gluten, veganos y sin lactosa",
+    description: "Aprende a preparar bolos sin lactosa, sin gluten y veganos para atender a un público más amplio y diferenciarte de la competencia.",
     image: "https://ik.imagekit.io/cbes7rupj/capa%20ebook%20especiales.png",
     price: "17,00",
     isSpecial: true,
   },
   {
     title: "Precificación Fácil",
-    description: "Domina cómo poner precio a tus donuts de forma rentable, calculando costos y márgenes de ganancia para transformar tu producción en un negocio lucrativo.",
+    description: "Domina cómo poner precio a tus bolos de forma rentable, calculando costos y márgenes de ganancia para transformar tu producción en un negocio lucrativo.",
     image: "https://ik.imagekit.io/cbes7rupj/1768855841.png",
     price: "24,00",
     isSpecial: true,
   },
   {
     title: "📦 Embalajes que Venden",
-    description: "Descubre cómo elegir y presentar tus donuts en embalajes profesionales para aumentar su valor percibido y potenciar tus ventas.",
+    description: "Descubre cómo elegir y presentar tus bolos en embalajes profesionales para aumentar su valor percibido y potenciar tus ventas.",
     image: "https://ik.imagekit.io/cbes7rupj/1768856318.png",
     price: "14,00",
     isSpecial: true,
   },
   {
     title: "Textos Listos para Ventas Rápidas en Instagram y WhatsApp",
-    description: "Mensajes listos y probados para atraer clientes, responder dudas y cerrar ventas de mini donuts de forma simple y rápida, incluso sin experiencia en ventas. 🍩📲",
+    description: "Mensajes listos y probados para atraer clientes, responder dudas y cerrar ventas de bolos de forma simple y rápida, incluso sin experiencia en ventas. 🍰📲",
     image: "https://ik.imagekit.io/cbes7rupj/1768857556.png",
     price: "17,00",
     isSpecial: true,

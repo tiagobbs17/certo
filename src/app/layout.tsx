@@ -4,8 +4,8 @@ import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Mini Donuts Caseras',
-  description: 'Conviértete en experta en Mini Donuts Caseras',
+  title: 'Receitas de Bolo',
+  description: 'Conviértete en experta en Bolos Caseros',
 };
 
 export default function RootLayout({

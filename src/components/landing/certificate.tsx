@@ -14,7 +14,7 @@ export function Certificate() {
             Recibe tu Certificado Profesional
           </h2>
           <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-            Al completar el curso, recibirás un certificado con validez nacional, respaldado por la ABED (Asociación Brasileña de Educación a Distancia), que acredita tus nuevas habilidades como especialista en mini donuts.
+            Al completar el curso, recibirás un certificado con validez nacional, respaldado por la ABED (Asociación Brasileña de Educación a Distancia), que acredita tus nuevas habilidades como especialista en bolos.
           </p>
           <ul className="grid gap-2">
             <li className="flex items-center gap-2">
@@ -33,7 +33,7 @@ export function Certificate() {
               src={certificateImage.imageUrl}
               width="550"
               height="350"
-              alt="Certificado de Conclusión del Curso Mini Donuts Pro"
+              alt="Certificado de Conclusión del Curso Bolos Pro"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center shadow-xl"
               data-ai-hint={certificateImage.imageHint}
             />
