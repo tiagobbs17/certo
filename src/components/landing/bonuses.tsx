@@ -24,13 +24,6 @@ const bonuses = [
     image: "https://ik.imagekit.io/cbes7rupj/1768856318.png",
     price: "14,00",
     isSpecial: true,
-  },
-  {
-    title: "Textos Listos para Ventas Rápidas en Instagram y WhatsApp",
-    description: "Mensajes listos y probados para atraer clientes, responder dudas y cerrar ventas de bolos de forma simple y rápida, incluso sin experiencia en ventas. 🍰📲",
-    image: "https://ik.imagekit.io/cbes7rupj/1768857556.png",
-    price: "17,00",
-    isSpecial: true,
   }
 ];
 
@@ -40,10 +33,13 @@ export function Bonuses() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-            🎁 ¡Aprovecha estos regalos gratis!
+            BONOS EXCLUSIVOS POR TIEMPO LIMITADO!
           </h2>
+          <p className="max-w-[700px] text-muted-foreground md:text-lg">
+            Al adquirir PASTELES SIN LÍMITES hoy, recibirás TOTALMENTE GRATIS 3 bonos exclusivos que complementarán tu aprendizaje y te ayudarán a preparar pasteles más saludables, variados y llenos de sabor.
+          </p>
         </div>
-        <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-4">
+        <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-3">
           {bonuses.map((bonus, index) => (
             <Card key={index} className={cn(
               "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl flex flex-col",
