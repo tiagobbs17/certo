@@ -64,20 +64,20 @@ export function Bonuses() {
               "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl flex flex-col",
               bonus.isSpecial && "border-2 border-accent"
             )}>
-              <CardHeader className="text-center">
+              <CardHeader className="text-center p-6">
                 <h3 className="font-headline text-xl font-bold text-accent">{bonus.title}</h3>
               </CardHeader>
               <Image 
                 src={bonus.image}
                 alt={bonus.title}
                 width={400}
-                height={600}
+                height={400}
                 className={cn("w-full h-auto object-contain")}
               />
-              <CardContent className="flex flex-col flex-grow p-6 pt-2">
+              <CardContent className="flex flex-col flex-grow p-6 pt-4">
                 <p className="text-muted-foreground flex-grow whitespace-pre-line">{bonus.description}</p>
                 {bonus.isSpecial && (
-                    <div className="mt-4 flex items-baseline gap-3">
+                    <div className="mt-4 flex items-baseline justify-center gap-3">
                         <span className="text-destructive line-through text-lg">US$ {bonus.price}</span>
                         <span className="font-bold text-accent text-xl">Hoy gratis</span>
                     </div>
@@ -85,6 +85,18 @@ export function Bonuses() {
               </CardContent>
             </Card>
           ))}
+        </div>
+        <div className="mt-16 text-center max-w-3xl mx-auto space-y-6">
+            <p className="text-lg">🎉 Todo esto está valorado en más de <span className="font-bold">$49 USD</span> y hoy lo recibes <span className="font-bold text-primary">TOTALMENTE GRATIS.</span></p>
+            
+            <div className="space-y-2">
+                <p className="font-bold text-lg">⏳ Oferta por tiempo limitado</p>
+                <p className="text-muted-foreground">Aprovecha esta oportunidad especial para aprender a preparar Bolos Sin Límites, más saludables, adaptables y llenos de sabor — sin complicaciones y sin miedo a equivocarte.</p>
+            </div>
+            
+            <div className="space-y-2">
+                <p className="font-bold text-lg">✨ Ideal para quienes buscan practicidad en el día a día, más posibilidades en la cocina y recetas que realmente funcionan.</p>
+            </div>
         </div>
         <div className="mt-12 flex justify-center">
           <Button size="lg" asChild className="font-bold animate-button-pulse">
