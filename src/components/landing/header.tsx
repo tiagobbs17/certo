@@ -12,11 +12,11 @@ export function Header() {
   }, []);
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-20 bg-primary text-primary-foreground p-2 text-center font-bold h-10">
+    <header className="absolute top-0 left-0 right-0 z-20 bg-primary text-primary-foreground text-center font-bold h-10 flex items-center justify-center">
       <div className="container mx-auto">
         {currentDate && (
-          <p>
-            🍩 Oferta válida hoy: {currentDate} 🍩
+          <p className="text-sm">
+            Oferta válida hoy: {currentDate}
           </p>
         )}
       </div>
