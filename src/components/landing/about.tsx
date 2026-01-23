@@ -1,14 +1,5 @@
 import Image from 'next/image';
 
-const whoIsItFor = [
-  'Quieres preparar pasteles deliciosos sin preocuparte por restricciones alimentarias.',
-  'Buscas recetas adaptables, con opciones con o sin gluten, leche, huevos y azúcar.',
-  'Quieres comer dulces sin culpa, cuidando tu alimentación.',
-  'Necesitas ideas prácticas para el día a día, niños o diferentes ocasiones.',
-  'Te frustras al no encontrar recetas que realmente funcionen sin ciertos ingredientes.',
-];
-
-
 export function About() {
   return (
     <section className="w-full py-16 md:py-24 lg:py-32 bg-secondary/30">
