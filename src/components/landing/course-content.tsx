@@ -9,7 +9,7 @@ const modules = [
   },
   {
     title: "Módulo 2",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%202.png"
+    image: "https://ik.imagekit.io/cbes7rupj/1769147990.jpg"
   },
   {
     title: "Módulo 3",
