@@ -24,8 +24,8 @@ export default function Home() {
         <Features />
         <CourseContent />
         <WhoIsItFor />
-        <Benefits />
         <Bonuses />
+        <Benefits />
         <Testimonials />
         <Certificate />
         <Guarantee />
