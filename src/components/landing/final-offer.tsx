@@ -27,7 +27,7 @@ export function FinalOffer() {
             <p className="text-sm text-gray-600">(Puedes pagar en tu moneda local)</p>
           </div>
           
-          <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy a Pasteles Sin Límites, recibirás:</h3>
+          <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy a <span className="text-accent">Pasteles Sin Límites</span>, recibirás:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg">
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin azúcar</span></li>
