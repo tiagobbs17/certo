@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Lock, Smartphone, Mail } from 'lucide-react';
 
 export function FinalOffer() {
-  const heroImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2022%20de%20jan.%20de%202026,%2015_27_58.png";
+  const heroImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2023%20de%20jan.%20de%202026,%2018_07_28.png";
 
   return (
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-purple-50 text-gray-800 scroll-mt-20">
