@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Receitas de Bolo',
+  title: 'Pasteles Sin Límites',
   description: 'Conviértete en experta en Bolos Caseros',
 };
 
