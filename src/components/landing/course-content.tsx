@@ -44,7 +44,7 @@ export function CourseContent() {
             {modules.map((item, index) => (
               <div key={index} className="rounded-xl p-1 bg-gradient-to-br from-pink-500 to-purple-600 transition-all hover:shadow-lg hover:-translate-y-2">
                 <Card className="overflow-hidden bg-card rounded-lg flex flex-col h-full border-0">
-                  <div className="p-6 text-center">
+                  <div className="p-6 pb-2 text-center">
                     <h3 className="font-headline text-xl font-bold text-accent">{item.title}</h3>
                   </div>
                   {item.image && (
