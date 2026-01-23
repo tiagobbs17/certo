@@ -20,15 +20,26 @@ Ideal para quienes tienen una rutina ocupada`,
     isSpecial: true,
   },
   {
-    title: "Precificación Fácil",
-    description: "Domina cómo poner precio a tus bolos de forma rentable, calculando costos y márgenes de ganancia para transformar tu producción en un negocio lucrativo.",
+    title: "🎁 Pasteles para Niños con Restricciones",
+    description: `📘 Sin culpa, sin miedo, sin exclusión
+
+Qué incluye:
+• Pasteles sin colorantes ni conservantes
+• Sabores que a los niños les encantan
+• Ideas para la merienda escolar
+• Textura suave (incluso sin leche ni huevo)`,
     image: "https://ik.imagekit.io/cbes7rupj/capa%20b2.jpg",
     price: "24,00",
     isSpecial: true,
   },
   {
-    title: "📦 Embalajes que Venden",
-    description: "Descubre cómo elegir y presentar tus bolos en embalajes profesionales para aumentar su valor percibido y potenciar tus ventas.",
+    title: "🎁 BONO 3 — Muffins Sin Límites",
+    description: `Recetas de muffins adaptables, en porciones individuales,
+con preparación sencilla y opciones sin leche, sin gluten
+y con o sin huevos y azúcar.
+
+Una manera práctica de variar los pasteles del día a día
+sin renunciar al sabor.`,
     image: "https://ik.imagekit.io/cbes7rupj/capa%20b3.jpg",
     price: "14,00",
     isSpecial: true,
@@ -61,7 +72,7 @@ export function Bonuses() {
                 alt={bonus.title}
                 width={500}
                 height={300}
-                className={cn("w-full h-64 object-contain")}
+                className={cn("w-full h-96 object-contain")}
               />
               <CardContent className="flex flex-col flex-grow p-6">
                 <p className="text-muted-foreground flex-grow whitespace-pre-line">{bonus.description}</p>
