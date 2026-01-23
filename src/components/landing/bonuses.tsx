@@ -70,11 +70,11 @@ export function Bonuses() {
               <Image 
                 src={bonus.image}
                 alt={bonus.title}
-                width={400}
+                width={500}
                 height={400}
                 className={cn("w-full h-auto object-contain")}
               />
-              <CardContent className="flex flex-col flex-grow p-6 pt-4">
+              <CardContent className="flex flex-col flex-grow p-6 pt-2">
                 <p className="text-muted-foreground flex-grow whitespace-pre-line">{bonus.description}</p>
                 {bonus.isSpecial && (
                     <div className="mt-4 flex items-baseline justify-center gap-3">
@@ -87,7 +87,7 @@ export function Bonuses() {
           ))}
         </div>
         <div className="mt-16 text-center max-w-3xl mx-auto space-y-6">
-            <p className="text-lg font-bold">🎉 Todo esto está valorado en más de $49 USD y hoy lo recibes <span className="text-primary">TOTALMENTE GRATIS.</span></p>
+            <p className="text-lg"><span className="font-bold">Todo esto está valorado en más de</span> <span className="line-through text-destructive">$49</span> USD y hoy lo recibes <span className="text-primary">TOTALMENTE GRATIS.</span></p>
             
             <div className="space-y-2">
                 <p className="font-bold text-lg">⏳ Oferta por tiempo limitado</p>
@@ -100,7 +100,7 @@ export function Bonuses() {
         </div>
         <div className="mt-12 flex justify-center">
           <Button size="lg" asChild className="font-bold animate-button-pulse">
-            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">¡Quiero empezar ahora!</a>
+            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">Todas las recetas por 6,90 USD</a>
           </Button>
         </div>
       </div>
