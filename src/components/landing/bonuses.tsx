@@ -87,7 +87,7 @@ export function Bonuses() {
           ))}
         </div>
         <div className="mt-16 text-center max-w-3xl mx-auto space-y-6">
-            <p className="text-lg">🎉 Todo esto está valorado en más de <span className="font-bold">$49 USD</span> y hoy lo recibes <span className="font-bold text-primary">TOTALMENTE GRATIS.</span></p>
+            <p className="text-lg font-bold">🎉 Todo esto está valorado en más de $49 USD y hoy lo recibes <span className="text-primary">TOTALMENTE GRATIS.</span></p>
             
             <div className="space-y-2">
                 <p className="font-bold text-lg">⏳ Oferta por tiempo limitado</p>
