@@ -13,7 +13,7 @@ export function Footer() {
           </Link>
         </div>
         <p className="text-xs mb-4">
-          © {new Date().getFullYear()} Mini donuts caseros. Todos los derechos reservados.
+          © {new Date().getFullYear()} Pasteles Sin Límites. Todos los derechos reservados.
         </p>
         <p className="text-xs max-w-2xl">
           Este sitio no está afiliado a Facebook ni a ninguna entidad de Facebook. Una vez que sales de Facebook, la responsabilidad no es de ellos sino de nuestro sitio. Hacemos todo lo posible para indicar y mostrar claramente todas las pruebas del producto y utilizamos resultados reales.

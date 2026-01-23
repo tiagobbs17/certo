@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Check, Gift, Lock, Smartphone, Mail } from 'lucide-react';
+import { Lock, Smartphone, Mail } from 'lucide-react';
 
 export function FinalOffer() {
   const heroImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2022%20de%20jan.%20de%202026,%2015_27_58.png";
@@ -30,19 +30,19 @@ export function FinalOffer() {
           <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy a BOLOS SIN LÍMITES, recibirás:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg">
-            <li className="flex items-center gap-3"><Check className="h-7 w-7 text-green-500 flex-shrink-0" /> <span>Pasteles con o sin azúcar</span></li>
-            <li className="flex items-center gap-3"><Check className="h-7 w-7 text-green-500 flex-shrink-0" /> <span>Pasteles con o sin huevos</span></li>
-            <li className="flex items-center gap-3"><Check className="h-7 w-7 text-green-500 flex-shrink-0" /> <span>Pasteles sin leche</span></li>
-            <li className="flex items-center gap-3"><Check className="h-7 w-7 text-green-500 flex-shrink-0" /> <span>Pasteles sin gluten</span></li>
-            <li className="flex items-center gap-3"><Check className="h-7 w-7 text-green-500 flex-shrink-0" /> <span>Pasteles para el día a día</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin azúcar</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin huevos</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles sin leche</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles sin gluten</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles para el día a día</span></li>
           </ul>
 
           <div className="bg-purple-100 p-6 rounded-lg">
             <h4 className="text-xl font-headline font-bold mb-4 text-yellow-600">BONOS</h4>
              <ul className="space-y-2 text-left text-gray-700">
-                <li className="flex items-center gap-3"><Gift className="h-5 w-5 text-yellow-500 flex-shrink-0" /> <span>BONO 1: Pasteles para Congelar y Consumir en la Semana</span></li>
-                <li className="flex items-center gap-3"><Gift className="h-5 w-5 text-yellow-500 flex-shrink-0" /> <span>BONO 2: Pasteles para Niños con Restricciones</span></li>
-                <li className="flex items-center gap-3"><Gift className="h-5 w-5 text-yellow-500 flex-shrink-0" /> <span>BONO 3: Muffins Sin Límites</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 1: Pasteles para Congelar y Consumir en la Semana</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 2: Pasteles para Niños con Restricciones</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 3: Muffins Sin Límites</span></li>
             </ul>
           </div>
           
