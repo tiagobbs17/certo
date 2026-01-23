@@ -12,6 +12,7 @@ import { Faq } from '@/components/landing/faq';
 import { Footer } from '@/components/landing/footer';
 import { NotificationPopup } from '@/components/landing/notification-popup';
 import { Bonuses } from '@/components/landing/bonuses';
+import { WhoIsItFor } from '@/components/landing/who-is-it-for';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <Features />
         <CourseContent />
+        <WhoIsItFor />
         <Benefits />
         <Bonuses />
         <Testimonials />
