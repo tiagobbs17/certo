@@ -1,6 +1,6 @@
 
 import Image from 'next/image';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
@@ -53,6 +53,9 @@ export function Bonuses() {
               "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl flex flex-col",
               bonus.isSpecial && "border-2 border-accent"
             )}>
+              <CardHeader className="text-center">
+                <h3 className="font-headline text-xl font-bold text-accent">{bonus.title}</h3>
+              </CardHeader>
               <Image 
                 src={bonus.image}
                 alt={bonus.title}
@@ -60,8 +63,7 @@ export function Bonuses() {
                 height={300}
                 className={cn("w-full h-64 object-contain")}
               />
-              <CardContent className="p-6 flex flex-col flex-grow">
-                <h3 className="font-headline text-xl font-bold mb-2 text-accent">{bonus.title}</h3>
+              <CardContent className="flex flex-col flex-grow p-6">
                 <p className="text-muted-foreground flex-grow whitespace-pre-line">{bonus.description}</p>
                 {bonus.isSpecial && (
                     <div className="mt-4 flex items-baseline gap-3">
