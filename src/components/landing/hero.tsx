@@ -17,6 +17,9 @@ export function Hero() {
             <p className="max-w-[700px] mx-auto text-lg md:text-xl">
               Recetas de Pasteles para Comer sin Culpa, Todos los Días
             </p>
+            <p className="max-w-[700px] mx-auto text-base md:text-lg text-muted-foreground">
+              Recetas saludables y deliciosas para todos los amantes del pastel — sin gluten
+            </p>
           </div>
           
           <div className="w-full max-w-2xl overflow-hidden rounded-lg">
