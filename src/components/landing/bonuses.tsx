@@ -74,7 +74,7 @@ export function Bonuses() {
                 height={300}
                 className={cn("w-full h-96 object-contain")}
               />
-              <CardContent className="flex flex-col flex-grow p-6">
+              <CardContent className="flex flex-col flex-grow p-6 pt-4">
                 <p className="text-muted-foreground flex-grow whitespace-pre-line">{bonus.description}</p>
                 {bonus.isSpecial && (
                     <div className="mt-4 flex items-baseline gap-3">
