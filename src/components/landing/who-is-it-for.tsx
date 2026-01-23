@@ -20,7 +20,7 @@ export function WhoIsItFor() {
             {items.map((item, index) => (
               <li key={index} className="flex items-start gap-4">
                 <Check className="h-6 w-6 text-green-500 flex-shrink-0 mt-1" />
-                <span className="text-muted-foreground md:text-xl/relaxed">
+                <span className="text-muted-foreground md:text-xl/relaxed font-bold">
                   {item}
                 </span>
               </li>
