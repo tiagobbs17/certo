@@ -14,31 +14,31 @@ const modules = [
     title: "🔹 Módulo 1 – Organización y Primeros Pasos",
     description: "Aprende a organizar tu espacio de trabajo, conocer los materiales correctos y aplicar los cuidados esenciales para iniciar la producción de bolos de forma segura y profesional.",
     lessons: ["Bienvenida e introducción al curso", "Materiales y utensilios necesarios para bolos", "Higiene y organización del área de trabajo", "Preparación inicial de las masas para bolos", "Videos prácticos: elaboración de bolos paso a paso"],
-    image: "https://ik.imagekit.io/cbes7rupj/m1.png"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20m1.png"
   },
   {
     title: "🔹 Módulo 2 – Masas y Preparación Básica",
     description: "Aprende a preparar la masa perfecta para bolos, entendiendo cada etapa del proceso para lograr textura, sabor y estructura ideales.",
     lessons: ["Preparación de la masa base para bolos", "Punto correcto de amasado", "Fermentación y tiempos ideales", "Técnicas de horneado", "Control de temperatura para bolos perfectos"],
-    image: "https://ik.imagekit.io/cbes7rupj/modulo%202%20capa.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%202.png"
   },
   {
     title: "🔹 Módulo 3 – Bolos Clásicos",
     description: "Domina el proceso completo de los bolos tradicionales, desde la masa hasta la decoración final.",
     lessons: ["Preparación de la masa tradicional", "Formado correcto de los bolos", "Horneado paso a paso", "Bolos con azúcar glas", "Bolos con chispas", "Bolos con glaseado clásico", "Técnicas de acabado profesional"],
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20modulo%203.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20m3.jpg"
   },
   {
     title: "🔹 Módulo 4 – Bolos Rellenos y Especiales",
     description: "Aprende a preparar rellenos cremosos y masas especiales para crear bolos diferenciados y muy deseados.",
     lessons: ["Preparación de rellenos cremosos", "Relleno de queso crema", "Bolo Red Velvet", "Masa de brownie para bolos", "Bolo brownie", "Bolo Romeo y Julieta (queso y guayaba)", "Técnicas correctas de relleno sin romper el bolo"],
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20modulo%206.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20m4.jpg"
   },
   {
     title: "🔹 Módulo 5 – Bolos Gourmet Premium",
     description: "Aprende a crear bolos de alto valor, con rellenos y coberturas premium que aumentan tu ticket medio y tus ganancias.",
     lessons: ["Preparación de relleno de leche en polvo", "Bolo gourmet de Nutella y leche en polvo", "Bolo gourmet de helado con cobertura de chocolate", "Preparación de brigadeiro gourmet", "Bolo gourmet relleno de brigadeiro", "Presentación y acabado premium"],
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20bonus%201.jpg"
+    image: "https://ik.imagekit.io/cbes7rupj/capa%20m5.jpg"
   },
   {
     title: "🔹 Módulo 6 – Bolos de Chocolate",
@@ -62,13 +62,6 @@ export function CourseContent() {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Lo que vas a aprender
           </h2>
-          <Image
-            src="https://ik.imagekit.io/cbes7rupj/Round%20Family%20Photo%20Frame%20in%20Beige%20and%20Green%20Delicate%20Watercolor%20Leaves%20Style.png"
-            alt="Bolos"
-            width={700}
-            height={200}
-            className="mx-auto mt-6"
-          />
         </div>
 
         <div className="mx-auto mt-12 max-w-3xl">
