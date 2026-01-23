@@ -14,7 +14,7 @@ export function Hero() {
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-accent">
               Pasteles Sin Límites
             </h1>
-            <p className="max-w-[700px] mx-auto text-lg md:text-xl">
+            <p className="max-w-[700px] mx-auto text-xl md:text-2xl font-bold">
               Recetas de Pasteles para Comer sin Culpa, Todos los Días
             </p>
             <p className="max-w-[700px] mx-auto text-base md:text-lg text-muted-foreground">
