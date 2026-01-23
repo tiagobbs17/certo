@@ -1,7 +1,6 @@
 
 import { Hero } from '@/components/landing/hero';
 import { About } from '@/components/landing/about';
-import { Benefits } from '@/components/landing/benefits';
 import { Features } from '@/components/landing/features';
 import { CourseContent } from '@/components/landing/course-content';
 import { Testimonials } from '@/components/landing/testimonials';
@@ -25,7 +24,6 @@ export default function Home() {
         <CourseContent />
         <WhoIsItFor />
         <Bonuses />
-        <Benefits />
         <Testimonials />
         <Certificate />
         <Guarantee />
