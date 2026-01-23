@@ -6,8 +6,15 @@ import { cn } from '@/lib/utils';
 
 const bonuses = [
   {
-    title: "Bolos especiales sin gluten, veganos y sin lactosa",
-    description: "Aprende a preparar bolos sin lactosa, sin gluten y veganos para atender a un público más amplio y diferenciarte de la competencia.",
+    title: "🎁 BONO 1 — Pasteles para Congelar y Consumir en la Semana",
+    description: `📘 Organización sin perder sabor
+
+Qué incluye:
+• Qué pasteles se congelan mejor
+• Cómo congelar correctamente
+• Cómo descongelar sin que se resequen
+
+Ideal para quienes tienen una rutina ocupada`,
     image: "https://ik.imagekit.io/cbes7rupj/capa%20b1.jpg",
     price: "17,00",
     isSpecial: true,
@@ -55,7 +62,7 @@ export function Bonuses() {
               />
               <CardContent className="p-6 flex flex-col flex-grow">
                 <h3 className="font-headline text-xl font-bold mb-2 text-accent">{bonus.title}</h3>
-                <p className="text-muted-foreground flex-grow">{bonus.description}</p>
+                <p className="text-muted-foreground flex-grow whitespace-pre-line">{bonus.description}</p>
                 {bonus.isSpecial && (
                     <div className="mt-4 flex items-baseline gap-3">
                         <span className="text-destructive line-through text-lg">US$ {bonus.price}</span>
