@@ -21,8 +21,8 @@ export default function Home() {
         <Hero />
         <About />
         <Features />
-        <Benefits />
         <CourseContent />
+        <Benefits />
         <Bonuses />
         <Testimonials />
         <Certificate />
