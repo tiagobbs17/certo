@@ -7,7 +7,7 @@ export function Guarantee() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
             <Image
-              src="https://ik.imagekit.io/cbes7rupj/garantia.png"
+              src="https://ik.imagekit.io/cbes7rupj/garantia-YrDNbk5xkXtbRqee.avif"
               alt="Garantía de 7 días"
               width={350}
               height={350}
