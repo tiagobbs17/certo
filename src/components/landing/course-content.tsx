@@ -27,14 +27,6 @@ const modules = [
     title: "Módulo 5",
     image: "https://ik.imagekit.io/cbes7rupj/capa%20m5.jpg",
     description: "Aprende masas base versátiles y múltiples variaciones de sabor a partir de una sola receta."
-  },
-  {
-    title: "🔹 Módulo 6 – Bolos de Chocolate",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20modulo%205.jpg"
-  },
-  {
-    title: "🎓 Módulo 7 – Producción Manual Profesional",
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20modulo%207.jpg"
   }
 ];
 
