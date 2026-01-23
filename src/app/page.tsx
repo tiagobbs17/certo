@@ -4,7 +4,6 @@ import { About } from '@/components/landing/about';
 import { Features } from '@/components/landing/features';
 import { CourseContent } from '@/components/landing/course-content';
 import { Testimonials } from '@/components/landing/testimonials';
-import { Certificate } from '@/components/landing/certificate';
 import { Guarantee } from '@/components/landing/guarantee';
 import { FinalOffer } from '@/components/landing/final-offer';
 import { Faq } from '@/components/landing/faq';
@@ -25,9 +24,8 @@ export default function Home() {
         <WhoIsItFor />
         <Bonuses />
         <Testimonials />
-        <Certificate />
-        <Guarantee />
         <FinalOffer />
+        <Guarantee />
         <Faq />
       </main>
       <Footer />
