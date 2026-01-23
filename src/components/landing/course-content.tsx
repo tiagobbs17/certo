@@ -4,38 +4,37 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CircleDot } from 'lucide-react';
 import Image from "next/image";
 
 const modules = [
   {
-    title: "🔹 Módulo 1 – Organización y Primeros Pasos",
+    title: "Módulo 1",
     description: "Aprende a organizar tu espacio de trabajo, conocer los materiales correctos y aplicar los cuidados esenciales para iniciar la producción de bolos de forma segura y profesional.",
     lessons: ["Bienvenida e introducción al curso", "Materiales y utensilios necesarios para bolos", "Higiene y organización del área de trabajo", "Preparación inicial de las masas para bolos", "Videos prácticos: elaboración de bolos paso a paso"],
     image: "https://ik.imagekit.io/cbes7rupj/capa%20m1.png"
   },
   {
-    title: "🔹 Módulo 2 – Masas y Preparación Básica",
+    title: "Módulo 2",
     description: "Aprende a preparar la masa perfecta para bolos, entendiendo cada etapa del proceso para lograr textura, sabor y estructura ideales.",
     lessons: ["Preparación de la masa base para bolos", "Punto correcto de amasado", "Fermentación y tiempos ideales", "Técnicas de horneado", "Control de temperatura para bolos perfectos"],
     image: "https://ik.imagekit.io/cbes7rupj/capa%202.png"
   },
   {
-    title: "🔹 Módulo 3 – Bolos Clásicos",
+    title: "Módulo 3",
     description: "Domina el proceso completo de los bolos tradicionales, desde la masa hasta la decoración final.",
     lessons: ["Preparación de la masa tradicional", "Formado correcto de los bolos", "Horneado paso a paso", "Bolos con azúcar glas", "Bolos con chispas", "Bolos con glaseado clásico", "Técnicas de acabado profesional"],
     image: "https://ik.imagekit.io/cbes7rupj/capa%20m3.jpg"
   },
   {
-    title: "🔹 Módulo 4 – Bolos Rellenos y Especiales",
+    title: "Módulo 4",
     description: "Aprende a preparar rellenos cremosos y masas especiales para crear bolos diferenciados y muy deseados.",
     lessons: ["Preparación de rellenos cremosos", "Relleno de queso crema", "Bolo Red Velvet", "Masa de brownie para bolos", "Bolo brownie", "Bolo Romeo y Julieta (queso y guayaba)", "Técnicas correctas de relleno sin romper el bolo"],
     image: "https://ik.imagekit.io/cbes7rupj/capa%20m4.jpg"
   },
   {
-    title: "🔹 Módulo 5 – Bolos Gourmet Premium",
+    title: "Módulo 5",
     description: "Aprende a crear bolos de alto valor, con rellenos y coberturas premium que aumentan tu ticket medio y tus ganancias.",
     lessons: ["Preparación de relleno de leche en polvo", "Bolo gourmet de Nutella y leche en polvo", "Bolo gourmet de helado con cobertura de chocolate", "Preparación de brigadeiro gourmet", "Bolo gourmet relleno de brigadeiro", "Presentación y acabado premium"],
     image: "https://ik.imagekit.io/cbes7rupj/capa%20m5.jpg"
@@ -69,22 +68,21 @@ export function CourseContent() {
             {modules.map((item, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border-border">
                 <AccordionTrigger className="text-left hover:no-underline">
-                  <div className="flex items-start gap-4">
+                  <div className="flex items-center gap-6">
                      {item.image ? (
                       <Image 
                         src={item.image}
                         alt={item.title}
-                        width={64}
-                        height={64}
-                        className="rounded-full flex-shrink-0 mt-1 object-cover h-16 w-16"
+                        width={128}
+                        height={128}
+                        className="rounded-md flex-shrink-0 object-contain h-32 w-32"
                       />
                     ) : (
-                      <div className="h-16 w-16 bg-muted rounded-full flex-shrink-0 mt-1" />
+                      <div className="h-32 w-32 bg-muted rounded-md flex-shrink-0" />
                     )}
-                    <Badge variant="destructive" className="absolute top-4 left-4 bg-primary text-primary-foreground">{`Módulo ${index + 1}`}</Badge>
                     <div className="flex-1">
-                      <h3 className="font-headline text-lg font-bold text-accent">{item.title}</h3>
-                      <p className="text-sm text-muted-foreground mt-1">{item.description}</p>
+                      <h3 className="font-headline text-xl font-bold text-accent">{item.title}</h3>
+                      <p className="text-sm text-muted-foreground mt-2">{item.description}</p>
                     </div>
                   </div>
                 </AccordionTrigger>
