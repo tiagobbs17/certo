@@ -5,18 +5,18 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const features = [
   {
     icon: "feature-1",
-    title: "Aprende todo desde cero",
-    description: "Paso a paso, totalmente didáctico, no importa si no tienes conocimientos previos en la materia."
+    title: "Aprende desde cero",
+    description: "Paso a paso, de forma clara y práctica, incluso si nunca has preparado pasteles sin gluten o sin ciertos ingredientes."
   },
   {
     icon: "feature-2",
-    title: "Mejora y evoluciona tus técnicas",
-    description: "Para ti que ya trabajas en el área o que ya haces Bolos y quieres mejorar tus técnicas."
+    title: "Mejora y perfecciona tus recetas",
+    description: "Ideal para quienes ya hacen pasteles y desean adaptarlos para versiones más saludables, ligeras y accesibles para todos."
   },
   {
     icon: "feature-3",
-    title: "Conquista muchos más clientes",
-    description: "Conviértete en especialista en Bolos, destácate en tu ciudad y comienza en el campo de la forma correcta."
+    title: "Amplía tus posibilidades en la cocina",
+    description: "Aprende a preparar pasteles que se adaptan a diferentes necesidades y preferencias, ofreciendo opciones deliciosas para más personas, sin complicaciones."
   }
 ]
 
