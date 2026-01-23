@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Header } from './header';
@@ -14,7 +15,7 @@ export function Hero() {
               Pasteles Sin Límites
             </h1>
             <p className="max-w-[700px] mx-auto text-lg md:text-xl">
-              Aprende <span className="text-primary font-bold">en menos de 7 días</span> las recetas más deliciosas y rentables de pasteles caseros y comienza <span className="text-primary font-bold">tu propio negocio rentable desde casa</span>. ¡Perfecto para ganar dinero extra!
+              Recetas de Pasteles para Comer sin Culpa, Todos los Días
             </p>
           </div>
           
