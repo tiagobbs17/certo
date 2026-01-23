@@ -7,7 +7,7 @@ export function FinalOffer() {
   const heroImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2023%20de%20jan.%20de%202026,%2018_18_09.png";
 
   return (
-    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-background text-foreground scroll-mt-20">
+    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-card text-foreground scroll-mt-20">
       <div className="container px-4 md:px-6 flex flex-col items-center">
         <Image
           src={heroImage}
@@ -38,7 +38,7 @@ export function FinalOffer() {
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles para el día a día</span></li>
           </ul>
 
-          <div className="bg-card p-6 rounded-lg">
+          <div className="bg-background p-6 rounded-lg">
             <h4 className="text-xl font-headline font-bold mb-4 text-yellow-600">BONOS</h4>
              <ul className="space-y-2 text-left text-gray-700">
                 <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 1: Pasteles para Congelar y Consumir en la Semana</span></li>
