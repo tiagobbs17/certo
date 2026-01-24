@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function Guarantee() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32">
+    <section className="w-full py-16 md:py-24 lg:py-32 bg-green-50">
       <div className="container px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
