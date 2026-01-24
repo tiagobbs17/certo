@@ -74,7 +74,7 @@ export function FinalOffer() {
           </div>
           
           <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
-            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">QUIERO Pasteles Sin Límites</a>
+            <a href="https://pay.hotmart.com/X104054100N">QUIERO Pasteles Sin Límites</a>
           </Button>
 
           <Image

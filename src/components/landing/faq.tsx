@@ -52,7 +52,7 @@ export function Faq() {
         </div>
         <div className="mt-12 flex justify-center">
           <Button size="lg" asChild className="font-bold animate-button-pulse">
-            <a href="https://pay.hotmart.com/J103933545W?checkoutMode=10">Resolví mis dudas, ¡quiero comprar ahora!</a>
+            <a href="https://pay.hotmart.com/X104054100N">Resolví mis dudas, ¡quiero comprar ahora!</a>
           </Button>
         </div>
       </div>
