@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Lock, Smartphone, Mail } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export function FinalOffer() {
   const heroImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2023%20de%20jan.%20de%202026,%2018_18_09.png";
@@ -9,16 +10,25 @@ export function FinalOffer() {
   return (
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-card text-foreground scroll-mt-20">
       <div className="container px-4 md:px-6 flex flex-col items-center">
-        <Image
-          src={heroImage}
-          width={720}
-          height={405}
-          alt="Pasteles caseros"
-          className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-xl mb-12"
-          data-ai-hint="cakes baking"
-        />
-
         <div className="w-full max-w-md text-center space-y-8">
+          <Card className="bg-background overflow-hidden shadow-xl">
+            <CardHeader className="p-0">
+              <Image
+                src={heroImage}
+                width={720}
+                height={405}
+                alt="Pasteles Sin Límites"
+                className="w-full h-auto object-cover"
+                data-ai-hint="cakes baking"
+              />
+            </CardHeader>
+            <CardContent className="p-6">
+              <CardTitle className="font-headline text-3xl text-accent">
+                Pasteles Sin Límites
+              </CardTitle>
+            </CardContent>
+          </Card>
+
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-gray-900">
             PRECIO ESPECIAL DE LANZAMIENTO
           </h2>
@@ -28,7 +38,7 @@ export function FinalOffer() {
             <p className="text-sm text-gray-600">(Puedes pagar en tu moneda local)</p>
           </div>
           
-          <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy a <span className="text-accent">Pasteles Sin Límites</span>, recibirás:</h3>
+          <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy recibirás:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg">
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin azúcar</span></li>

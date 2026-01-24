@@ -5,7 +5,7 @@ import { X, Users } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const locations = [
-  'Carapicuíba', 'São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Salvador', 'Fortaleza', 'Curitiba', 'Manaus', 'Recife', 'Porto Alegre', 'Brasília', 'Goiânia', 'Belém', 'São Luís', 'Maceió', 'Campo Grande', 'Teresina', 'João Pessoa', 'Natal', 'Aracaju', 'Cuiabá', 'Lisboa', 'Porto', 'Madrid', 'Barcelona', 'Cidade do México'
+  'Madrid', 'Barcelona', 'Cidade do México', 'Buenos Aires', 'Bogotá', 'Lima', 'Santiago', 'Caracas', 'Montevideo', 'Quito'
 ];
 
 export function NotificationPopup() {
@@ -73,7 +73,7 @@ export function NotificationPopup() {
           </div>
           <div>
             <p className="text-sm text-muted-foreground">
-              <span className="font-bold text-foreground">{viewerCount} pessoas</span> de <span className="font-bold text-foreground">{currentLocation}</span> estão vendo essa página
+              <span className="font-bold text-foreground">{viewerCount} personas</span> de <span className="font-bold text-foreground">{currentLocation}</span> están viendo esa página
             </p>
             <p className="text-xs text-muted-foreground/80 mt-1">há poucos segundos</p>
           </div>
