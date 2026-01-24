@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent } from "@/components/ui/card";
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -21,7 +22,7 @@ const features = [
 ]
 
 export function Features() {
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/capa%20fundo%202.jpg";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/9941fba60bb36c7e159d66d32ff8f459.jpg";
   
   return (
     <section className="relative w-full py-16 md:py-24 lg:py-32">
