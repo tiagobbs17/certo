@@ -58,11 +58,22 @@ export function Testimonials() {
     })
   }, [api])
 
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/bolo%20chocolate.jpg";
+
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
+    <section className="relative w-full py-16 md:py-24 lg:py-32">
+       <div className="absolute inset-0 z-0">
+        <Image
+          src={backgroundImage}
+          alt="Background de bolo de chocolate"
+          fill
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+      </div>
+      <div className="container relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
             ¡Mira lo que dicen nuestras alumnas sobre el curso!
           </h2>
         </div>
@@ -80,7 +91,7 @@ export function Testimonials() {
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="pl-4 md:basis-1/2">
                   <div className="p-1">
-                    <Card className="bg-muted">
+                    <Card className="bg-muted/80 backdrop-blur-sm border-0">
                         <Image 
                           src={testimonial.src} 
                           alt={testimonial.alt} 
@@ -101,7 +112,7 @@ export function Testimonials() {
                 onClick={() => api?.scrollTo(index)}
                 className={cn(
                   'h-3 w-3 rounded-full',
-                  current === index ? 'bg-primary' : 'bg-muted'
+                  current === index ? 'bg-primary' : 'bg-white/50'
                 )}
                 aria-label={`Ir al slide ${index + 1}`}
               />
