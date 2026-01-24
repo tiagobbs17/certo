@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { X, Users } from 'lucide-react';
+import { X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 const locations = [
   'Madrid', 'Barcelona', 'Cidade do México', 'Buenos Aires', 'Bogotá', 'Lima', 'Santiago', 'Caracas', 'Montevideo', 'Quito'
@@ -11,7 +12,6 @@ const locations = [
 export function NotificationPopup() {
   const [isVisible, setIsVisible] = useState(false);
   const [currentLocation, setCurrentLocation] = useState('');
-  const [viewerCount, setViewerCount] = useState(0);
   const [show, setShow] = useState(true);
 
   useEffect(() => {
@@ -19,10 +19,8 @@ export function NotificationPopup() {
 
     const showNotification = () => {
       const randomLocation = locations[Math.floor(Math.random() * locations.length)];
-      const randomViewers = Math.floor(Math.random() * 51) + 20; // 20 a 70
       
       setCurrentLocation(randomLocation);
-      setViewerCount(randomViewers);
       setIsVisible(true);
 
       setTimeout(() => {
@@ -68,14 +66,20 @@ export function NotificationPopup() {
         </button>
         
         <div className="flex items-center gap-4">
-          <div className="flex-shrink-0 bg-primary/10 text-primary p-3 rounded-full">
-             <Users className="h-6 w-6" />
+          <div className="flex-shrink-0">
+             <Image 
+                src="https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2022%20de%20jan.%20de%202026,%2015_09_09.png?updatedAt=1769105482523"
+                alt="Sello de compra"
+                width={60}
+                height={60}
+                className="rounded-full"
+             />
           </div>
           <div>
             <p className="text-sm text-muted-foreground">
-              <span className="font-bold text-foreground">{viewerCount} personas</span> de <span className="font-bold text-foreground">{currentLocation}</span> están viendo esa página
+              Alguien de <span className="font-bold text-foreground">{currentLocation}</span> acaba de comprar.
             </p>
-            <p className="text-xs text-muted-foreground/80 mt-1">há poucos segundos</p>
+            <p className="text-xs text-muted-foreground/80 mt-1">hace unos segundos</p>
           </div>
         </div>
       </div>
