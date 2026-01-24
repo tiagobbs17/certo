@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -5,12 +6,18 @@ import { X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 
+const names = [
+  "Sofía", "Valentina", "Isabella", "Camila", "Mariana", "Valeria", "Luciana", "Ximena", "Daniela", "Gabriela",
+  "Mateo", "Santiago", "Matías", "Sebastián", "Alejandro", "Diego", "Samuel", "Nicolás", "Benjamín", "Daniel"
+];
+
 const locations = [
-  'Madrid', 'Barcelona', 'Cidade do México', 'Buenos Aires', 'Bogotá', 'Lima', 'Santiago', 'Caracas', 'Montevideo', 'Quito'
+  'Madrid', 'Barcelona', 'Ciudad de México', 'Buenos Aires', 'Bogotá', 'Lima', 'Santiago', 'Caracas', 'Montevideo', 'Quito'
 ];
 
 export function NotificationPopup() {
   const [isVisible, setIsVisible] = useState(false);
+  const [currentName, setCurrentName] = useState('');
   const [currentLocation, setCurrentLocation] = useState('');
   const [show, setShow] = useState(true);
 
@@ -18,8 +25,10 @@ export function NotificationPopup() {
     if (!show) return;
 
     const showNotification = () => {
+      const randomName = names[Math.floor(Math.random() * names.length)];
       const randomLocation = locations[Math.floor(Math.random() * locations.length)];
       
+      setCurrentName(randomName);
       setCurrentLocation(randomLocation);
       setIsVisible(true);
 
@@ -77,7 +86,7 @@ export function NotificationPopup() {
           </div>
           <div>
             <p className="text-sm text-muted-foreground">
-              Alguien de <span className="font-bold text-foreground">{currentLocation}</span> acaba de comprar.
+              <span className="font-bold text-foreground">{currentName}</span> de <span className="font-bold text-foreground">{currentLocation}</span> acaba de comprar.
             </p>
             <p className="text-xs text-muted-foreground/80 mt-1">hace unos segundos</p>
           </div>
