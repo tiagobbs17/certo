@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Lock, Smartphone, Mail } from 'lucide-react';
@@ -6,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export function FinalOffer() {
   const heroImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2023%20de%20jan.%20de%202026,%2018_18_09.png";
+  const sealImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2022%20de%20jan.%20de%202026,%2015_09_09.png?updatedAt=1769105482523";
 
   return (
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-card text-foreground scroll-mt-20">
@@ -22,7 +22,13 @@ export function FinalOffer() {
                 data-ai-hint="cakes baking"
               />
             </CardHeader>
-            <CardContent className="p-6">
+            <CardContent className="p-6 flex items-center justify-center gap-4">
+               <Image
+                src={sealImage}
+                width={80}
+                height={80}
+                alt="Sello de calidad"
+              />
               <CardTitle className="font-headline text-3xl text-accent">
                 Pasteles Sin Límites
               </CardTitle>
