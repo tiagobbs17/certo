@@ -8,10 +8,10 @@ export function FinalOffer() {
   const sealImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2022%20de%20jan.%20de%202026,%2015_09_09.png?updatedAt=1769105482523";
 
   return (
-    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-card text-foreground scroll-mt-20">
+    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-[#5D4037] text-white scroll-mt-20">
       <div className="container px-4 md:px-6 flex flex-col items-center">
         <div className="w-full max-w-md text-center space-y-8">
-          <Card className="bg-background overflow-hidden shadow-xl">
+          <Card className="bg-card overflow-hidden shadow-xl text-foreground">
             <CardHeader className="p-0">
               <Image
                 src={heroImage}
@@ -35,16 +35,16 @@ export function FinalOffer() {
             </CardContent>
           </Card>
 
-          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-white">
             PRECIO ESPECIAL DE LANZAMIENTO
           </h2>
 
           <div className="space-y-1">
-            <p className="text-4xl font-bold text-green-600">¡Llévate TODO esto por solo $6,90 USD!</p>
-            <p className="text-sm text-gray-600">(Puedes pagar en tu moneda local)</p>
+            <p className="text-4xl font-bold text-green-400">¡Llévate TODO esto por solo $6,90 USD!</p>
+            <p className="text-sm text-gray-300">(Puedes pagar en tu moneda local)</p>
           </div>
           
-          <h3 className="text-2xl md:text-3xl font-headline font-bold text-gray-900">Al acceder hoy recibirás:</h3>
+          <h3 className="text-2xl md:text-3xl font-headline font-bold text-white">Al acceder hoy recibirás:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg">
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin azúcar</span></li>
@@ -52,10 +52,11 @@ export function FinalOffer() {
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles sin leche</span></li>
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles sin gluten</span></li>
             <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles para el día a día</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Nuevas recetas siempre actualizadas cada semana</span></li>
           </ul>
 
-          <div className="bg-background p-6 rounded-lg">
-            <h4 className="text-xl font-headline font-bold mb-4 text-yellow-600">BONOS</h4>
+          <div className="bg-card text-foreground p-6 rounded-lg">
+            <h4 className="text-xl font-headline font-bold mb-4 text-yellow-500">BONOS</h4>
              <ul className="space-y-2 text-left text-gray-700">
                 <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 1: Pasteles para Congelar y Consumir en la Semana</span></li>
                 <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 2: Pasteles para Niños con Restricciones</span></li>
@@ -69,12 +70,12 @@ export function FinalOffer() {
           </div>
 
           <div>
-            <p className="text-3xl font-bold text-yellow-600">Oferta limitada</p>
-            <p className="text-gray-600">últimos cupos disponibles</p>
+            <p className="text-3xl font-bold text-yellow-400">Oferta limitada</p>
+            <p className="text-gray-300">últimos cupos disponibles</p>
           </div>
           
           <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
-            <a href="https://pay.hotmart.com/X104054100N">QUIERO Pasteles Sin Límites</a>
+            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUIERO Pasteles Sin Límites</a>
           </Button>
 
           <Image
@@ -85,7 +86,7 @@ export function FinalOffer() {
             className="mx-auto pt-4"
           />
           
-          <div className="flex items-center justify-center gap-2 text-sm text-gray-700">
+          <div className="flex items-center justify-center gap-2 text-sm text-gray-200">
               <Mail className="h-5 w-5" />
               <span>Entrega inmediata al correo electrónico</span>
           </div>
