@@ -20,14 +20,9 @@ export function Features() {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
             Vantagens do produto digital
           </h2>
-          <div className="max-w-[700px] text-white/80 md:text-xl/relaxed space-y-4">
-            <p>
-              É um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, criado para estimular a criatividade e a diversão em família.
-            </p>
-            <p>
-              Os pais imprimem o material, e a criança recorta, cola e completa o álbum de forma lúdica. Perfeito para colecionar e criar memórias especiais.
-            </p>
-          </div>
+          <p className="max-w-[700px] text-white/80 md:text-xl/relaxed">
+            É um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, criado para estimular a criatividade e a diversão em família. Os pais imprimem o material, e a criança recorta, cola e completa o álbum de forma lúdica. Perfeito para colecionar e criar memórias especiais.
+          </p>
         </div>
       </div>
     </section>
