@@ -13,9 +13,9 @@ export function CourseContent() {
           <Image
             src="https://ik.imagekit.io/cbes7rupj/046e6a10-d49e-4cc1-8f48-ed85993a2b73.png"
             alt="Conteúdo do álbum de figurinhas"
-            width={1200}
-            height={800}
-            className="rounded-xl shadow-lg"
+            width={1400}
+            height={933}
+            className="w-full rounded-xl shadow-lg"
           />
         </div>
         
