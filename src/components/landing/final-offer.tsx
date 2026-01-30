@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Lock, Smartphone, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { Card, CardHeader } from '@/components/ui/card';
 
 export function FinalOffer() {
@@ -27,10 +27,6 @@ export function FinalOffer() {
             PREÇO ESPECIAL DE LANÇAMENTO
           </h2>
 
-          <div className="space-y-1">
-            <p className="text-4xl font-bold text-green-500">Leve TUDO isso por apenas R$27,90!</p>
-          </div>
-          
           <h3 className="text-2xl md:text-3xl font-headline font-bold text-accent">Ao acessar hoje você receberá:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg text-foreground font-bold">
@@ -51,12 +47,11 @@ export function FinalOffer() {
             </ul>
           </div>
           
-          <div>
-            <p className="text-3xl font-bold text-yellow-400">Oferta limitada</p>
-            <p className="text-muted-foreground">últimas vagas disponíveis</p>
+          <div className="space-y-1">
+            <p className="text-4xl font-bold text-green-500">Leve TUDO isso por apenas R$27,90!</p>
           </div>
           
-          <div className="w-full space-y-4">
+          <div className="w-full space-y-2">
             <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
               <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO Bolos Sem Limites</a>
             </Button>
@@ -69,7 +64,7 @@ export function FinalOffer() {
               className="mx-auto"
             />
 
-            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground pt-2">
                 <Mail className="h-5 w-5" />
                 <span>Entrega imediata no e-mail</span>
             </div>
