@@ -40,7 +40,7 @@ y con o sin huevos y azúcar.
 
 Una manera práctica de variar los pasteles del día a día
 sin renunciar al sabor.`,
-    image: "https://ik.imagekit.io/cbes7rupj/capa%20b3.jpg",
+    image: "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2003_34_30.png",
     price: "14,00",
     isSpecial: true,
   }
@@ -62,10 +62,10 @@ export function Bonuses() {
           {bonuses.map((bonus, index) => (
             <Card key={index} className={cn(
               "overflow-hidden transition-all hover:shadow-lg hover:-translate-y-2 bg-card rounded-xl flex flex-col",
-              bonus.isSpecial && "border-2 border-accent"
+              bonus.isSpecial && "border-2 border-primary"
             )}>
               <CardHeader className="text-center p-6 pt-6">
-                <h3 className="font-headline text-xl font-bold text-accent">{bonus.title}</h3>
+                <h3 className="font-headline text-xl font-bold text-primary">{bonus.title}</h3>
               </CardHeader>
               <Image 
                 src={bonus.image}
@@ -79,7 +79,7 @@ export function Bonuses() {
                 {bonus.isSpecial && (
                     <div className="mt-4 flex items-baseline justify-center gap-3">
                         <span className="text-destructive line-through text-lg">US$ {bonus.price}</span>
-                        <span className="font-bold text-accent text-xl">Hoy gratis</span>
+                        <span className="font-bold text-primary text-xl">Hoy gratis</span>
                     </div>
                 )}
               </CardContent>
