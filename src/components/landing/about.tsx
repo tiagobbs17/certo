@@ -2,19 +2,9 @@
 import Image from 'next/image';
 
 export function About() {
-  const image = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_07_28.png";
   const backgroundImageForText = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_36_21.png";
   return (
     <section>
-      <div className="w-full">
-        <Image
-            src={image}
-            alt="Crianças brincando com figurinhas"
-            width={1920}
-            height={700}
-            className="w-full h-auto max-h-[500px] object-cover"
-        />
-      </div>
       <div className="relative py-16 md:py-24">
         <div className="absolute inset-0 z-0">
             <Image
