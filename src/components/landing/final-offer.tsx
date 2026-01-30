@@ -61,11 +61,11 @@ export function FinalOffer() {
             <p className="text-muted-foreground">últimas vagas disponíveis</p>
           </div>
           
-          <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
-            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO Bolos Sem Limites</a>
-          </Button>
-
-          <div className="space-y-4 pt-4">
+          <div className="w-full space-y-4">
+            <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
+              <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO Bolos Sem Limites</a>
+            </Button>
+            
             <Image
               src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
               width={400}
@@ -73,11 +73,11 @@ export function FinalOffer() {
               alt="Formas de Pagamento"
               className="mx-auto"
             />
-          </div>
 
-          <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-              <Mail className="h-5 w-5" />
-              <span>Entrega imediata no e-mail</span>
+            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                <Mail className="h-5 w-5" />
+                <span>Entrega imediata no e-mail</span>
+            </div>
           </div>
         </div>
       </div>
