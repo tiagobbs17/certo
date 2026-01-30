@@ -8,10 +8,10 @@ export function About() {
         <div className="space-y-8">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-              ¿Qué es PASTELES SIN LÍMITES?
+              O que é o nosso álbum de figurinhas?
             </h2>
-            <p className="max-w-[600px] mx-auto text-muted-foreground md:text-xl/relaxed font-bold">
-              Es un material exclusivo que te guía paso a paso en la preparación de recetas de pasteles adaptables, con instrucciones claras, combinaciones inteligentes y opciones con o sin ingredientes específicos, diseñado para que disfrutes pasteles saludables, deliciosos y sin restricciones, como nunca antes.
+            <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl/relaxed font-bold">
+              É um material exclusivo que estimula a criatividade e a diversão em família. Um álbum de figurinhas da Copa do Mundo de 2026, com personagens ilustrados, criado para proporcionar momentos especiais longe das telas. Perfeito para colecionar e criar memórias.
             </p>
           </div>
         </div>
