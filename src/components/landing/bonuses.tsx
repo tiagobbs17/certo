@@ -12,9 +12,9 @@ export function Bonuses() {
           <Image
             src="https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2003_34_30.png"
             alt="Bônus"
-            width={1024}
-            height={1024}
-            className="rounded-xl shadow-lg max-w-5xl w-full"
+            width={1200}
+            height={1200}
+            className="rounded-xl shadow-lg w-full"
           />
         </div>
       </div>
