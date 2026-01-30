@@ -45,7 +45,7 @@ export function FinalOffer() {
           
           <h3 className="text-2xl md:text-3xl font-headline font-bold text-accent">Ao acessar hoje você receberá:</h3>
           
-          <ul className="space-y-3 text-left inline-block text-lg text-foreground">
+          <ul className="space-y-3 text-left inline-block text-lg text-foreground font-bold">
             <li className="flex items-center gap-3"><span>✅</span> <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span></li>
             <li className="flex items-center gap-3"><span>✅</span> <span>96 páginas de álbum</span></li>
             <li className="flex items-center gap-3"><span>✅</span> <span>Mais de 200 figurinhas ilustradas</span></li>
