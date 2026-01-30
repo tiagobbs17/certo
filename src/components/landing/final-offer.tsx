@@ -41,7 +41,6 @@ export function FinalOffer() {
 
           <div className="space-y-1">
             <p className="text-4xl font-bold text-green-500">Leve TUDO isso por apenas R$27,90!</p>
-            <p className="text-sm text-muted-foreground">(Você pode pagar na sua moeda local)</p>
           </div>
           
           <h3 className="text-2xl md:text-3xl font-headline font-bold text-accent">Ao acessar hoje você receberá:</h3>
