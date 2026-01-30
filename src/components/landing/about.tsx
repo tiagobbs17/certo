@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 export function About() {
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_36_21.png";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_07_28.png";
   
   return (
     <section>
