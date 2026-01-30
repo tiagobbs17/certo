@@ -6,7 +6,7 @@ export function About() {
   
   return (
     <section>
-      <div className="relative w-full h-64 md:h-80 lg:h-96">
+      <div className="relative w-full h-80 md:h-96 lg:h-[500px]">
         <Image
             src={backgroundImage}
             alt="Fundo com tema de futebol"
