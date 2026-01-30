@@ -21,7 +21,7 @@ export function About() {
                 O que é o nosso álbum de figurinhas?
               </h2>
               <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl/relaxed font-bold">
-                É um material exclusivo que estimula a criatividade e a diversão em família. Um álbum de figurinhas da Copa do Mundo de 2026, com personagens ilustrados, criado para proporcionar momentos especiais longe das telas. Perfeito para colecionar e criar memórias.
+                É um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, criado para estimular a criatividade e a diversão em família. Os pais imprimem o material, e a criança recorta, cola e completa o álbum de forma lúdica. Perfeito para colecionar e criar memórias especiais.
               </p>
             </div>
         </div>
