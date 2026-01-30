@@ -52,7 +52,7 @@ export function Bonuses() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-            BONOS EXCLUSIVOS POR TIEMPO LIMITADO!
+            Leve hoje + 3 super Bônus
           </h2>
           <p className="max-w-[700px] text-muted-foreground md:text-lg">
             Al adquirir PASTELES SIN LÍMITES hoy, recibirás TOTALMENTE GRATIS 3 bonos exclusivos que complementarán tu aprendizaje y te ayudarán a preparar pasteles más saludables, variados y llenos de sabor.
