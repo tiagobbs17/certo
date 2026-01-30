@@ -4,25 +4,10 @@ import { Mail } from 'lucide-react';
 import { Card, CardHeader } from '@/components/ui/card';
 
 export function FinalOffer() {
-  const heroImage = "https://ik.imagekit.io/cbes7rupj/862cc4bd-ed09-4863-81b6-0242c8361208.png";
-
   return (
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-primary/10 text-foreground scroll-mt-20">
       <div className="container px-4 md:px-6 flex flex-col items-center">
         <div className="w-full max-w-md text-center space-y-8">
-          <Card className="bg-card overflow-hidden shadow-xl text-foreground">
-            <CardHeader className="p-0">
-              <Image
-                src={heroImage}
-                width={720}
-                height={405}
-                alt="Bolos Sem Limites"
-                className="w-full h-auto object-cover"
-                data-ai-hint="cakes baking"
-              />
-            </CardHeader>
-          </Card>
-
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
             PREÇO ESPECIAL DE LANÇAMENTO
           </h2>
