@@ -4,7 +4,7 @@ import Image from 'next/image';
 export function About() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_07_28.png";
   return (
-    <section className="relative w-full py-16 md:py-24 lg:py-32">
+    <section className="relative w-full py-24 md:py-32 lg:py-48">
         <div className="absolute inset-0 z-0">
             <Image
                 src={backgroundImage}
