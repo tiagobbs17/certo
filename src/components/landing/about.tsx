@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 export function About() {
   const image = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_07_28.png";
+  const backgroundImageForText = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_36_21.png";
   return (
     <section>
       <div className="w-full">
@@ -14,13 +15,22 @@ export function About() {
             className="w-full h-auto max-h-[500px] object-cover"
         />
       </div>
-      <div className="bg-background py-16 md:py-24">
-        <div className="container px-4 md:px-6">
+      <div className="relative py-16 md:py-24">
+        <div className="absolute inset-0 z-0">
+            <Image
+                src={backgroundImageForText}
+                alt="Fundo com tema de futebol"
+                fill
+                className="object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60" />
+        </div>
+        <div className="relative z-10 container px-4 md:px-6">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
                 O que é o nosso álbum de figurinhas?
               </h2>
-              <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl/relaxed font-bold">
+              <p className="max-w-[700px] mx-auto text-white/90 md:text-xl/relaxed font-bold">
                 É um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, criado para estimular a criatividade e a diversão em família. Os pais imprimem o material, e a criança recorta, cola e completa o álbum de forma lúdica. Perfeito para colecionar e criar memórias especiais.
               </p>
             </div>
