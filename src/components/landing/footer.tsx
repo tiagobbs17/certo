@@ -6,17 +6,17 @@ export function Footer() {
       <div className="container px-4 md:px-6 flex flex-col items-center text-center">
         <div className="flex gap-4 mb-4">
           <Link href="#" className="text-xs hover:underline underline-offset-4">
-            Políticas de Privacidad
+            Políticas de Privacidade
           </Link>
           <Link href="#" className="text-xs hover:underline underline-offset-4">
-            Términos de Uso
+            Termos de Uso
           </Link>
         </div>
         <p className="text-xs mb-4">
-          © {new Date().getFullYear()} Pasteles Sin Límites. Todos los derechos reservados.
+          © {new Date().getFullYear()} Bolos Sem Limites. Todos os direitos reservados.
         </p>
         <p className="text-xs max-w-2xl">
-          Este sitio no está afiliado a Facebook ni a ninguna entidad de Facebook. Una vez que sales de Facebook, la responsabilidad no es de ellos sino de nuestro sitio. Hacemos todo lo posible para indicar y mostrar claramente todas las pruebas del producto y utilizamos resultados reales.
+          Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sai do Facebook, a responsabilidade não é deles, mas do nosso site. Fazemos todos os esforços para indicar e mostrar claramente todas as provas do produto e usamos resultados reais.
         </p>
       </div>
     </footer>

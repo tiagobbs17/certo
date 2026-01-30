@@ -16,18 +16,18 @@ export function Guarantee() {
           </div>
           <div className="space-y-4 text-center lg:text-left">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm font-semibold text-primary mb-2">
-              Garantía
+              Garantia
             </div>
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl text-accent">
-              Tu Satisfacción o te Devolvemos tu Dinero
+              Sua Satisfação ou Seu Dinheiro de Volta
             </h2>
             <p className="max-w-prose text-muted-foreground md:text-lg/relaxed mx-auto lg:mx-0">
-              Estamos tan seguros de la calidad de <strong>PASTELES SIN LÍMITES</strong> que te ofrecemos una garantía incondicional de 7 días.
+              Estamos tão seguros da qualidade de <strong>BOLOS SEM LIMITES</strong> que oferecemos uma garantia incondicional de 7 dias.
             </p>
             <p className="max-w-prose text-muted-foreground md:text-lg/relaxed mx-auto lg:mx-0">
-              Si, por la razón que sea, sientes que el material no es para ti, solo tienes que solicitar la devolución dentro de ese plazo y te reembolsaremos el 100% de tu inversión.
+              Se, por qualquer motivo, você sentir que o material não é para você, basta solicitar o reembolso dentro desse prazo e devolveremos 100% do seu investimento.
             </p>
-            <p className="font-bold text-lg">¡Riesgo Cero Para Ti!</p>
+            <p className="font-bold text-lg">Risco Zero para Você!</p>
           </div>
         </div>
       </div>

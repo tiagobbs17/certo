@@ -17,7 +17,7 @@ export function FinalOffer() {
                 src={heroImage}
                 width={720}
                 height={405}
-                alt="Pasteles Sin Límites"
+                alt="Bolos Sem Limites"
                 className="w-full h-auto object-cover"
                 data-ai-hint="cakes baking"
               />
@@ -27,55 +27,55 @@ export function FinalOffer() {
                 src={sealImage}
                 width={80}
                 height={80}
-                alt="Sello de calidad"
+                alt="Selo de qualidade"
               />
               <CardTitle className="font-headline text-3xl text-accent">
-                Pasteles Sin Límites
+                Bolos Sem Limites
               </CardTitle>
             </CardContent>
           </Card>
 
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-accent">
-            PRECIO ESPECIAL DE LANZAMIENTO
+            PREÇO ESPECIAL DE LANÇAMENTO
           </h2>
 
           <div className="space-y-1">
-            <p className="text-4xl font-bold text-green-500">¡Llévate TODO esto por solo $6,90 USD!</p>
-            <p className="text-sm text-muted-foreground">(Puedes pagar en tu moneda local)</p>
+            <p className="text-4xl font-bold text-green-500">Leve TUDO isso por apenas R$27,90!</p>
+            <p className="text-sm text-muted-foreground">(Você pode pagar na sua moeda local)</p>
           </div>
           
-          <h3 className="text-2xl md:text-3xl font-headline font-bold text-accent">Al acceder hoy recibirás:</h3>
+          <h3 className="text-2xl md:text-3xl font-headline font-bold text-accent">Ao acessar hoje você receberá:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg text-foreground">
-            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin azúcar</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles con o sin huevos</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles sin leche</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles sin gluten</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Pasteles para el día a día</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Nuevas recetas siempre actualizadas cada semana</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos com ou sem açúcar</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos com ou sem ovos</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos sem leite</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos sem glúten</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos para o dia a dia</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Novas receitas sempre atualizadas toda semana</span></li>
           </ul>
 
           <div className="bg-card text-foreground p-6 rounded-lg border">
-            <h4 className="text-xl font-headline font-bold mb-4 text-yellow-500">BONOS</h4>
+            <h4 className="text-xl font-headline font-bold mb-4 text-yellow-500">BÔNUS</h4>
              <ul className="space-y-2 text-left text-card-foreground/80">
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 1: Pasteles para Congelar y Consumir en la Semana</span></li>
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 2: Pasteles para Niños con Restricciones</span></li>
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BONO 3: Muffins Sin Límites</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 1: Bolos para Congelar e Consumir na Semana</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 2: Bolos para Crianças com Restrições</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 3: Muffins Sem Limites</span></li>
             </ul>
           </div>
           
           <div className="space-y-2">
-             <div className="flex items-center justify-center gap-2"><Lock className="h-5 w-5" /> <span>Acceso seguro y 100% digital</span></div>
-             <div className="flex items-center justify-center gap-2"><Smartphone className="h-5 w-5" /> <span>Compatible con cualquier dispositivo</span></div>
+             <div className="flex items-center justify-center gap-2"><Lock className="h-5 w-5" /> <span>Acesso seguro e 100% digital</span></div>
+             <div className="flex items-center justify-center gap-2"><Smartphone className="h-5 w-5" /> <span>Compatível com qualquer dispositivo</span></div>
           </div>
 
           <div>
             <p className="text-3xl font-bold text-yellow-400">Oferta limitada</p>
-            <p className="text-muted-foreground">últimos cupos disponibles</p>
+            <p className="text-muted-foreground">últimas vagas disponíveis</p>
           </div>
           
           <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
-            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUIERO Pasteles Sin Límites</a>
+            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO Bolos Sem Limites</a>
           </Button>
 
           <Image
@@ -88,7 +88,7 @@ export function FinalOffer() {
           
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
               <Mail className="h-5 w-5" />
-              <span>Entrega inmediata al correo electrónico</span>
+              <span>Entrega imediata no e-mail</span>
           </div>
         </div>
       </div>

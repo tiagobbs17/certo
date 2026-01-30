@@ -4,8 +4,8 @@ import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Pasteles Sin Límites',
-  description: 'Domina el arte de la pastelería y crea pasteles sin límites.',
+  title: 'Bolos Sem Limites',
+  description: 'Domine a arte da confeitaria e crie bolos sem limites.',
 };
 
 export default function RootLayout({
