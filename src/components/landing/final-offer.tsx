@@ -46,12 +46,12 @@ export function FinalOffer() {
           <h3 className="text-2xl md:text-3xl font-headline font-bold text-accent">Ao acessar hoje você receberá:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg text-foreground">
-            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos com ou sem açúcar</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos com ou sem ovos</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos sem leite</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos sem glúten</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Bolos para o dia a dia</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Novas receitas sempre atualizadas toda semana</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>96 páginas de álbum</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Mais de 200 figurinhas ilustradas</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Conteúdo organizado por temas da Copa</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Material educativo e criativo</span></li>
+            <li className="flex items-center gap-3"><span>✅</span> <span>Arquivo digital para imprimir quantas vezes quiser</span></li>
           </ul>
 
           <div className="bg-card text-foreground p-6 rounded-lg border">
