@@ -51,11 +51,6 @@ export function FinalOffer() {
             </ul>
           </div>
           
-          <div className="space-y-2">
-             <div className="flex items-center justify-center gap-2"><Lock className="h-5 w-5" /> <span>Acesso seguro e 100% digital</span></div>
-             <div className="flex items-center justify-center gap-2"><Smartphone className="h-5 w-5" /> <span>Compatível com qualquer dispositivo</span></div>
-          </div>
-
           <div>
             <p className="text-3xl font-bold text-yellow-400">Oferta limitada</p>
             <p className="text-muted-foreground">últimas vagas disponíveis</p>
