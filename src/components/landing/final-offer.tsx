@@ -23,11 +23,11 @@ export function FinalOffer() {
             </CardHeader>
           </Card>
 
-          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-accent">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
             PREÇO ESPECIAL DE LANÇAMENTO
           </h2>
 
-          <h3 className="text-2xl md:text-3xl font-headline font-bold text-accent">Ao acessar hoje você receberá:</h3>
+          <h3 className="text-2xl md:text-3xl font-headline font-bold text-yellow-500">Ao acessar hoje você receberá:</h3>
           
           <ul className="space-y-3 text-left inline-block text-lg text-foreground font-bold">
             <li className="flex items-center gap-3"><span>✅</span> <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span></li>
