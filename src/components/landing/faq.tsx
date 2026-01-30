@@ -58,7 +58,7 @@ export function Faq() {
           </Accordion>
         </div>
         <div className="mt-12 flex justify-center">
-          <Button size="lg" asChild className="font-bold animate-button-pulse">
+          <Button size="lg" asChild className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
             <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">Resolvi minhas dúvidas, quero comprar agora!</a>
           </Button>
         </div>
