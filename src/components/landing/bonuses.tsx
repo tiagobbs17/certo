@@ -14,7 +14,7 @@ export function Bonuses() {
             alt="Bônus"
             width={1024}
             height={1024}
-            className="rounded-xl shadow-lg max-w-3xl w-full"
+            className="rounded-xl shadow-lg max-w-5xl w-full"
           />
         </div>
       </div>
