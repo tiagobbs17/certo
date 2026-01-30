@@ -4,7 +4,7 @@ import { Lock, Smartphone, Mail } from 'lucide-react';
 import { Card, CardHeader } from '@/components/ui/card';
 
 export function FinalOffer() {
-  const heroImage = "https://ik.imagekit.io/cbes7rupj/1769758075.png";
+  const heroImage = "https://ik.imagekit.io/cbes7rupj/862cc4bd-ed09-4863-81b6-0242c8361208.png";
 
   return (
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-background text-foreground scroll-mt-20">
