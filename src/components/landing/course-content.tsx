@@ -36,7 +36,7 @@ export function CourseContent() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-            O que você vai aprender
+            Lo que vas a aprender
           </h2>
         </div>
 
