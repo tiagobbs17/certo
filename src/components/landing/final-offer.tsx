@@ -5,9 +5,9 @@ import { Card, CardHeader } from '@/components/ui/card';
 
 export function FinalOffer() {
   return (
-    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-primary/10 text-foreground scroll-mt-20">
+    <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-orange-100 text-foreground scroll-mt-20">
       <div className="container px-4 md:px-6 flex flex-col items-center">
-        <div className="w-full max-w-md text-center space-y-8">
+        <div className="w-full max-w-md text-center space-y-4">
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
             PREÇO ESPECIAL DE LANÇAMENTO
           </h2>
@@ -38,7 +38,7 @@ export function FinalOffer() {
           
           <div className="w-full space-y-2">
             <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
-              <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO Bolos Sem Limites</a>
+              <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO O MEU ÁLBUM</a>
             </Button>
             
             <Image
@@ -49,7 +49,7 @@ export function FinalOffer() {
               className="mx-auto"
             />
 
-            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground pt-2">
+            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-5 w-5" />
                 <span>Entrega imediata no e-mail</span>
             </div>

@@ -4,8 +4,8 @@ import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Bolos Sem Limites',
-  description: 'Domine a arte da confeitaria e crie bolos sem limites.',
+  title: 'Álbum de figurinhas da copa 2026',
+  description: 'O álbum de figurinhas da Copa do Mundo 2026 para crianças.',
 };
 
 export default function RootLayout({

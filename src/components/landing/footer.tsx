@@ -13,7 +13,7 @@ export function Footer() {
           </Link>
         </div>
         <p className="text-xs mb-4">
-          © {new Date().getFullYear()} Bolos Sem Limites. Todos os direitos reservados.
+          © {new Date().getFullYear()} Álbum de figurinhas da copa 2026. Todos os direitos reservados.
         </p>
         <p className="text-xs max-w-2xl">
           Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sai do Facebook, a responsabilidade não é deles, mas do nosso site. Fazemos todos os esforços para indicar e mostrar claramente todas as provas do produto e usamos resultados reais.

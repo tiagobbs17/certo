@@ -22,7 +22,7 @@ export function Guarantee() {
               Sua Satisfação ou Seu Dinheiro de Volta
             </h2>
             <p className="max-w-prose text-muted-foreground md:text-lg/relaxed mx-auto lg:mx-0">
-              Estamos tão seguros da qualidade de <strong>BOLOS SEM LIMITES</strong> que oferecemos uma garantia incondicional de 7 dias.
+              Estamos tão seguros da qualidade de <strong>Álbum de figurinhas da copa 2026</strong> que oferecemos uma garantia incondicional de 7 dias.
             </p>
             <p className="max-w-prose text-muted-foreground md:text-lg/relaxed mx-auto lg:mx-0">
               Se, por qualquer motivo, você sentir que o material não é para você, basta solicitar o reembolso dentro desse prazo e devolveremos 100% do seu investimento.
