@@ -67,13 +67,6 @@ export function FinalOffer() {
 
           <div className="space-y-4 pt-4">
             <Image
-              src="https://ik.imagekit.io/cbes7rupj/Compra-Segura-2.png?updatedAt=1763430085861"
-              width={400}
-              height={78}
-              alt="Compra Segura"
-              className="mx-auto"
-            />
-            <Image
               src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
               width={400}
               height={40}
