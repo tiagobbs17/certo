@@ -5,7 +5,7 @@ import { Header } from './header';
 import Image from 'next/image';
 
 export function Hero() {
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/bolo%20chocolate.jpg?updatedAt=1769228811861";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png";
   
   return (
     <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-12 md:pb-24 lg:pb-32 overflow-hidden">
@@ -45,7 +45,7 @@ export function Hero() {
           </div>
           <div className="lg:order-1 flex justify-center">
             <Image
-                src="https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2029%20de%20jan.%20de%202026,%2012_26_00.png"
+                src="https://ik.imagekit.io/cbes7rupj/imagem%20principal.png"
                 alt="Album de figurinhas"
                 width={550}
                 height={550}
