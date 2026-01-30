@@ -8,24 +8,24 @@ import { Button } from "@/components/ui/button"
 
 const faqs = [
   {
-    question: "¿Cuándo me envían los libros?",
-    answer: "El acceso a todo el material digital, incluyendo los libros y bonos, es inmediato después de la confirmación de tu pago. Recibirás un correo electrónico con todos los detalles para acceder a la plataforma del curso."
+    question: "Quando receberei o material?",
+    answer: "O acesso a todo o material digital, incluindo o álbum e os bônus, é imediato após a confirmação do seu pagamento. Você receberá um e-mail com todos os detalhes para acessar o conteúdo."
   },
   {
-    question: "¿Los ingredientes utilizados son fáciles de conseguir?",
-    answer: "Sí, todas nuestras recetas están diseñadas con ingredientes que puedes encontrar fácilmente en supermercados locales o tiendas especializadas. Además, ofrecemos sugerencias de sustituciones para ingredientes más específicos."
+    question: "Como vou receber o álbum?",
+    answer: "Você receberá o álbum em formato PDF no seu e-mail. Poderá imprimir em casa, em uma gráfica ou usar no seu dispositivo preferido, como tablet, celular ou computador."
   },
   {
-    question: "¿Necesito tener experiencia en la cocina?",
-    answer: "¡Absolutamente no! Nuestro curso está diseñado para todos los niveles, desde principiantes completos hasta personas que ya tienen experiencia y desean perfeccionar sus técnicas. Te guiaremos paso a paso."
+    question: "Por quanto tempo terei acesso?",
+    answer: "O acesso é vitalício. Você poderá baixar e imprimir o material quantas vezes quiser, para sempre."
   },
   {
-    question: "¿Cómo puedo leer el libro digital?",
-    answer: "Puedes acceder a los libros digitales (en formato PDF) desde cualquier dispositivo: tu computadora, tablet o smartphone. También puedes imprimirlos si prefieres tener una copia física."
+    question: "Posso pagar com PIX ou boleto?",
+    answer: "Sim! Aceitamos PIX, boleto bancário e cartão de crédito. Com PIX e cartão, o acesso é liberado na hora. Com boleto, pode levar até 2 dias úteis."
   },
   {
-    question: "¿Es seguro comprar online en este sitio web?",
-    answer: "Sí, 100% seguro. Utilizamos una plataforma de pago reconocida a nivel mundial que cuenta con encriptación de datos para proteger tu información personal y financiera. Tu compra es completamente segura."
+    question: "A compra é segura?",
+    answer: "Sim, 100% segura. Usamos a Hotmart, a maior plataforma de produtos digitais da América Latina, que protege todos os seus dados com criptografia de ponta."
   }
 ]
 
@@ -35,7 +35,7 @@ export function Faq() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Preguntas Frecuentes
+            Perguntas Frequentes
           </h2>
         </div>
         <div className="mx-auto mt-12 max-w-3xl">
@@ -52,7 +52,7 @@ export function Faq() {
         </div>
         <div className="mt-12 flex justify-center">
           <Button size="lg" asChild className="font-bold animate-button-pulse">
-            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">Resolví mis dudas, ¡quiero comprar ahora!</a>
+            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">Resolvi minhas dúvidas, quero comprar agora!</a>
           </Button>
         </div>
       </div>
