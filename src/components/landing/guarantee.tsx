@@ -18,7 +18,7 @@ export function Guarantee() {
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm font-semibold text-primary mb-2">
               Garantia
             </div>
-            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl text-accent">
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl text-green-600">
               Sua Satisfação ou Seu Dinheiro de Volta
             </h2>
             <p className="max-w-prose text-muted-foreground md:text-lg/relaxed mx-auto lg:mx-0">
