@@ -21,7 +21,7 @@ export function CourseContent() {
         
         <div className="mt-12 flex justify-center">
           <Button size="lg" asChild className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
-            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">quero meu álbum agora</a>
+            <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">Quero meu álbum agora</a>
           </Button>
         </div>
       </div>
