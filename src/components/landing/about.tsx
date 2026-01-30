@@ -2,14 +2,14 @@
 import Image from 'next/image';
 
 export function About() {
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_36_21.png";
+  const imageSrc = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_07_28.png";
   
   return (
     <section>
       <div className="relative w-full h-96 md:h-[500px] lg:h-[600px]">
         <Image
-            src={backgroundImage}
-            alt="Fundo com tema de futebol"
+            src={imageSrc}
+            alt="Album de figurinhas"
             fill
             className="object-cover"
         />
