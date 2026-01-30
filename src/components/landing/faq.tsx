@@ -8,24 +8,31 @@ import { Button } from "@/components/ui/button"
 
 const faqs = [
   {
-    question: "Quando receberei o material?",
-    answer: "O acesso a todo o material digital, incluindo o álbum e os bônus, é imediato após a confirmação do seu pagamento. Você receberá um e-mail com todos os detalhes para acessar o conteúdo."
+    question: "📦 Como vou receber o álbum e os bônus?",
+    answer: "Após a confirmação da compra, você recebe acesso imediato ao material digital.\nTodo o conteúdo é entregue em PDF, pronto para baixar e imprimir quantas vezes quiser."
   },
   {
-    question: "Como vou receber o álbum?",
-    answer: "Você receberá o álbum em formato PDF no seu e-mail. Poderá imprimir em casa, em uma gráfica ou usar no seu dispositivo preferido, como tablet, celular ou computador."
+    question: "🔐 Onde vou acessar o conteúdo?",
+    answer: "O acesso chega diretamente no seu e-mail, no mesmo endereço usado na compra.\nVocê receberá um link exclusivo para acessar o álbum e todos os bônus."
   },
   {
-    question: "Por quanto tempo terei acesso?",
-    answer: "O acesso é vitalício. Você poderá baixar e imprimir o material quantas vezes quiser, para sempre."
+    question: "⏱️ Em quanto tempo recebo o acesso?",
+    answer: "O acesso é liberado imediatamente após a aprovação do pagamento.\nSem espera, sem envio físico."
   },
   {
-    question: "Posso pagar com PIX ou boleto?",
-    answer: "Sim! Aceitamos PIX, boleto bancário e cartão de crédito. Com PIX e cartão, o acesso é liberado na hora. Com boleto, pode levar até 2 dias úteis."
+    question: "🖨️ Preciso de algum material especial?",
+    answer: `Não!
+Você só precisa de:
+
+- Uma impressora comum
+- Tesoura e cola
+- Lápis de cor ou canetinhas
+
+Tudo foi pensado para ser simples e acessível para toda a família.`
   },
   {
-    question: "A compra é segura?",
-    answer: "Sim, 100% segura. Usamos a Hotmart, a maior plataforma de produtos digitais da América Latina, que protege todos os seus dados com criptografia de ponta."
+    question: "👧🧒 Para qual idade o álbum é indicado?",
+    answer: "O álbum é recomendado para crianças de 4 a 10 anos.\nEle estimula a criatividade, a coordenação motora, a diversão em família e o amor pelo futebol."
   }
 ]
 
@@ -44,7 +51,7 @@ export function Faq() {
               <AccordionItem key={index} value={`item-${index}`}>
                 <AccordionTrigger className="text-left font-bold text-lg">{faq.question}</AccordionTrigger>
                 <AccordionContent>
-                  <p className="text-muted-foreground">{faq.answer}</p>
+                  <p className="text-muted-foreground whitespace-pre-wrap">{faq.answer}</p>
                 </AccordionContent>
               </AccordionItem>
             ))}
