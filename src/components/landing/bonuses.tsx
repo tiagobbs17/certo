@@ -48,13 +48,13 @@ sin renunciar al sabor.`,
 
 export function Bonuses() {
   return (
-    <section className="w-full pt-36 pb-16 md:pt-44 md:pb-24 lg:pt-52 lg:pb-32 bg-secondary/30">
+    <section className="w-full pt-36 pb-16 md:pt-44 md:pb-24 lg:pt-52 lg:pb-32 bg-accent">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent-foreground">
             Leve hoje + 3 super Bônus
           </h2>
-          <p className="max-w-[700px] text-muted-foreground md:text-lg">
+          <p className="max-w-[700px] text-accent-foreground/80 md:text-lg">
             Al adquirir PASTELES SIN LÍMITES hoy, recibirás TOTALMENTE GRATIS 3 bonos exclusivos que complementarán tu aprendizaje y te ayudarán a preparar pasteles más saludables, variados y llenos de sabor.
           </p>
         </div>
@@ -86,12 +86,12 @@ export function Bonuses() {
             </Card>
           ))}
         </div>
-        <div className="mt-16 text-center max-w-3xl mx-auto space-y-6">
-            <p className="text-lg"><span className="font-bold">Todo esto está valorado en más de</span> <span className="line-through text-destructive">$49</span> USD y hoy lo recibes <span className="text-primary">TOTALMENTE GRATIS.</span></p>
+        <div className="mt-16 text-center max-w-3xl mx-auto space-y-6 text-accent-foreground">
+            <p className="text-lg"><span className="font-bold">Todo esto está valorado en más de</span> <span className="line-through text-destructive">$49</span> USD y hoy lo recibes <span className="font-bold text-primary-foreground">TOTALMENTE GRATIS.</span></p>
             
             <div className="space-y-2">
                 <p className="font-bold text-lg">⏳ Oferta por tiempo limitado</p>
-                <p className="text-muted-foreground">Aprovecha esta oportunidad especial para aprender a preparar Pasteles Sin Límites, más saludables, adaptables y llenos de sabor — sin complicaciones y sin miedo a equivocarte.</p>
+                <p className="text-accent-foreground/80">Aprovecha esta oportunidad especial para aprender a preparar Pasteles Sin Límites, más saludables, adaptables y llenos de sabor — sin complicaciones y sin miedo a equivocarte.</p>
             </div>
             
             <div className="space-y-2">
