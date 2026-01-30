@@ -65,14 +65,23 @@ export function FinalOffer() {
             <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO Bolos Sem Limites</a>
           </Button>
 
-          <Image
-            src="https://ik.imagekit.io/cbes7rupj/Compra-Segura-2.png?updatedAt=1763430085861"
-            width={400}
-            height={78}
-            alt="Compra Segura"
-            className="mx-auto pt-4"
-          />
-          
+          <div className="space-y-4 pt-4">
+            <Image
+              src="https://ik.imagekit.io/cbes7rupj/Compra-Segura-2.png?updatedAt=1763430085861"
+              width={400}
+              height={78}
+              alt="Compra Segura"
+              className="mx-auto"
+            />
+            <Image
+              src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
+              width={400}
+              height={40}
+              alt="Formas de Pagamento"
+              className="mx-auto"
+            />
+          </div>
+
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
               <Mail className="h-5 w-5" />
               <span>Entrega imediata no e-mail</span>
