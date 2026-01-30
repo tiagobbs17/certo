@@ -41,7 +41,7 @@ export function CourseContent() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-            Vantagens do Álbum de Figurinhas Infantil da Copa 2026
+            Imprima em casa e garanta diversão e aprendizado para toda família
           </h2>
         </div>
 
