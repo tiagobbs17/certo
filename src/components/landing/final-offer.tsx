@@ -45,9 +45,9 @@ export function FinalOffer() {
           <div className="bg-card text-foreground p-6 rounded-lg border">
             <h4 className="text-xl font-headline font-bold mb-4 text-yellow-500">BÔNUS</h4>
              <ul className="space-y-2 text-left text-card-foreground/80">
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 1: Bolos para Congelar e Consumir na Semana</span></li>
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 2: Bolos para Crianças com Restrições</span></li>
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 3: Muffins Sem Limites</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 1: Cartas dos Jogadores para Colecionar</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 2: Certificado Infantil de Colecionador</span></li>
+                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 3: Imagens dos Jogadores para Colorir</span></li>
             </ul>
           </div>
           
