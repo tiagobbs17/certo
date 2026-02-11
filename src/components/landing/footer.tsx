@@ -1,16 +1,16 @@
-import Link from "next/link"
+
 
 export function Footer() {
   return (
     <footer className="w-full py-8 bg-muted text-muted-foreground">
       <div className="container px-4 md:px-6 flex flex-col items-center text-center">
         <div className="flex gap-4 mb-4">
-          <Link href="#" className="text-xs hover:underline underline-offset-4">
+          <span className="text-xs">
             Políticas de Privacidade
-          </Link>
-          <Link href="#" className="text-xs hover:underline underline-offset-4">
+          </span>
+          <span className="text-xs">
             Termos de Uso
-          </Link>
+          </span>
         </div>
         <p className="text-xs mb-4">
           © {new Date().getFullYear()} Álbum de figurinhas da copa 2026. Todos os direitos reservados.

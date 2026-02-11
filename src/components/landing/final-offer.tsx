@@ -37,8 +37,8 @@ export function FinalOffer() {
           </div>
           
           <div className="w-full space-y-2">
-            <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse" asChild>
-              <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">QUERO O MEU ÁLBUM</a>
+            <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
+              QUERO O MEU ÁLBUM
             </Button>
             
             <Image

@@ -38,10 +38,8 @@ export function Hero() {
                 priority
             />
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-              <Button asChild size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
-                <a href="https://pay.hotmart.com/X104054100N?checkoutMode=10">
-                  Quero meu álbum agora!
-                </a>
+              <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
+                Quero meu álbum agora!
               </Button>
             </div>
           </div>
