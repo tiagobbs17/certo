@@ -1,7 +1,5 @@
 
-import { Button } from "@/components/ui/button";
 import Image from 'next/image';
-import Link from "next/link";
 
 export function CourseContent() {
   return (
@@ -21,14 +19,6 @@ export function CourseContent() {
             className="w-full shadow-lg"
           />
         </div>
-      </div>
-      
-      <div className="container mt-12 flex justify-center px-4 md:px-6">
-        <Link href="https://pay.cakto.com.br/htdkho6_763494">
-          <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
-            Quero meu álbum agora
-          </Button>
-        </Link>
       </div>
     </section>
   );
