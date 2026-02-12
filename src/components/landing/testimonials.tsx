@@ -11,27 +11,25 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 import * as React from "react"
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
+import { Button } from '../ui/button';
 
 const testimonials = [
   { 
-    src: "https://ik.imagekit.io/cbes7rupj/p1.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.32.11.jpeg",
     alt: "Depoimento 1"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/p2.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.45.41.jpeg",
     alt: "Depoimento 2"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/p3.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.30.59.jpeg",
     alt: "Depoimento 3"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/p4.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.41.05.jpeg",
     alt: "Depoimento 4"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/p5.jpeg",
-    alt: "Depoimento 5"
   }
 ];
 
@@ -74,7 +72,7 @@ export function Testimonials() {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-            ¡Mira lo que dicen nuestras alumnas sobre el curso!
+            Crianças se divertindo longe das telas!
           </h2>
         </div>
         <div className="mx-auto max-w-5xl mt-12 px-10">
