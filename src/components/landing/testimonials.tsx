@@ -11,8 +11,6 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 import * as React from "react"
 import { cn } from '@/lib/utils';
-import Link from 'next/link';
-import { Button } from '../ui/button';
 
 const testimonials = [
   { 
