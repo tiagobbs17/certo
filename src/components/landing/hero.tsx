@@ -1,6 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Hero() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png";
@@ -38,9 +39,11 @@ export function Hero() {
                 priority
             />
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-              <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
-                Quero meu álbum agora!
-              </Button>
+                <Link href="https://pay.cakto.com.br/htdkho6_763494">
+                    <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
+                        Quero meu álbum agora!
+                    </Button>
+                </Link>
             </div>
           </div>
         </div>

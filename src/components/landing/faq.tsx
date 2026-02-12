@@ -5,6 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 const faqs = [
   {
@@ -58,9 +59,11 @@ export function Faq() {
           </Accordion>
         </div>
         <div className="mt-12 flex justify-center">
-          <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
-            Resolvi minhas dúvidas, quero comprar agora!
-          </Button>
+          <Link href="https://pay.cakto.com.br/htdkho6_763494">
+            <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
+              Resolvi minhas dúvidas, quero comprar agora!
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

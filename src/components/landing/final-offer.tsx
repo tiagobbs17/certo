@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Mail } from 'lucide-react';
 import { Card, CardHeader } from '@/components/ui/card';
+import Link from 'next/link';
 
 export function FinalOffer() {
   return (
@@ -37,9 +38,11 @@ export function FinalOffer() {
           </div>
           
           <div className="w-full space-y-2">
-            <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-              QUERO O MEU ÁLBUM
-            </Button>
+            <Link href="https://pay.cakto.com.br/htdkho6_763494">
+                <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
+                QUERO O MEU ÁLBUM
+                </Button>
+            </Link>
             
             <Image
               src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
