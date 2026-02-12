@@ -56,18 +56,18 @@ export function Testimonials() {
     })
   }, [api])
 
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/bolo%20chocolate.jpg";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png?updatedAt=1769738161037";
 
   return (
     <section className="relative w-full py-16 md:py-24 lg:py-32">
        <div className="absolute inset-0 z-0">
         <Image
           src={backgroundImage}
-          alt="Background de bolo de chocolate"
+          alt="Fundo com tema de futebol"
           fill
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
       <div className="container relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
