@@ -24,12 +24,9 @@ export function Hero() {
               <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-accent">
                 A Copa do Mundo Virou Diversão em Desenhos! Colecione o Álbum Kids Ilustrado
               </h1>
-              <p className="max-w-[700px] mx-auto lg:mx-0 text-xl md:text-2xl font-bold">
-                Um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, feito para estimular a criatividade e criar momentos especiais em família, longe das telas.
-              </p>
             </div>
           </div>
-          <div className="lg:order-1 flex flex-col items-center justify-center gap-6">
+          <div className="lg:order-1 flex flex-col items-center justify-center text-center gap-6">
             <Image
                 src="https://ik.imagekit.io/cbes7rupj/3d69cc81-84aa-434a-949e-99d342ffc796.png"
                 alt="Album de figurinhas"
@@ -38,6 +35,9 @@ export function Hero() {
                 className="w-full max-w-md h-auto"
                 priority
             />
+            <p className="max-w-[550px] mx-auto text-white text-xl md:text-2xl font-bold">
+              Um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, feito para estimular a criatividade e criar momentos especiais em família, longe das telas.
+            </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
                 <Link href="https://pay.cakto.com.br/htdkho6_763494">
                     <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
