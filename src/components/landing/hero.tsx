@@ -22,7 +22,7 @@ export function Hero() {
           <div className="lg:order-2 flex flex-col items-center text-center lg:items-start lg:text-left space-y-6">
             <div className="flex flex-col justify-center space-y-4 text-white">
               <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white">
-                A Copa do Mundo Virou <span className="text-green-500">Diversão</span> em Desenhos! Colecione o <span className="text-green-500">Álbum Kids Ilustrado</span>
+                A Copa do Mundo Virou Diversão em Desenhos! Colecione o <span className="text-green-500">Álbum Kids Ilustrado</span>
               </h1>
             </div>
           </div>
