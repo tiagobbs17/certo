@@ -31,7 +31,7 @@ export function Hero() {
           </div>
           <div className="lg:order-1 flex flex-col items-center justify-center gap-6">
             <Image
-                src="https://ik.imagekit.io/cbes7rupj/Design%20sem%20nome%20(5).png"
+                src="https://ik.imagekit.io/cbes7rupj/3d69cc81-84aa-434a-949e-99d342ffc796.png"
                 alt="Album de figurinhas"
                 width={550}
                 height={550}
