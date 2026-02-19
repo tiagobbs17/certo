@@ -8,7 +8,7 @@ export function Header() {
   useEffect(() => {
     const today = new Date();
     const options: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
-    setCurrentDate(today.toLocaleDateString('es-ES', options));
+    setCurrentDate(today.toLocaleDateString('pt-BR', options));
   }, []);
 
   return (
@@ -16,7 +16,7 @@ export function Header() {
       <div className="container mx-auto">
         {currentDate && (
           <p className="text-sm">
-            Oferta válida hoy: {currentDate}
+            Oferta válida somente hoje: {currentDate}
           </p>
         )}
       </div>
