@@ -12,7 +12,7 @@ export function Header() {
   }, []);
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-20 bg-primary text-primary-foreground text-center font-bold h-10 flex items-center justify-center">
+    <header className="absolute top-0 left-0 right-0 z-20 bg-green-500 text-white text-center font-bold h-10 flex items-center justify-center">
       <div className="container mx-auto">
         {currentDate && (
           <p className="text-sm">
