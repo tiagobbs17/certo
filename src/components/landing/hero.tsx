@@ -22,7 +22,7 @@ export function Hero() {
           <div className="lg:order-2 flex flex-col items-center text-center lg:items-start lg:text-left space-y-6">
             <div className="flex flex-col justify-center space-y-4 text-white">
               <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-accent">
-                Menos tela, mais diversão e imaginação!
+                A Copa do Mundo Virou Diversão em Desenhos! Colecione o Álbum Kids Ilustrado
               </h1>
               <p className="max-w-[700px] mx-auto lg:mx-0 text-xl md:text-2xl font-bold">
                 Um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, feito para estimular a criatividade e criar momentos especiais em família, longe das telas.
