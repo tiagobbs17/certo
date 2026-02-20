@@ -12,7 +12,7 @@ export function CourseContent() {
             </h2>
           </div>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/046e6a10-d49e-4cc1-8f48-ed85993a2b73.png"
+            src="https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2020%20de%20fev.%20de%202026,%2001_11_52.png"
             alt="Conteúdo do álbum de figurinhas"
             width={1400}
             height={933}
