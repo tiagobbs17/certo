@@ -140,7 +140,7 @@ export function FinalOffer() {
                 Sim, quero aproveitar!
               </Button>
             </Link>
-            <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
+            <Link href="https://pay.cakto.com.br/p7qdwuj_777006" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
                 Quero o básico mesmo
               </Button>

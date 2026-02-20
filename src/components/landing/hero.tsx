@@ -39,7 +39,7 @@ export function Hero() {
               Um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, feito para estimular a criatividade e criar momentos especiais em família, longe das telas.
             </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-                <Link href="https://pay.cakto.com.br/htdkho6_763494">
+                <Link href="#offer">
                     <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
                         Quero meu álbum agora!
                     </Button>
