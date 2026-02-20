@@ -55,7 +55,7 @@ export function FinalOffer() {
                 </ul>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
-                <Button onClick={() => setIsDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white">
+                <Button onClick={() => setIsDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
                   QUERO O MEU ÁLBUM
                 </Button>
               </CardFooter>
@@ -64,7 +64,7 @@ export function FinalOffer() {
             {/* Offer 2 */}
             <Card className="flex flex-col border-2 border-green-500 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-bold">
-                  MAIS VENDIDO
+                  🎉 MAIS VENDIDO
               </div>
               <CardHeader className="text-center">
                 <CardTitle className="font-headline text-2xl text-yellow-500">Pacote Completo</CardTitle>
@@ -72,6 +72,7 @@ export function FinalOffer() {
               <CardContent className="flex-grow space-y-4">
                   <div className="text-center">
                       <p className="text-4xl font-bold text-green-500">R$27,90</p>
+                      <p className="text-sm text-green-600 font-semibold mt-1">Junte-se a mais de 500 colecionadores!</p>
                   </div>
                   <ul className="space-y-3 text-left text-foreground/80 font-medium">
                       <li className="flex items-start gap-3">
@@ -140,7 +141,7 @@ export function FinalOffer() {
               </Button>
             </Link>
             <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
-              <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white">
+              <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
                 Quero o básico mesmo
               </Button>
             </Link>
