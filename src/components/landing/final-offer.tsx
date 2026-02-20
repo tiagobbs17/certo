@@ -28,7 +28,15 @@ export function FinalOffer() {
               <ul className="space-y-3 text-left text-foreground/80 font-medium">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span>Você receberá o álbum de figurinhas (versão digital para impressão).</span>
+                  <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span>
+                </li>
+                 <li className="flex items-start gap-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <span>96 páginas de álbum e mais de 200 figurinhas</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <span>Material educativo e criativo para imprimir.</span>
                 </li>
               </ul>
             </CardContent>
@@ -65,6 +73,10 @@ export function FinalOffer() {
                     <li className="flex items-start gap-3">
                       <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
                       <span>Material educativo e criativo para imprimir</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                      <span>Atualizações semanais com mais seleções e figurinhas para completar ainda mais o álbum.</span>
                     </li>
                 </ul>
               <div className="bg-card/50 text-foreground p-4 rounded-lg border">
