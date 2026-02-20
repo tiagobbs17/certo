@@ -1,49 +1,91 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Mail } from 'lucide-react';
-import { Card, CardHeader } from '@/components/ui/card';
+import { Mail, CheckCircle } from 'lucide-react';
+import { Card, CardHeader, CardContent, CardFooter, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
 
 export function FinalOffer() {
   return (
     <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-orange-100 text-foreground scroll-mt-20">
-      <div className="container px-4 md:px-6 flex flex-col items-center">
-        <div className="w-full max-w-md text-center space-y-4">
+      <div className="container px-4 md:px-6">
+        <div className="w-full max-w-4xl mx-auto text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
             PREÇO ESPECIAL DE LANÇAMENTO
           </h2>
+          <p className="text-xl text-foreground/80">Escolha a melhor oferta para você!</p>
+        </div>
 
-          <h3 className="text-2xl md:text-3xl font-headline font-bold text-yellow-500">Ao acessar hoje você receberá:</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {/* Offer 1 */}
+          <Card className="flex flex-col">
+            <CardHeader className="text-center">
+              <CardTitle className="font-headline text-2xl text-yellow-500">Pacote Básico</CardTitle>
+            </CardHeader>
+            <CardContent className="flex-grow space-y-4">
+              <div className="text-center">
+                <p className="text-4xl font-bold text-green-500">R$19,90</p>
+              </div>
+              <ul className="space-y-3 text-left text-foreground/80 font-medium">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <span>Você receberá o álbum de figurinhas (versão digital para impressão).</span>
+                </li>
+              </ul>
+            </CardContent>
+            <CardFooter className="flex-col gap-4 mt-auto">
+                <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
+                    <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white">
+                    QUERO O MEU ÁLBUM
+                    </Button>
+                </Link>
+            </CardFooter>
+          </Card>
           
-          <ul className="space-y-3 text-left inline-block text-lg text-foreground font-bold">
-            <li className="flex items-center gap-3"><span>✅</span> <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>96 páginas de álbum</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Mais de 200 figurinhas ilustradas</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Conteúdo organizado por temas da Copa</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Material educativo e criativo</span></li>
-            <li className="flex items-center gap-3"><span>✅</span> <span>Arquivo digital para imprimir quantas vezes quiser</span></li>
-          </ul>
-
-          <div className="bg-card text-foreground p-6 rounded-lg border">
-            <h4 className="text-xl font-headline font-bold mb-4 text-yellow-500">BÔNUS</h4>
-             <ul className="space-y-2 text-left text-card-foreground/80">
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 1: Cartas dos Jogadores para Colecionar</span></li>
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 2: Certificado Infantil de Colecionador</span></li>
-                <li className="flex items-center gap-3"><span>🎁</span> <span>BÔNUS 3: Imagens dos Jogadores para Colorir</span></li>
-            </ul>
-          </div>
-          
-          <div className="space-y-1">
-            <p className="text-4xl font-bold text-green-500">Leve TUDO isso por apenas R$27,90!</p>
-          </div>
-          
-          <div className="w-full space-y-2">
-            <Link href="https://pay.cakto.com.br/htdkho6_763494">
-                <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-                QUERO O MEU ÁLBUM
-                </Button>
-            </Link>
-            
+          {/* Offer 2 */}
+          <Card className="flex flex-col border-2 border-green-500 relative">
+             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-bold">
+                MAIS VENDIDO
+            </div>
+            <CardHeader className="text-center">
+              <CardTitle className="font-headline text-2xl text-yellow-500">Pacote Completo</CardTitle>
+            </CardHeader>
+            <CardContent className="flex-grow space-y-4">
+                <div className="text-center">
+                    <p className="text-4xl font-bold text-green-500">R$27,90</p>
+                </div>
+                 <ul className="space-y-3 text-left text-foreground/80 font-medium">
+                    <li className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                      <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span>
+                    </li>
+                     <li className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                      <span>96 páginas de álbum e mais de 200 figurinhas</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                      <span>Material educativo e criativo para imprimir</span>
+                    </li>
+                </ul>
+              <div className="bg-card/50 text-foreground p-4 rounded-lg border">
+                <h4 className="text-lg font-headline font-bold mb-2 text-yellow-500">BÔNUS EXCLUSIVOS</h4>
+                 <ul className="space-y-2 text-left text-card-foreground/80 text-sm font-medium">
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 1: Cartas dos Jogadores para Colecionar</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 2: Certificado Infantil de Colecionador</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 3: Imagens dos Jogadores para Colorir</span></li>
+                </ul>
+              </div>
+            </CardContent>
+            <CardFooter className="flex-col gap-4 mt-auto">
+                <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
+                    <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
+                    QUERO O PACOTE COMPLETO
+                    </Button>
+                </Link>
+            </CardFooter>
+          </Card>
+        </div>
+        <div className="w-full max-w-md mx-auto mt-8 text-center space-y-2">
             <Image
               src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
               width={400}
@@ -51,12 +93,10 @@ export function FinalOffer() {
               alt="Formas de Pagamento"
               className="mx-auto"
             />
-
             <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-5 w-5" />
                 <span>Entrega imediata no e-mail</span>
             </div>
-          </div>
         </div>
       </div>
     </section>
