@@ -72,7 +72,7 @@ export function FinalOffer() {
               <CardContent className="flex-grow space-y-4">
                   <div className="text-center">
                       <p className="text-4xl font-bold text-green-500">R$27,90</p>
-                      <p className="text-sm text-green-600 font-semibold mt-1">Junte-se a mais de 500 colecionadores!</p>
+                      <p className="text-sm text-green-600 font-semibold mt-1">Junte-se a mais de 30 mil colecionadores!</p>
                   </div>
                   <ul className="space-y-3 text-left text-foreground/80 font-medium">
                       <li className="flex items-start gap-3">
