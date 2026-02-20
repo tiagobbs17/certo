@@ -126,7 +126,7 @@ export function FinalOffer() {
       </section>
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="sm:max-w-md">
+        <DialogContent className="sm:max-w-lg">
           <DialogHeader>
             <DialogTitle className="text-2xl font-headline text-center text-green-500">Oferta Exclusiva!</DialogTitle>
             <DialogDescription className="text-center pt-2">
@@ -136,12 +136,12 @@ export function FinalOffer() {
           <DialogFooter className="flex-col gap-2 pt-4">
             <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-                Sim, eu quero o Pacote Completo!
+                Sim, quero aproveitar!
               </Button>
             </Link>
             <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
-              <Button variant="ghost" className="w-full text-muted-foreground hover:bg-transparent hover:text-muted-foreground" onClick={() => setIsDialogOpen(false)}>
-                Não, obrigado. Quero apenas o pacote básico.
+              <Button variant="ghost" className="w-full text-muted-foreground hover:bg-transparent hover:text-muted-foreground">
+                Quero o básico mesmo
               </Button>
             </Link>
           </DialogFooter>
