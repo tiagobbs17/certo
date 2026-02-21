@@ -30,37 +30,6 @@ export function FinalOffer() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Offer 1 */}
-            <Card className="flex flex-col">
-              <CardHeader className="text-center">
-                <CardTitle className="font-headline text-2xl text-yellow-500">Pacote Básico</CardTitle>
-              </CardHeader>
-              <CardContent className="flex-grow space-y-4">
-                <div className="text-center">
-                  <p className="text-4xl font-bold text-green-500">R$19,90</p>
-                </div>
-                <ul className="space-y-3 text-left text-foreground/80 font-medium">
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1">✅</span>
-                    <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1">✅</span>
-                    <span>96 páginas de álbum e mais de 200 figurinhas</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1">✅</span>
-                    <span>Material educativo e criativo para imprimir.</span>
-                  </li>
-                </ul>
-              </CardContent>
-              <CardFooter className="flex-col gap-4 mt-auto">
-                <Button onClick={() => setIsDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
-                  QUERO O MEU ÁLBUM
-                </Button>
-              </CardFooter>
-            </Card>
-            
             {/* Offer 2 */}
             <Card className="flex flex-col border-2 border-green-500 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-bold">
@@ -107,6 +76,37 @@ export function FinalOffer() {
                       QUERO O PACOTE COMPLETO
                       </Button>
                   </Link>
+              </CardFooter>
+            </Card>
+
+            {/* Offer 1 */}
+            <Card className="flex flex-col">
+              <CardHeader className="text-center">
+                <CardTitle className="font-headline text-2xl text-yellow-500">Pacote Básico</CardTitle>
+              </CardHeader>
+              <CardContent className="flex-grow space-y-4">
+                <div className="text-center">
+                  <p className="text-4xl font-bold text-green-500">R$19,90</p>
+                </div>
+                <ul className="space-y-3 text-left text-foreground/80 font-medium">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1">✅</span>
+                    <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1">✅</span>
+                    <span>96 páginas de álbum e mais de 200 figurinhas</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1">✅</span>
+                    <span>Material educativo e criativo para imprimir.</span>
+                  </li>
+                </ul>
+              </CardContent>
+              <CardFooter className="flex-col gap-4 mt-auto">
+                <Button onClick={() => setIsDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
+                  QUERO O MEU ÁLBUM
+                </Button>
               </CardFooter>
             </Card>
           </div>
