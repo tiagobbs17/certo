@@ -12,7 +12,7 @@ export function About() {
             src={imageSrc}
             alt="Album de figurinhas"
             fill
-            className="object-cover"
+            className="object-contain"
         />
       </div>
       <div className="relative py-16 md:py-24">
