@@ -20,7 +20,7 @@ export function FinalOffer() {
 
   return (
     <>
-      <section id="offer" className="w-full py-16 md:py-24 lg:py-32 bg-orange-100 text-foreground scroll-mt-20">
+      <section className="w-full py-16 md:py-24 lg:py-32 bg-orange-100 text-foreground">
         <div className="container px-4 md:px-6">
           <div className="w-full max-w-4xl mx-auto text-center space-y-4 mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
@@ -29,7 +29,7 @@ export function FinalOffer() {
             <p className="text-xl text-foreground/80">Escolha a melhor oferta para você!</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div id="offer" className="grid scroll-mt-20 grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Offer 2 */}
             <Card className="flex flex-col border-2 border-green-500 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-bold">
