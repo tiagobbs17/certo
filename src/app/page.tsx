@@ -1,23 +1,32 @@
 
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
+import { About } from '@/components/landing/about';
+import { Bonuses } from '@/components/landing/bonuses';
+import { CourseContent } from '@/components/landing/course-content';
+import { Faq } from '@/components/landing/faq';
+import { FinalOffer } from '@/components/landing/final-offer';
+import { Footer } from '@/components/landing/footer';
+import { Guarantee } from '@/components/landing/guarantee';
+import { Header } from '@/components/landing/header';
+import { Hero } from '@/components/landing/hero';
+import { Testimonials } from '@/components/landing/testimonials';
+import { WhoIsItFor } from '@/components/landing/who-is-it-for';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-background p-4 text-foreground">
-      <main className="flex flex-col items-center gap-6 text-center">
-        <h1 className="text-4xl font-headline font-bold sm:text-5xl md:text-6xl text-green-500">
-          Quase lá!
-        </h1>
-        <p className="max-w-md text-lg text-muted-foreground md:text-xl">
-          Clique no botão abaixo para concluir sua compra com segurança.
-        </p>
-        <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full max-w-xs">
-          <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-            Ir para o Pagamento
-          </Button>
-        </Link>
+    <div className="flex min-h-screen flex-col items-center justify-center bg-background text-foreground">
+      <Header />
+      <main className="flex-grow w-full">
+        <Hero />
+        <About />
+        <CourseContent />
+        <Bonuses />
+        <WhoIsItFor />
+        <Testimonials />
+        <FinalOffer />
+        <Guarantee />
+        <Faq />
       </main>
+      <Footer />
     </div>
   );
 }
