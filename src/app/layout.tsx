@@ -19,24 +19,32 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
-        <Script
-          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-          data-utmify-prevent-xcod-sck
-          data-utmify-prevent-subids
-          strategy="lazyOnload"
-        />
-        <Script id="utmify-pixel-config" strategy="lazyOnload">
+        {/* Meta Pixel Code */}
+        <Script id="fb-pixel" strategy="afterInteractive">
           {`
-            window.pixelId = "697d3551b6070913d28bb90b";
-            var a = document.createElement("script");
-            a.setAttribute("async", "");
-            a.setAttribute("defer", "");
-            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-            document.head.appendChild(a);
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1087833556852146');
+            fbq('track', 'PageView');
           `}
         </Script>
+        {/* End Meta Pixel Code */}
       </head>
       <body className="font-body antialiased">
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1087833556852146&ev=PageView&noscript=1"
+          />
+        </noscript>
         {children}
         <Toaster />
       </body>
