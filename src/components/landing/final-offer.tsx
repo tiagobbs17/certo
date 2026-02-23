@@ -135,7 +135,7 @@ export function FinalOffer() {
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="flex-col gap-2 pt-4">
-            <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
+            <Link href="https://pay.cakto.com.br/3eggknj" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
                 Sim, quero aproveitar!
               </Button>
