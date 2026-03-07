@@ -36,6 +36,10 @@ const testimonials = [
   {
     src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.14.40.jpeg",
     alt: "Depoimento 6"
+  },
+  {
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.26.27.jpeg",
+    alt: "Depoimento 7"
   }
 ];
 
