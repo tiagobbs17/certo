@@ -12,7 +12,7 @@ export function Bonuses() {
             Leve hoje + 3 super Bônus
           </h2>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2003_34_30.png"
+            src="https://ik.imagekit.io/cbes7rupj/imagem%20nova%201.png"
             alt="Bônus"
             width={1200}
             height={1200}
