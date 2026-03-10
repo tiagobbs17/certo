@@ -50,7 +50,7 @@ export function FinalOffer() {
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="mt-1">✅</span>
-                        <span>96 páginas de álbum e mais de 200 figurinhas</span>
+                        <span>96 páginas de álbum e mais de 400 figurinhas</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="mt-1">✅</span>
@@ -97,7 +97,7 @@ export function FinalOffer() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1">✅</span>
-                    <span>96 páginas de álbum e mais de 200 figurinhas</span>
+                    <span>96 páginas de álbum e mais de 400 figurinhas</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1">✅</span>
