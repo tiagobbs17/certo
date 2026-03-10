@@ -7,7 +7,7 @@ export function About() {
   
   return (
     <section>
-      <div className="relative w-full h-[500px] md:h-[700px] lg:h-[900px] mt-8">
+      <div className="relative w-full h-[500px] md:h-[700px] lg:h-[900px]">
         <div className="relative w-full h-full overflow-hidden shadow-2xl">
           <Image
               src={imageSrc}
