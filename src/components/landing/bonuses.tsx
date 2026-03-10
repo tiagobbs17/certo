@@ -12,8 +12,8 @@ export function Bonuses() {
             Leve hoje + 3 super Bônus
           </h2>
           <Image
-            src="https://picsum.photos/seed/bonus-section/1200/1200"
-            alt="Bônus"
+            src="https://ik.imagekit.io/cbes7rupj/1%20(1).PNG"
+            alt="Bônus Exclusivos"
             width={1200}
             height={1200}
             className="shadow-lg w-full"
