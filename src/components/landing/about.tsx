@@ -6,17 +6,15 @@ export function About() {
   const backgroundImageSrc = "https://ik.imagekit.io/cbes7rupj/ChatGPT%20Image%2030%20de%20jan.%20de%202026,%2001_36_21.png";
   
   return (
-    <section>
-      <div className="relative w-full h-[500px] md:h-[700px] lg:h-[900px]">
-        <div className="relative w-full h-full overflow-hidden shadow-2xl">
-          <Image
-              src={imageSrc}
-              alt="Album de figurinhas"
-              fill
-              className="object-cover"
-              priority
-          />
-        </div>
+    <section className="w-full overflow-hidden">
+      <div className="relative w-full h-[500px] md:h-[700px] lg:h-[900px] -mt-1">
+        <Image
+            src={imageSrc}
+            alt="Album de figurinhas"
+            fill
+            className="object-cover object-top"
+            priority
+        />
       </div>
       <div className="relative py-16 md:py-24">
         <div className="absolute inset-0 z-0">

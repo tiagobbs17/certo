@@ -7,17 +7,17 @@ export function Hero() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png";
   
   return (
-    <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-12 md:pb-24 lg:pb-32 overflow-hidden">
+    <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-0 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src={backgroundImage}
-          alt="Background de bolo de chocolate"
+          alt="Background de futebol"
           fill
           className="object-cover"
         />
         <div className="absolute inset-0 bg-black/60" />
       </div>
-      <div className="container relative z-10 px-4 md:px-6">
+      <div className="container relative z-10 px-4 md:px-6 pb-12 md:pb-24 lg:pb-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="lg:order-2 flex flex-col items-center text-center lg:items-start lg:text-left space-y-6">
             <div className="flex flex-col justify-center space-y-4 text-white">
