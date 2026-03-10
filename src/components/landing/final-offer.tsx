@@ -67,6 +67,8 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 1: Cartas dos Jogadores para Colecionar</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 2: Certificado Infantil de Colecionador</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 3: Imagens dos Jogadores para Colorir</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 4: Kit festa com tema da seleção brasileira</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 5: Receitas kids</span></li>
                   </ul>
                 </div>
               </CardContent>
