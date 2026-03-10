@@ -12,11 +12,12 @@ export function Bonuses() {
             Leve hoje + 3 super Bônus
           </h2>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/imagem%20nova%201.png"
+            src="https://picsum.photos/seed/bonus-section/1200/1200"
             alt="Bônus"
             width={1200}
             height={1200}
             className="shadow-lg w-full"
+            data-ai-hint="bonus gifts"
           />
         </div>
       </div>
