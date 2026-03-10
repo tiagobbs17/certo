@@ -7,15 +7,17 @@ export function About() {
   
   return (
     <section>
-      <div className="relative w-full h-96 md:h-[500px] lg:h-[600px]">
-        <Image
-            src={imageSrc}
-            alt="Album de figurinhas"
-            fill
-            className="object-cover"
-        />
+      <div className="relative w-full h-72 md:h-[400px] lg:h-[500px] max-w-5xl mx-auto px-4 mt-8">
+        <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-accent/20">
+          <Image
+              src={imageSrc}
+              alt="Album de figurinhas"
+              fill
+              className="object-cover"
+          />
+        </div>
       </div>
-      <div className="relative py-16 md:py-24">
+      <div className="relative py-16 md:py-24 mt-8">
         <div className="absolute inset-0 z-0">
             <Image
                 src={backgroundImageSrc}
