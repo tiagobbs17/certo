@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Mail } from 'lucide-react';
 import { Card, CardHeader, CardContent, CardFooter, CardTitle } from '@/components/ui/card';
-import Link from 'link';
 import {
   Dialog,
   DialogContent,
@@ -16,10 +15,6 @@ import {
 } from "@/components/ui/dialog";
 
 export function FinalOffer() {
-  const [isDialogOpen] = useState(false);
-  // Nota: O controle do diálogo foi simplificado conforme a estrutura anterior, 
-  // mas garantindo que os links estejam corretos. 
-  // No código anterior o diálogo era aberto pelo botão do pacote básico.
   const [isCustomDialogOpen, setIsCustomDialogOpen] = useState(false);
 
   return (
@@ -44,7 +39,7 @@ export function FinalOffer() {
               </CardHeader>
               <CardContent className="flex-grow space-y-4">
                   <div className="text-center">
-                      <p className="text-4xl font-bold text-green-500">R$29,90</p>
+                      <p className="text-4xl font-bold text-green-500">R$27,90</p>
                       <p className="text-sm text-green-600 font-semibold mt-1">Junte-se a mais de 30 mil colecionadores!</p>
                   </div>
                   <ul className="space-y-3 text-left text-foreground/80 font-medium">
@@ -137,7 +132,7 @@ export function FinalOffer() {
           <DialogHeader>
             <DialogTitle className="text-2xl font-headline text-center text-green-500">Oferta Exclusiva!</DialogTitle>
             <DialogDescription className="text-center pt-2">
-              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$29,90</span> por apenas <strong className="text-green-500 text-lg">R$24,90</strong>!
+              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$27,90</span> por apenas <strong className="text-green-500 text-lg">R$24,90</strong>!
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="flex-col gap-2 pt-4">
