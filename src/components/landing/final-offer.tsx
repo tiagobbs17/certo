@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Mail } from 'lucide-react';
 import { Card, CardHeader, CardContent, CardFooter, CardTitle } from '@/components/ui/card';
-import Link from 'next/link';
+import Link from 'link';
 import {
   Dialog,
   DialogContent,
@@ -16,7 +16,11 @@ import {
 } from "@/components/ui/dialog";
 
 export function FinalOffer() {
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isDialogOpen] = useState(false);
+  // Nota: O controle do diálogo foi simplificado conforme a estrutura anterior, 
+  // mas garantindo que os links estejam corretos. 
+  // No código anterior o diálogo era aberto pelo botão do pacote básico.
+  const [isCustomDialogOpen, setIsCustomDialogOpen] = useState(false);
 
   return (
     <>
@@ -30,7 +34,7 @@ export function FinalOffer() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Offer 2 */}
+            {/* Offer 2 - Pacote Completo */}
             <Card className="flex flex-col border-2 border-green-500 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-bold">
                   🎉 MAIS VENDIDO
@@ -40,7 +44,7 @@ export function FinalOffer() {
               </CardHeader>
               <CardContent className="flex-grow space-y-4">
                   <div className="text-center">
-                      <p className="text-4xl font-bold text-green-500">R$27,90</p>
+                      <p className="text-4xl font-bold text-green-500">R$29,90</p>
                       <p className="text-sm text-green-600 font-semibold mt-1">Junte-se a mais de 30 mil colecionadores!</p>
                   </div>
                   <ul className="space-y-3 text-left text-foreground/80 font-medium">
@@ -58,7 +62,7 @@ export function FinalOffer() {
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="mt-1">✅</span>
-                        <span>Atualizações semanais com mais seleções e figurinhas para completar ainda mais o álbum.</span>
+                        <span>Atualizações semanais com mais seleções e figurinhas.</span>
                       </li>
                   </ul>
                 <div className="bg-card/50 text-foreground p-4 rounded-lg border">
@@ -73,15 +77,15 @@ export function FinalOffer() {
                 </div>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
-                  <Link href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
+                  <a href="https://pay.kiwify.com.br/Ec3XbsC" className="w-full">
                       <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
                       QUERO O PACOTE COMPLETO
                       </Button>
-                  </Link>
+                  </a>
               </CardFooter>
             </Card>
 
-            {/* Offer 1 */}
+            {/* Offer 1 - Pacote Básico */}
             <Card className="flex flex-col">
               <CardHeader className="text-center">
                 <CardTitle className="font-headline text-2xl text-yellow-500">Pacote Básico</CardTitle>
@@ -106,7 +110,7 @@ export function FinalOffer() {
                 </ul>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
-                <Button onClick={() => setIsDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
+                <Button onClick={() => setIsCustomDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
                   QUERO O MEU ÁLBUM
                 </Button>
               </CardFooter>
@@ -128,25 +132,25 @@ export function FinalOffer() {
         </div>
       </section>
 
-      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+      <Dialog open={isCustomDialogOpen} onOpenChange={setIsCustomDialogOpen}>
         <DialogContent className="sm:max-w-lg">
           <DialogHeader>
             <DialogTitle className="text-2xl font-headline text-center text-green-500">Oferta Exclusiva!</DialogTitle>
             <DialogDescription className="text-center pt-2">
-              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$27,90</span> por apenas <strong className="text-green-500 text-lg">R$24,90</strong>!
+              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$29,90</span> por apenas <strong className="text-green-500 text-lg">R$24,90</strong>!
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="flex-col gap-2 pt-4">
-            <Link href="https://pay.cakto.com.br/3eggknj" className="w-full">
+            <a href="https://pay.kiwify.com.br/ZixRSlp" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-                Sim, quero aproveitar!
+                Sim, quero aproveitar o desconto!
               </Button>
-            </Link>
-            <Link href="https://pay.kiwify.com.br/C8kHErO" className="w-full">
+            </a>
+            <a href="https://pay.kiwify.com.br/C8kHErO" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
                 Quero o básico mesmo
               </Button>
-            </Link>
+            </a>
           </DialogFooter>
         </DialogContent>
       </Dialog>
