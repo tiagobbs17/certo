@@ -72,7 +72,7 @@ export function FinalOffer() {
                 </div>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
-                  <a href="https://pay.cakto.com.br/htdkho6_763494" className="w-full">
+                  <a href="https://pay.kiwify.com.br/Ec3XbsC" className="w-full">
                       <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
                       QUERO O PACOTE COMPLETO
                       </Button>
@@ -136,12 +136,12 @@ export function FinalOffer() {
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="flex-col gap-2 pt-4">
-            <a href="https://pay.cakto.com.br/3eggknj" className="w-full">
+            <a href="https://pay.kiwify.com.br/ZixRSlp" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
                 Sim, quero aproveitar o desconto!
               </Button>
             </a>
-            <a href="https://pay.cakto.com.br/p7qdwuj_777006" className="w-full">
+            <a href="https://pay.kiwify.com.br/C8kHErO" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
                 Quero o básico mesmo
               </Button>
