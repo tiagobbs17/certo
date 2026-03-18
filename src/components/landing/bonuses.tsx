@@ -12,7 +12,7 @@ export function Bonuses() {
             Leve hoje + 7 super Bônus
           </h2>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/1%20(1).PNG"
+            src="https://ik.imagekit.io/cbes7rupj/img.PNG"
             alt="Bônus Exclusivos"
             width={1200}
             height={1200}
