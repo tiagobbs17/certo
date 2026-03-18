@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from 'react';
@@ -69,7 +68,7 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 3: Imagens dos Jogadores para Colorir</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 4: Kit festa com tema da seleção brasileira</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 5: Receitas kids</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 6: Planner Semanal Kids para Imprimir</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 6: Desafio quem é o jogador</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>BÔNUS 7: Jogo da Memória da Copa 2026</span></li>
                   </ul>
                 </div>
