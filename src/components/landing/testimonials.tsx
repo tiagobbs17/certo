@@ -1,6 +1,7 @@
+
 "use client"
 
-import { Card } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import {
   Carousel,
@@ -11,54 +12,32 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 import * as React from "react"
 import { cn } from '@/lib/utils';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const testimonials = [
-  { 
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.33.22.jpeg",
-    alt: "Depoimento 1"
+  {
+    name: 'Ana Silva',
+    role: 'Mãe de 2 crianças',
+    content: 'Meus filhos amaram! Passamos horas montando o álbum juntos. É uma excelente alternativa às telas.',
+    avatar: PlaceHolderImages.find(p => p.id === 'testimonial-1')?.imageUrl || '',
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.33.48.jpeg",
-    alt: "Depoimento 2"
+    name: 'Carlos Oliveira',
+    role: 'Pai coruja',
+    content: 'A qualidade das ilustrações é incrível. Foi muito fácil de imprimir e meu filho adora colecionar as figurinhas.',
+    avatar: PlaceHolderImages.find(p => p.id === 'testimonial-2')?.imageUrl || '',
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.29.06.jpeg",
-    alt: "Depoimento 3"
+    name: 'Luciana Ferreira',
+    role: 'Professora',
+    content: 'Uso como atividade criativa em família. As crianças ficam super motivadas em completar o álbum.',
+    avatar: PlaceHolderImages.find(p => p.id === 'testimonial-3')?.imageUrl || '',
   },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.32.25.jpeg",
-    alt: "Depoimento 4"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.29.50.jpeg",
-    alt: "Depoimento 5"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.26.00.jpeg",
-    alt: "Depoimento 6"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.31.36.jpeg",
-    alt: "Depoimento 7"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.31.02.jpeg",
-    alt: "Depoimento 8"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.18.12.jpeg",
-    alt: "Depoimento 9"
-  },
-  {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.26.50.jpeg",
-    alt: "Depoimento 10"
-  }
 ];
-
 
 export function Testimonials() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: false })
+    Autoplay({ delay: 4000, stopOnInteraction: false })
   )
 
   const [api, setApi] = React.useState<CarouselApi>()
@@ -109,30 +88,40 @@ export function Testimonials() {
           >
             <CarouselContent className="-ml-4">
               {testimonials.map((testimonial, index) => (
-                <CarouselItem key={index} className="pl-4 md:basis-1/2">
-                  <div className="p-1">
-                    <Card className="bg-muted/80 backdrop-blur-sm border-0 overflow-hidden">
-                        <Image 
-                          src={testimonial.src} 
-                          alt={testimonial.alt} 
-                          width={400} 
-                          height={400}
-                          className="object-contain w-full h-auto"
-                        />
+                <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
+                  <div className="p-1 h-full">
+                    <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white h-full">
+                        <CardContent className="flex flex-col p-6 gap-4">
+                            <div className="flex items-center gap-4">
+                                <div className="relative h-12 w-12 rounded-full overflow-hidden border-2 border-accent">
+                                    <Image 
+                                        src={testimonial.avatar} 
+                                        alt={testimonial.name}
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <div className="text-left">
+                                    <p className="font-bold">{testimonial.name}</p>
+                                    <p className="text-xs text-white/60">{testimonial.role}</p>
+                                </div>
+                            </div>
+                            <p className="text-sm italic text-left">"{testimonial.content}"</p>
+                        </CardContent>
                     </Card>
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
           </Carousel>
-          <div className="flex justify-center gap-2 mt-4">
+          <div className="flex justify-center gap-2 mt-8">
             {Array.from({ length: count }).map((_, index) => (
               <button
                 key={index}
                 onClick={() => api?.scrollTo(index)}
                 className={cn(
-                  'h-3 w-3 rounded-full',
-                  current === index ? 'bg-primary' : 'bg-white/50'
+                  'h-3 w-3 rounded-full transition-all',
+                  current === index ? 'bg-accent w-6' : 'bg-white/30 hover:bg-white/50'
                 )}
                 aria-label={`Ir ao slide ${index + 1}`}
               />
