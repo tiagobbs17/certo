@@ -14,40 +14,44 @@ import { cn } from '@/lib/utils';
 
 const testimonials = [
   { 
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.32.11.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.33.22.jpeg",
     alt: "Depoimento 1"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.45.41.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.33.48.jpeg",
     alt: "Depoimento 2"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.30.59.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.29.06.jpeg",
     alt: "Depoimento 3"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.41.05.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.32.25.jpeg",
     alt: "Depoimento 4"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.13.12.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.29.50.jpeg",
     alt: "Depoimento 5"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.14.40.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.26.00.jpeg",
     alt: "Depoimento 6"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.26.27.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.31.36.jpeg",
     alt: "Depoimento 7"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-09%20at%2023.12.42.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.31.02.jpeg",
     alt: "Depoimento 8"
   },
   {
-    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-09%20at%2023.13.02.jpeg",
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.18.12.jpeg",
     alt: "Depoimento 9"
+  },
+  {
+    src: "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.26.50.jpeg",
+    alt: "Depoimento 10"
   }
 ];
 
@@ -107,7 +111,7 @@ export function Testimonials() {
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="pl-4 md:basis-1/2">
                   <div className="p-1">
-                    <Card className="bg-muted/80 backdrop-blur-sm border-0">
+                    <Card className="bg-muted/80 backdrop-blur-sm border-0 overflow-hidden">
                         <Image 
                           src={testimonial.src} 
                           alt={testimonial.alt} 
@@ -130,7 +134,7 @@ export function Testimonials() {
                   'h-3 w-3 rounded-full',
                   current === index ? 'bg-primary' : 'bg-white/50'
                 )}
-                aria-label={`Ir al slide ${index + 1}`}
+                aria-label={`Ir ao slide ${index + 1}`}
               />
             ))}
           </div>
