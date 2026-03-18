@@ -94,7 +94,7 @@ export function Testimonials() {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-            Crianças se divertindo longe das telas!
+            Depoimentos dos papais que adquiriu o álbum da copa do mundo kids 2026
           </h2>
         </div>
         <div className="mx-auto max-w-5xl mt-12 px-10">
