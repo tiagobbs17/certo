@@ -25,6 +25,9 @@ export function Hero() {
               <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white">
                 A Copa do Mundo Virou Diversão em Desenhos! Colecione o <span className="text-green-500">Álbum Kids Ilustrado</span>
               </h1>
+              <p className="text-xs md:text-sm font-bold text-white/90 tracking-wide uppercase">
+                assista o vídeo abaixo 👇👇
+              </p>
             </div>
           </div>
           <div className="lg:order-1 flex flex-col items-center justify-center text-center gap-6">
