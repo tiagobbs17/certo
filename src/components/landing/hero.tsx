@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export function Hero() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png";
@@ -27,14 +28,18 @@ export function Hero() {
             </div>
           </div>
           <div className="lg:order-1 flex flex-col items-center justify-center text-center gap-6">
-            <Image
-                src="https://ik.imagekit.io/cbes7rupj/3d69cc81-84aa-434a-949e-99d342ffc796.png"
-                alt="Album de figurinhas"
-                width={550}
-                height={550}
-                className="w-full max-w-md h-auto"
-                priority
-            />
+            <div className="w-full max-w-md mx-auto">
+              {/* @ts-ignore */}
+              <vturb-smartplayer 
+                id="vid-69bcac31596c6131b739d452" 
+                style={{ display: 'block', margin: '0 auto', width: '100%', maxWidth: '400px' }}
+              ></vturb-smartplayer>
+              <Script 
+                id="vturb-player-script"
+                src="https://scripts.converteai.net/f606daa8-7646-4e7c-a709-2e4f264458ce/players/69bcac31596c6131b739d452/v4/player.js" 
+                strategy="afterInteractive"
+              />
+            </div>
             <p className="max-w-[550px] mx-auto text-white text-xl md:text-2xl font-bold">
               Um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, feito para estimular a criatividade e criar momentos especiais em família, longe das telas.
             </p>
