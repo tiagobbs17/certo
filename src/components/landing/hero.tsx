@@ -43,9 +43,6 @@ export function Hero() {
                 strategy="afterInteractive"
               />
             </div>
-            <p className="max-w-[550px] mx-auto text-white text-xl md:text-2xl font-bold">
-              Um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, feito para estimular a criatividade e criar momentos especiais em família, longe das telas.
-            </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
                 <Link href="#offer">
                     <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
