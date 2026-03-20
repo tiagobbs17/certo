@@ -26,7 +26,7 @@ export function Hero() {
                 A Copa do Mundo Virou Diversão em Desenhos! Colecione o <span className="text-green-500">Álbum Kids Ilustrado</span>
               </h1>
               <p className="text-xs md:text-sm font-bold text-white/90 tracking-wide uppercase">
-                assista o vídeo abaixo 👇👇
+                👇 assista o vídeo abaixo 👇
               </p>
             </div>
           </div>
