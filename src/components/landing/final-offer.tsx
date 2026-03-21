@@ -25,7 +25,6 @@ export function FinalOffer() {
             <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
               Escolha como seu filho vai aproveitar a Copa de forma divertida e educativa 👇
             </h2>
-            <p className="text-xl text-foreground/80">Escolha a melhor oferta para você!</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -68,7 +67,7 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>Desafio quem é o jogador</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória da Copa 2026</span></li>
                   </ul>
                 </div>
@@ -113,7 +112,7 @@ export function FinalOffer() {
               </CardFooter>
             </Card>
           </div>
-          <div className="w-full max-w-md mx-auto mt-8 text-center space-y-2">
+          <div className="w-full max-md mx-auto mt-8 text-center space-y-2">
               <Image
                 src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
                 width={400}
