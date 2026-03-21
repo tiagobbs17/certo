@@ -68,7 +68,7 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Desafio quem é o jogador</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória da Copa 2026</span></li>
                   </ul>
                 </div>
@@ -107,7 +107,7 @@ export function FinalOffer() {
                 </ul>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
-                <Button onClick={() => setIsCustomDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
+                <Button onClick={() => setIsCustomDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white">
                   👉 QUERO A VERSÃO BÁSICA
                 </Button>
               </CardFooter>
@@ -144,7 +144,7 @@ export function FinalOffer() {
               </Button>
             </a>
             <a href="https://pay.kiwify.com.br/C8kHErO" className="w-full">
-              <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
+              <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white">
                 Quero o básico mesmo
               </Button>
             </a>
