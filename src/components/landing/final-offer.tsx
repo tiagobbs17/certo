@@ -44,19 +44,19 @@ export function FinalOffer() {
                   </div>
                   <ul className="space-y-3 text-left text-foreground/80 font-medium">
                       <li className="flex items-start gap-3">
-                        <span className="mt-1">✔</span>
+                        <span className="mt-1">✅</span>
                         <span>Álbum completo da Copa do Mundo 2026 (imprimível)</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="mt-1">✔</span>
+                        <span className="mt-1">✅</span>
                         <span>Mais de 400 figurinhas para recortar e colar</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="mt-1">✔</span>
+                        <span className="mt-1">✅</span>
                         <span>Material educativo e criativo</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="mt-1">✔</span>
+                        <span className="mt-1">✅</span>
                         <span>Atualizações com novas seleções e figurinhas</span>
                       </li>
                   </ul>
@@ -68,7 +68,7 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>Desafio quem é o jogador</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória da Copa 2026</span></li>
                   </ul>
                 </div>
