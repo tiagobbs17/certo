@@ -89,7 +89,7 @@ export function FinalOffer() {
               </CardHeader>
               <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
-                  <p className="text-4xl font-bold text-green-500">R$19,90</p>
+                  <p className="text-4xl font-bold text-green-500">R$10,00</p>
                 </div>
                 <ul className="space-y-3 text-left text-foreground/80 font-medium">
                   <li className="flex items-start gap-3">
@@ -134,7 +134,7 @@ export function FinalOffer() {
           <DialogHeader>
             <DialogTitle className="text-2xl font-headline text-center text-green-500">Oferta Exclusiva!</DialogTitle>
             <DialogDescription className="text-center pt-2">
-              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$29,90</span> por apenas <strong className="text-green-500 text-lg">R$24,90</strong>!
+              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$29,90</span> por apenas <strong className="text-green-500 text-lg">R$19,90</strong>!
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="flex-col gap-2 pt-4">
