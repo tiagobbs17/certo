@@ -103,6 +103,10 @@ export function FinalOffer() {
                     <span className="mt-1">✅</span>
                     <span>Material educativo para imprimir</span>
                   </li>
+                  <li className="flex items-start gap-3 text-red-500/90 text-sm italic">
+                    <span className="mt-1">⚠️</span>
+                    <span>Não inclui bônus e atividades extras</span>
+                  </li>
                 </ul>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
