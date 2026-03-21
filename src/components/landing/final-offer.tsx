@@ -68,7 +68,7 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>Desafio quem é o jogador</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória da Copa 2026</span></li>
                   </ul>
                 </div>
@@ -84,8 +84,8 @@ export function FinalOffer() {
 
             {/* Offer 1 - Pacote Básico */}
             <Card className="flex flex-col">
-              <CardHeader className="text-center">
-                <CardTitle className="font-headline text-2xl text-yellow-500">Pacote Básico</CardTitle>
+              <CardHeader className="text-center pt-8">
+                <CardTitle className="font-headline text-xl text-yellow-500">⚪ PACOTE BÁSICO (R$10)</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
@@ -94,21 +94,21 @@ export function FinalOffer() {
                 <ul className="space-y-3 text-left text-foreground/80 font-medium">
                   <li className="flex items-start gap-3">
                     <span className="mt-1">✅</span>
-                    <span>Álbum de Figurinhas Infantil da Copa do Mundo 2026 (imprimível)</span>
+                    <span>Álbum da Copa do Mundo 2026 (imprimível)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1">✅</span>
-                    <span>96 páginas de álbum e mais de 400 figurinhas</span>
+                    <span>Mais de 400 figurinhas</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1">✅</span>
-                    <span>Material educativo e criativo para imprimir.</span>
+                    <span>Material educativo para imprimir</span>
                   </li>
                 </ul>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
                 <Button onClick={() => setIsCustomDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white animate-button-pulse">
-                  QUERO O MEU ÁLBUM
+                  👉 QUERO A VERSÃO BÁSICA
                 </Button>
               </CardFooter>
             </Card>
