@@ -67,7 +67,7 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Desafio quem é o jogador</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória da Copa 2026</span></li>
                   </ul>
                 </div>
@@ -84,11 +84,11 @@ export function FinalOffer() {
             {/* Offer 1 - Pacote Básico */}
             <Card className="flex flex-col">
               <CardHeader className="text-center pt-8">
-                <CardTitle className="font-headline text-xl text-yellow-500">⚪ PACOTE BÁSICO (R$10)</CardTitle>
+                <CardTitle className="font-headline text-xl text-yellow-500">⚪ PACOTE BÁSICO (R$19,90)</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
-                  <p className="text-4xl font-bold text-green-500">R$10,00</p>
+                  <p className="text-4xl font-bold text-green-500">R$19,90</p>
                 </div>
                 <ul className="space-y-3 text-left text-foreground/80 font-medium">
                   <li className="flex items-start gap-3">
@@ -137,7 +137,7 @@ export function FinalOffer() {
           <DialogHeader>
             <DialogTitle className="text-2xl font-headline text-center text-green-500">Oferta Exclusiva!</DialogTitle>
             <DialogDescription className="text-center pt-2">
-              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$29,90</span> por apenas <strong className="text-green-500 text-lg">R$19,90</strong>!
+              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$29,90</span> por apenas <strong className="text-green-500 text-lg">R$24,90</strong>!
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="flex-col gap-2 pt-4">
