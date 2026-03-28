@@ -73,7 +73,7 @@ export function FinalOffer() {
                 </div>
               </CardContent>
               <CardFooter className="flex-col gap-4 mt-auto">
-                  <a href="https://pay.kiwify.com.br/Ec3XbsC" className="w-full">
+                  <a href="https://pay.kiwify.com.br/LpsdZ7q" className="w-full">
                       <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
                       👉 QUERO O PACOTE COMPLETO AGORA
                       </Button>
@@ -141,12 +141,12 @@ export function FinalOffer() {
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="flex-col gap-2 pt-4">
-            <a href="https://pay.kiwify.com.br/ZixRSlp" className="w-full">
+            <a href="https://pay.kiwify.com.br/VfXnYtq" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
                 Sim, quero aproveitar o desconto!
               </Button>
             </a>
-            <a href="https://pay.kiwify.com.br/C8kHErO" className="w-full">
+            <a href="https://pay.kiwify.com.br/Slt5zEo" className="w-full">
               <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white">
                 Quero o básico mesmo
               </Button>
