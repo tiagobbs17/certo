@@ -16,11 +16,11 @@ export default function Home() {
       <Header />
       <main className="flex-grow w-full">
         <Hero />
-        <Testimonials />
         <About />
         <CourseContent />
         <Bonuses />
         <WhoIsItFor />
+        <Testimonials />
         <FinalOffer />
         <Guarantee />
         <Faq />
