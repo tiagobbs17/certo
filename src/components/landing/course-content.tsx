@@ -7,7 +7,7 @@ export function CourseContent() {
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
           <div className="px-4 md:px-6">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
-              Veja uma amostra do álbum por dentro e descubra tudo o que você vai receber!
+              Conteúdo do Álbum
             </h2>
           </div>
           <Image
