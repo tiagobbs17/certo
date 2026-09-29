@@ -15,6 +15,8 @@ export default function Home() {
       <Header />
       <main className="flex-grow w-full">
         <Hero />
+        {/* Bloco em branco adicionado embaixo do primeiro bloco */}
+        <div className="w-full py-12 bg-background" />
         <CourseContent />
         <Bonuses />
         <WhoIsItFor />
