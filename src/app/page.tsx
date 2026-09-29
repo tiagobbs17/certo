@@ -1,4 +1,3 @@
-import { About } from '@/components/landing/about';
 import { Bonuses } from '@/components/landing/bonuses';
 import { CourseContent } from '@/components/landing/course-content';
 import { Faq } from '@/components/landing/faq';
@@ -9,7 +8,6 @@ import { Header } from '@/components/landing/header';
 import { Hero } from '@/components/landing/hero';
 import { Testimonials } from '@/components/landing/testimonials';
 import { WhoIsItFor } from '@/components/landing/who-is-it-for';
-import { PhotoSlider } from '@/components/landing/photo-slider';
 
 export default function Home() {
   return (
@@ -17,8 +15,6 @@ export default function Home() {
       <Header />
       <main className="flex-grow w-full">
         <Hero />
-        <PhotoSlider />
-        <About />
         <CourseContent />
         <Bonuses />
         <WhoIsItFor />
