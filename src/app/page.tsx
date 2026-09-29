@@ -1,4 +1,3 @@
-
 import { About } from '@/components/landing/about';
 import { Bonuses } from '@/components/landing/bonuses';
 import { CourseContent } from '@/components/landing/course-content';
@@ -17,11 +16,11 @@ export default function Home() {
       <Header />
       <main className="flex-grow w-full">
         <Hero />
+        <Testimonials />
         <About />
         <CourseContent />
         <Bonuses />
         <WhoIsItFor />
-        <Testimonials />
         <FinalOffer />
         <Guarantee />
         <Faq />
