@@ -17,11 +17,16 @@ const sliderImages = [
   { id: 3, hint: "drawing children" },
   { id: 4, hint: "family fun" },
   { id: 5, hint: "sticker album" },
+  { id: 6, hint: "soccer ball" },
+  { id: 7, hint: "happy child" },
+  { id: 8, hint: "goal celebration" },
+  { id: 9, hint: "team work" },
+  { id: 10, hint: "victory cup" },
 ];
 
 export function PhotoSlider() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2500, stopOnInteraction: false })
+    Autoplay({ delay: 2000, stopOnInteraction: false })
   );
 
   return (
