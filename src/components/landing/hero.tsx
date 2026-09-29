@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -26,7 +25,7 @@ export function Hero() {
                 O Brasileirão Kids Virou Diversão em Desenhos! Colecione o <span className="text-green-500">Álbum Kids Ilustrado</span>
               </h1>
               <p className="text-xs md:text-sm font-bold text-white/90 tracking-wide uppercase">
-                👇 ASSISTHA O VÍDEO ABAIXO 👇
+                👇 ASSISTA O VÍDEO ABAIXO 👇
               </p>
             </div>
           </div>

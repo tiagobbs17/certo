@@ -56,7 +56,7 @@ export function FinalOffer() {
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="mt-1">✅</span>
-                        <span>Atualizações com novas seleções e figurinhas</span>
+                        <span>Atualizações com novas seleções and figurinhas</span>
                       </li>
                   </ul>
                 <div className="bg-card/50 text-foreground p-4 rounded-lg border">
