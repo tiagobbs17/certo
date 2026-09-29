@@ -31,6 +31,11 @@ export function PhotoSlider() {
   return (
     <section className="w-full py-12 bg-muted/20 border-y border-border/50">
       <div className="container px-4 md:px-6">
+        <div className="text-center mb-8 max-w-3xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-headline font-bold tracking-tighter text-foreground">
+            Veja uma amostra do álbum por dentro e descubra tudo o que você vai receber!
+          </h2>
+        </div>
         <Carousel
           plugins={[plugin.current]}
           opts={{
@@ -53,7 +58,6 @@ export function PhotoSlider() {
                         data-ai-hint={item.hint}
                       />
                     </div>
-                    {/* Moldura que simula o espaço da figurinha menor */}
                     <div className="absolute inset-0 flex items-center justify-center p-2">
                       <div className="w-full h-full border border-muted-foreground/20 flex flex-col items-center justify-center bg-white/70 backdrop-blur-[1px] rounded-sm text-center p-1">
                         <div className="w-6 h-6 rounded-full border border-muted-foreground/30 flex items-center justify-center mb-1 bg-white">
