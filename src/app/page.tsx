@@ -8,6 +8,7 @@ import { Header } from '@/components/landing/header';
 import { Hero } from '@/components/landing/hero';
 import { Testimonials } from '@/components/landing/testimonials';
 import { WhoIsItFor } from '@/components/landing/who-is-it-for';
+import { PhotoSlider } from '@/components/landing/photo-slider';
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <Hero />
         {/* Bloco em branco adicionado embaixo do primeiro bloco */}
         <div className="w-full py-12 bg-background" />
+        {/* Carrossel de 10 quadros rolando sozinhos */}
+        <PhotoSlider />
         <CourseContent />
         <Bonuses />
         <WhoIsItFor />
