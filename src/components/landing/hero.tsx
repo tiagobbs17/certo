@@ -27,13 +27,13 @@ export function Hero() {
             </div>
           </div>
           <div className="lg:order-1 flex flex-col items-center justify-center text-center gap-6">
-            <div className="w-full max-w-md mx-auto relative aspect-square rounded-lg overflow-hidden shadow-2xl border-4 border-green-500 bg-white">
+            <div className="w-full max-w-md mx-auto relative aspect-[4/5] md:aspect-square overflow-hidden">
               <Image
                 src={heroImage}
                 alt="Capa do Álbum Latam"
                 fill
                 priority
-                className="object-cover"
+                className="object-contain"
                 data-ai-hint="album cover"
               />
             </div>
