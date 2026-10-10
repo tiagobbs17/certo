@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export function Hero() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png";
-  const heroImage = "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-10-09%20at%2022.36.29.jpeg";
+  const heroImage = "https://ik.imagekit.io/cbes7rupj/Menino%20Sorridente%20com%20%C3%81lbum%20do%20Brasileir%C3%A3o%20Kids%20(1).png";
   
   return (
     <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-0 overflow-hidden">
@@ -30,11 +30,11 @@ export function Hero() {
             <div className="w-full max-w-md mx-auto relative aspect-[4/5] md:aspect-square">
               <Image
                 src={heroImage}
-                alt="Imagem do Álbum"
+                alt="Menino Sorridente com Álbum"
                 fill
                 priority
                 className="object-contain"
-                data-ai-hint="album preview"
+                data-ai-hint="smiling boy"
               />
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
