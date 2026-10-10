@@ -8,7 +8,7 @@ export function Bonuses() {
       <div className="container px-0">
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent-foreground px-4 md:px-6">
-            Leve hoje + 7 super Bônus
+            Leve hoje + 5 super Bônus
           </h2>
           <Image
             src="https://ik.imagekit.io/cbes7rupj/bonus%20imagem.jpeg"
