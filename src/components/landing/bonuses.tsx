@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -12,7 +11,7 @@ export function Bonuses() {
             Leve hoje + 7 super Bônus
           </h2>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/img.PNG"
+            src="https://ik.imagekit.io/cbes7rupj/foto%20bonus.pdf"
             alt="Bônus Exclusivos"
             width={1200}
             height={1200}
