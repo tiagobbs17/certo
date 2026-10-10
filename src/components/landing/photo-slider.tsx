@@ -11,21 +11,21 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 
 const sliderImages = [
-  { id: 1, hint: "football kid" },
-  { id: 2, hint: "soccer stadium" },
-  { id: 3, hint: "drawing children" },
-  { id: 4, hint: "family fun" },
-  { id: 5, hint: "sticker album" },
-  { id: 6, hint: "soccer ball" },
-  { id: 7, hint: "happy child" },
-  { id: 8, hint: "goal celebration" },
-  { id: 9, hint: "team work" },
-  { id: 10, hint: "victory cup" },
+  { id: 1, url: "https://ik.imagekit.io/cbes7rupj/IMG_9.HEIC", hint: "album page 9" },
+  { id: 2, url: "https://ik.imagekit.io/cbes7rupj/IMG_7.JPG", hint: "album page 7" },
+  { id: 3, url: "https://ik.imagekit.io/cbes7rupj/IMG_3.JPG", hint: "album page 3" },
+  { id: 4, url: "https://ik.imagekit.io/cbes7rupj/IMG_10.HEIC", hint: "album page 10" },
+  { id: 5, url: "https://ik.imagekit.io/cbes7rupj/IMG_1.JPG", hint: "album page 1" },
+  { id: 6, url: "https://ik.imagekit.io/cbes7rupj/IMG_8.JPG", hint: "album page 8" },
+  { id: 7, url: "https://ik.imagekit.io/cbes7rupj/IMG_5.HEIC", hint: "album page 5" },
+  { id: 8, url: "https://ik.imagekit.io/cbes7rupj/IMG_4.HEIC", hint: "album page 4" },
+  { id: 9, url: "https://ik.imagekit.io/cbes7rupj/IMG_6.JPG", hint: "album page 6" },
+  { id: 10, url: "https://ik.imagekit.io/cbes7rupj/IMG_2.JPG", hint: "album page 2" },
 ];
 
 export function PhotoSlider() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: false })
+    Autoplay({ delay: 2500, stopOnInteraction: false })
   );
 
   return (
@@ -46,27 +46,18 @@ export function PhotoSlider() {
         >
           <CarouselContent className="-ml-2 md:-ml-4">
             {sliderImages.map((item) => (
-              <CarouselItem key={item.id} className="pl-2 md:pl-4 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/6">
-                <Card className="border-2 border-dashed border-muted-foreground/20 overflow-hidden bg-white shadow-inner hover:border-green-500/50 transition-colors">
-                  <CardContent className="flex aspect-square items-center justify-center p-0 relative">
+              <CarouselItem key={item.id} className="pl-2 md:pl-4 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5">
+                <Card className="overflow-hidden bg-white shadow-md border-0 transition-transform hover:scale-105 duration-300">
+                  <CardContent className="flex aspect-[3/4] items-center justify-center p-0 relative">
                     <div className="relative w-full h-full">
                       <Image
-                        src={`https://picsum.photos/seed/${item.id + 20}/400/400`}
-                        alt={`Espaço para foto ${item.id}`}
+                        src={item.url}
+                        alt={`Amostra do Álbum ${item.id}`}
                         fill
-                        className="object-cover opacity-20 grayscale"
+                        className="object-cover"
                         data-ai-hint={item.hint}
+                        unoptimized={item.url.endsWith('.HEIC')}
                       />
-                    </div>
-                    <div className="absolute inset-0 flex items-center justify-center p-2">
-                      <div className="w-full h-full border border-muted-foreground/20 flex flex-col items-center justify-center bg-white/70 backdrop-blur-[1px] rounded-sm text-center p-1">
-                        <div className="w-6 h-6 rounded-full border border-muted-foreground/30 flex items-center justify-center mb-1 bg-white">
-                          <span className="text-muted-foreground font-bold text-[10px]">{item.id}</span>
-                        </div>
-                        <span className="text-muted-foreground font-bold text-[8px] uppercase tracking-wider block leading-tight">
-                          Foto
-                        </span>
-                      </div>
                     </div>
                   </CardContent>
                 </Card>
