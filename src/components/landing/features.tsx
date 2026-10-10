@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 
 export function Features() {
@@ -21,7 +20,7 @@ export function Features() {
             O que é o nosso álbum de figurinhas?
           </h2>
           <p className="max-w-[700px] text-white/80 md:text-xl/relaxed">
-            É um álbum de figurinhas infantil da Copa do Mundo 2026, com personagens ilustrados, criado para estimular a criatividade e a diversão em família.
+            É um álbum de figurinhas infantil do Brasileirão Kids 2026, com personagens ilustrados, criado para estimular a criatividade e a diversão em família.
 Os pais imprimem o material, e a criança recorta, cola e completa o álbum de forma lúdica. Perfeito para colecionar e criar memórias especiais.
           </p>
         </div>

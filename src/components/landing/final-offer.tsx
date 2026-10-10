@@ -23,7 +23,7 @@ export function FinalOffer() {
         <div className="container px-4 md:px-6">
           <div className="w-full max-w-4xl mx-auto text-center space-y-4 mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
-              Escolha como seu filho vai aproveitar a Copa de forma divertida e educativa 👇
+              Escolha como seu filho vai aproveitar o futebol de forma divertida e educativa 👇
             </h2>
           </div>
 
@@ -44,7 +44,7 @@ export function FinalOffer() {
                   <ul className="space-y-3 text-left text-foreground/80 font-medium">
                       <li className="flex items-start gap-3">
                         <span className="mt-1">✅</span>
-                        <span>Álbum completo da Copa do Mundo 2026 (imprimível)</span>
+                        <span>Álbum completo do Brasileirão Kids 2026 (imprimível)</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="mt-1">✅</span>
@@ -56,7 +56,7 @@ export function FinalOffer() {
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="mt-1">✅</span>
-                        <span>Atualizações com novas seleções and figurinhas</span>
+                        <span>Atualizações com novas seleções e figurinhas</span>
                       </li>
                   </ul>
                 <div className="bg-card/50 text-foreground p-4 rounded-lg border">
@@ -68,7 +68,7 @@ export function FinalOffer() {
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
                       <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória da Copa 2026</span></li>
+                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória do Brasileirão Kids 2026</span></li>
                   </ul>
                 </div>
               </CardContent>
@@ -93,7 +93,7 @@ export function FinalOffer() {
                 <ul className="space-y-3 text-left text-foreground/80 font-medium">
                   <li className="flex items-start gap-3">
                     <span className="mt-1">✅</span>
-                    <span>Álbum da Copa do Mundo 2026 (imprimível)</span>
+                    <span>Álbum do Brasileirão Kids 2026 (imprimível)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1">✅</span>

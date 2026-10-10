@@ -4,8 +4,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Álbum de figurinhas da copa 2026',
-  description: 'O álbum de figurinhas da Copa do Mundo 2026 para crianças.',
+  title: 'Álbum Brasileirão Kids 2026',
+  description: 'O álbum de figurinhas do Brasileirão Kids 2026 para crianças.',
 };
 
 export default function RootLayout({
