@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export function Hero() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png";
@@ -38,11 +37,9 @@ export function Hero() {
               />
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-                <Link href="#offer">
-                    <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
-                        Quero meu álbum agora!
-                    </Button>
-                </Link>
+                <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
+                    Quero meu álbum agora!
+                </Button>
             </div>
           </div>
         </div>
