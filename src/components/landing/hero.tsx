@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 
 export function Hero() {
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/Est%C3%A1dio%20Brasileiro%20em%20Festa.png";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/Est%C3%A1dio%20Brasileiro%20em%20Festa%20(1).png";
   const heroImage = "https://ik.imagekit.io/cbes7rupj/Menino%20Sorridente%20com%20%C3%81lbum%20do%20Brasileir%C3%A3o%20Kids%20(1).png";
   
   return (
