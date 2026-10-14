@@ -26,7 +26,7 @@ export function Hero() {
               </h1>
             </div>
           </div>
-          <div className="lg:order-1 flex flex-col items-center justify-center text-center gap-6">
+          <div className="lg:order-1 flex flex-col items-center justify-center text-center gap-3">
             <div className="w-full max-w-md mx-auto relative aspect-[4/5] md:aspect-square">
               <Image
                 src={heroImage}
@@ -37,10 +37,10 @@ export function Hero() {
                 data-ai-hint="smiling boy"
               />
             </div>
-            <p className="text-white text-lg md:text-xl font-medium max-w-lg">
-              Os craques do futebol brasileiro em versões ilustradas, reunidos em um álbum com os 20 times da Série A e mais de 400 figurinhas para a criançada colecionar!
+            <p className="text-white text-lg md:text-xl font-bold max-w-[320px] leading-tight -mt-2">
+              Os craques do futebol brasileiro em <span className="text-green-500">VERSÕES ILUSTRADAS</span>, reunidos em um álbum com os <span className="text-yellow-500">20 TIMES DA SÉRIE A</span> e mais de <span className="text-green-500">400 FIGURINHAS</span> para a criançada colecionar!
             </p>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
+            <div className="flex flex-col gap-2 mt-4 min-[400px]:flex-row justify-center">
                 <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
                     Quero meu álbum agora!
                 </Button>
