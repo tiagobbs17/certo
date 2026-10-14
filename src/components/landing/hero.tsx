@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export function Hero() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/Est%C3%A1dio%20Brasileiro%20em%20Festa%20(1).png";
-  const heroImage = "https://ik.imagekit.io/cbes7rupj/Menino%20Sorridente%20com%20%C3%81lbum%20do%20Brasileir%C3%A3o%20Kids%20(1).png";
+  const heroImage = "https://ik.imagekit.io/cbes7rupj/Menino%20sorridente%20com%20%C3%A1lbum%20Brasileir%C3%A3o%20Kids.png";
   
   return (
     <section className="relative w-full pt-12 md:pt-24 lg:pt-32 xl:pt-48 pb-0 overflow-hidden">
