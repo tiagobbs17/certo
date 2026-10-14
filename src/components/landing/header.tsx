@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -16,7 +17,7 @@ export function Header() {
       <div className="container mx-auto">
         {currentDate && (
           <p className="text-sm">
-            Oferta válida somente hoje: {currentDate}
+            Oferta válida somente hoje: <span className="text-[#FFD700]">{currentDate}</span>
           </p>
         )}
       </div>

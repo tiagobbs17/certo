@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from 'next/image';
@@ -11,7 +12,7 @@ export function FinalOffer() {
       <div className="container px-4 md:px-6">
         <div className="w-full max-w-4xl mx-auto text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
-            Aproveite o futebol de forma divertida e educativa com o pacote completo 👇
+            Aproveite o futebol de forma divertida e educativa com o pacote completo 2026 👇
           </h2>
         </div>
 
