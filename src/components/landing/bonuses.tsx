@@ -3,12 +3,14 @@ import { Button } from "@/components/ui/button";
 
 export function Bonuses() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32 bg-accent">
+    <section className="w-full py-16 md:py-24 lg:py-32 bg-accent text-accent-foreground">
       <div className="container px-0">
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent-foreground px-4 md:px-6">
-            Leve hoje + 5 super Bônus
-          </h2>
+          <div className="px-4 md:px-6 max-w-4xl mx-auto">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-headline font-bold tracking-tighter uppercase leading-tight">
+              🎁 NA COMPRA DO ÁLBUM, SEU PEQUENO TORCEDOR LEVA 5 BÔNUS EXCLUSIVOS PARA UMA EXPERIÊNCIA DE FUTEBOL COMPLETA!
+            </h2>
+          </div>
           <Image
             src="https://ik.imagekit.io/cbes7rupj/bonus%20imagem.jpeg"
             alt="Bônus Exclusivos"
