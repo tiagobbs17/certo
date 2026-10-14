@@ -37,6 +37,9 @@ export function Hero() {
                 data-ai-hint="smiling boy"
               />
             </div>
+            <p className="text-white text-lg md:text-xl font-medium max-w-lg">
+              Os craques do futebol brasileiro em versões ilustradas, reunidos em um álbum com os 20 times da Série A e mais de 400 figurinhas para a criançada colecionar!
+            </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
                 <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
                     Quero meu álbum agora!
