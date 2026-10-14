@@ -11,7 +11,7 @@ export function CourseContent() {
             </h2>
           </div>
           <Image
-            src="https://ik.imagekit.io/cbes7rupj/imagem%20nova%201.png"
+            src="https://ik.imagekit.io/cbes7rupj/IMG_5303.JPG"
             alt="Conteúdo do álbum de figurinhas"
             width={1400}
             height={933}
