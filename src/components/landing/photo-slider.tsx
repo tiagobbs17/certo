@@ -28,14 +28,29 @@ export function PhotoSlider() {
     Autoplay({ delay: 2500, stopOnInteraction: false })
   );
 
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/Colagem%20Futebol%C3%ADstica%20no%20Est%C3%A1dio.png";
+
   return (
-    <section className="w-full py-12 bg-muted/20 border-y border-border/50">
-      <div className="container px-4 md:px-6">
-        <div className="text-center mb-8 max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-headline font-bold tracking-tighter text-foreground">
+    <section className="relative w-full py-16 border-y border-border/50 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src={backgroundImage}
+          alt="Fundo estádio futebol"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/60" />
+      </div>
+
+      <div className="container relative z-10 px-4 md:px-6">
+        <div className="text-center mb-10 max-w-3xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-headline font-bold tracking-tighter text-white">
             Veja uma amostra do álbum por dentro e descubra tudo o que você vai receber!
           </h2>
         </div>
+        
         <Carousel
           plugins={[plugin.current]}
           opts={{
@@ -47,7 +62,7 @@ export function PhotoSlider() {
           <CarouselContent className="-ml-2 md:-ml-4">
             {sliderImages.map((item) => (
               <CarouselItem key={item.id} className="pl-2 md:pl-4 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5">
-                <Card className="overflow-hidden bg-white shadow-md border-0 transition-transform hover:scale-105 duration-300">
+                <Card className="overflow-hidden bg-white shadow-xl border-0 transition-transform hover:scale-105 duration-300">
                   <CardContent className="flex aspect-[3/4] items-center justify-center p-0 relative">
                     <div className="relative w-full h-full">
                       <Image
