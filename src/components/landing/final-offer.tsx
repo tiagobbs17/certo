@@ -1,153 +1,87 @@
 "use client";
 
-import { useState } from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Mail } from 'lucide-react';
 import { Card, CardHeader, CardContent, CardFooter, CardTitle } from '@/components/ui/card';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
 
 export function FinalOffer() {
-  const [isCustomDialogOpen, setIsCustomDialogOpen] = useState(false);
-
   return (
-    <>
-      <section id="offer" className="scroll-mt-20 w-full py-16 md:py-24 lg:py-32 bg-orange-100 text-foreground">
-        <div className="container px-4 md:px-6">
-          <div className="w-full max-w-4xl mx-auto text-center space-y-4 mb-12">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
-              Escolha como seu filho vai aproveitar o futebol de forma divertida e educativa 👇
-            </h2>
-          </div>
+    <section id="offer" className="scroll-mt-20 w-full py-16 md:py-24 lg:py-32 bg-orange-100 text-foreground">
+      <div className="container px-4 md:px-6">
+        <div className="w-full max-w-4xl mx-auto text-center space-y-4 mb-12">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
+            Aproveite o futebol de forma divertida e educativa com o pacote completo 👇
+          </h2>
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Offer 2 - Pacote Completo */}
-            <Card className="flex flex-col border-2 border-green-500 relative">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-xs font-bold whitespace-nowrap">
-                  🔥 MAIS VENDIDO | ⭐ RECOMENDADO
-              </div>
-              <CardHeader className="text-center pt-8">
-                <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO (R$29,90)</CardTitle>
-              </CardHeader>
-              <CardContent className="flex-grow space-y-4">
-                  <div className="text-center">
-                      <p className="text-4xl font-bold text-green-500">R$29,90</p>
-                      <p className="text-sm text-green-600 font-semibold mt-2">💡 Leve tudo por menos de R$1 por dia</p>
-                  </div>
-                  <ul className="space-y-3 text-left text-foreground/80 font-medium">
-                      <li className="flex items-start gap-3">
-                        <span className="mt-1">✅</span>
-                        <span>Álbum completo do Brasileirão Kids 2026 (imprimível)</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="mt-1">✅</span>
-                        <span>Mais de 400 figurinhas para recortar e colar</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="mt-1">✅</span>
-                        <span>Material educativo e criativo</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="mt-1">✅</span>
-                        <span>Atualizações com novas seleções e figurinhas</span>
-                      </li>
-                  </ul>
-                <div className="bg-card/50 text-foreground p-4 rounded-lg border">
-                  <h4 className="text-lg font-headline font-bold mb-4 text-yellow-500 text-center">🎁 BÔNUS EXCLUSIVOS</h4>
-                  <ul className="space-y-3 text-left text-card-foreground/80 text-sm font-medium">
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Cards dos jogadores para brincar e colecionar (as crianças amam)</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Certificado de colecionador para imprimir</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
-                      <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória do Brasileirão Kids 2026</span></li>
-                  </ul>
-                </div>
-              </CardContent>
-              <CardFooter className="flex-col gap-4 mt-auto">
-                  <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-                      👉 QUERO O PACOTE COMPLETO AGORA
-                  </Button>
-              </CardFooter>
-            </Card>
-
-            {/* Offer 1 - Pacote Básico */}
-            <Card className="flex flex-col">
-              <CardHeader className="text-center pt-8">
-                <CardTitle className="font-headline text-xl text-yellow-500">⚪ PACOTE BÁSICO (R$19,90)</CardTitle>
-              </CardHeader>
-              <CardContent className="flex-grow space-y-4">
+        <div className="flex justify-center max-w-2xl mx-auto">
+          {/* Offer - Pacote Completo */}
+          <Card className="flex flex-col border-2 border-green-500 relative w-full">
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-xs font-bold whitespace-nowrap">
+                🔥 OFERTA EXCLUSIVA | ⭐ RECOMENDADO
+            </div>
+            <CardHeader className="text-center pt-8">
+              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO (R$29,90)</CardTitle>
+            </CardHeader>
+            <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
-                  <p className="text-4xl font-bold text-green-500">R$19,90</p>
+                    <p className="text-4xl font-bold text-green-500">R$29,90</p>
+                    <p className="text-sm text-green-600 font-semibold mt-2">💡 Leve tudo por menos de R$1 por dia</p>
                 </div>
                 <ul className="space-y-3 text-left text-foreground/80 font-medium">
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1">✅</span>
-                    <span>Álbum do Brasileirão Kids 2026 (imprimível)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1">✅</span>
-                    <span>Mais de 400 figurinhas</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1">✅</span>
-                    <span>Material educativo para imprimir</span>
-                  </li>
-                  <li className="flex items-start gap-3 text-red-500/90 text-sm italic">
-                    <span className="mt-1">⚠️</span>
-                    <span>Não inclui bônus e atividades extras</span>
-                  </li>
+                    <li className="flex items-start gap-3">
+                      <span className="mt-1">✅</span>
+                      <span>Álbum completo do Brasileirão Kids 2026 (imprimível)</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="mt-1">✅</span>
+                      <span>Mais de 400 figurinhas para recortar e colar</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="mt-1">✅</span>
+                      <span>Material educativo e criativo</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="mt-1">✅</span>
+                      <span>Atualizações com novas seleções e figurinhas</span>
+                    </li>
                 </ul>
-              </CardContent>
-              <CardFooter className="flex-col gap-4 mt-auto">
-                <Button onClick={() => setIsCustomDialogOpen(true)} size="lg" className="w-full h-12 text-lg font-bold bg-green-500/80 hover:bg-green-600/80 text-white">
-                  👉 QUERO A VERSÃO BÁSICA
-                </Button>
-              </CardFooter>
-            </Card>
-          </div>
-          <div className="w-full max-md mx-auto mt-8 text-center space-y-2">
-              <Image
-                src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
-                width={400}
-                height={40}
-                alt="Formas de Pagamento"
-                className="mx-auto"
-              />
-              <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                  <Mail className="h-5 w-5" />
-                  <span>Entrega imediata no e-mail</span>
+              <div className="bg-card/50 text-foreground p-4 rounded-lg border">
+                <h4 className="text-lg font-headline font-bold mb-4 text-yellow-500 text-center">🎁 BÔNUS EXCLUSIVOS INCLUSOS</h4>
+                <ul className="space-y-3 text-left text-card-foreground/80 text-sm font-medium">
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Cards dos jogadores para brincar e colecionar (as crianças amam)</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Certificado de colecionador para imprimir</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória do Brasileirão Kids 2026</span></li>
+                </ul>
               </div>
-          </div>
+            </CardContent>
+            <CardFooter className="flex-col gap-4 mt-auto">
+                <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
+                    👉 QUERO O PACOTE COMPLETO AGORA
+                </Button>
+            </CardFooter>
+          </Card>
         </div>
-      </section>
-
-      <Dialog open={isCustomDialogOpen} onOpenChange={setIsCustomDialogOpen}>
-        <DialogContent className="sm:max-w-lg">
-          <DialogHeader>
-            <DialogTitle className="text-2xl font-headline text-center text-green-500">Oferta Exclusiva!</DialogTitle>
-            <DialogDescription className="text-center pt-2">
-              Leve o <strong>Pacote Completo</strong> com todos os bônus e atualizações de <span className="line-through">R$29,90</span> por apenas <strong className="text-green-500 text-lg">R$24,90</strong>!
-            </DialogDescription>
-          </DialogHeader>
-          <DialogFooter className="flex-col gap-2 pt-4">
-            <Button className="w-full h-12 font-bold text-base bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-              Sim, quero aproveitar o desconto!
-            </Button>
-            <Button className="w-full h-12 font-bold text-base bg-green-500/80 hover:bg-green-600/80 text-white">
-              Quero o básico mesmo
-            </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
-    </>
+        
+        <div className="w-full max-md mx-auto mt-8 text-center space-y-2">
+            <Image
+              src="https://ik.imagekit.io/cbes7rupj/formas-pagamento.png"
+              width={400}
+              height={40}
+              alt="Formas de Pagamento"
+              className="mx-auto"
+            />
+            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                <Mail className="h-5 w-5" />
+                <span>Entrega imediata no e-mail</span>
+            </div>
+        </div>
+      </div>
+    </section>
   );
 }
