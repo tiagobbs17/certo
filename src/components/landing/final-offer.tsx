@@ -55,6 +55,7 @@ export function FinalOffer() {
                     <li className="flex items-start gap-3"><span>🎁</span> <span>Certificado de colecionador para imprimir</span></li>
                     <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                     <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória do Brasileirão Kids 2026</span></li>
+                    <li className="flex items-start gap-3"><span>🎁</span> <span>Calendário dos jogos do Brasileirão 2026</span></li>
                 </ul>
               </div>
             </CardContent>
