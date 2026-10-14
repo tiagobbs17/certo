@@ -7,7 +7,10 @@ export function CourseContent() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-6 text-center max-w-4xl mx-auto">
           <div className="space-y-4">
-            <p className="text-lg md:text-xl lg:text-2xl text-white/90 font-medium max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline font-bold tracking-tighter text-white uppercase">
+              UM ÁLBUM RECHEADO DE FUTEBOL E DIVERSÃO! 🏆
+            </h2>
+            <p className="text-lg md:text-xl lg:text-2xl text-white/90 font-medium max-w-3xl mx-auto leading-relaxed mt-4">
               Conheça os detalhes dessa coleção ilustrada e descubra como a diversão começa!
             </p>
           </div>
