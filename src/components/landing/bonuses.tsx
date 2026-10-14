@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 
 export function Bonuses() {
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/B%C3%B4nus%20Esportivo%20Criativo.png";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/Est%C3%A1dio%20lotado%20em%20festa%20campe%C3%A3%20(1).png";
 
   return (
     <section className="relative w-full py-16 md:py-24 lg:py-32 overflow-hidden">

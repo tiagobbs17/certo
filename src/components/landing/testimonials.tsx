@@ -1,4 +1,3 @@
-
 "use client"
 
 import { Card, CardContent } from '@/components/ui/card';
@@ -57,7 +56,7 @@ export function Testimonials() {
     })
   }, [api])
 
-  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/fundo%20pagina.png?updatedAt=1769738161037";
+  const backgroundImage = "https://ik.imagekit.io/cbes7rupj/Est%C3%A1dio%20lotado%20em%20festa%20campe%C3%A3%20(1).png";
 
   return (
     <section className="relative w-full py-16 md:py-24 lg:py-32">
@@ -72,9 +71,12 @@ export function Testimonials() {
       </div>
       <div className="container relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
-            O que nossos clientes dizem
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent uppercase">
+            QUEM CONHECE, SE APAIXONA!
           </h2>
+          <p className="text-lg md:text-xl lg:text-2xl text-white font-bold max-w-3xl mx-auto">
+            Veja os relatos de quem já garantiu o Álbum do Brasileirão Kids 2026!
+          </p>
         </div>
         <div className="mx-auto max-w-5xl px-10">
           <Carousel
