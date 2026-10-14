@@ -1,3 +1,4 @@
+
 "use client";
 
 import * as React from "react";
@@ -45,10 +46,13 @@ export function PhotoSlider() {
       </div>
 
       <div className="container relative z-10 px-4 md:px-6">
-        <div className="text-center mb-10 max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-headline font-bold tracking-tighter text-white">
-            Veja uma amostra do álbum por dentro e descubra tudo o que você vai receber!
+        <div className="text-center mb-10 max-w-4xl mx-auto space-y-4">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-headline font-bold tracking-tight text-[#FFD700] uppercase">
+            VEJA O QUE ESPERA PELO SEU PEQUENO TORCEDOR
           </h2>
+          <h3 className="text-3xl md:text-4xl lg:text-5xl font-headline font-bold tracking-tighter text-white">
+            POR DENTRO DO ÁLBUM DO BRASILEIRÃO KIDS! ⚽
+          </h3>
         </div>
         
         <Carousel
