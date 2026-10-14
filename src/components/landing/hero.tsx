@@ -38,7 +38,7 @@ export function Hero() {
               />
             </div>
             <p className="text-white text-lg md:text-xl font-bold max-w-[320px] leading-tight -mt-2">
-              Os craques do futebol brasileiro em <span className="text-green-500">VERSÕES ILUSTRADAS</span>, reunidos em um álbum com os <span className="text-yellow-500">20 TIMES DA SÉRIE A</span> e mais de <span className="text-green-500">400 FIGURINHAS</span> para a criançada colecionar!
+              Os craques do futebol brasileiro em <span className="text-green-500">VERSÕES ILUSTRADAS</span>, reunidos em um álbum com os <span className="text-yellow-500">20 TIMES DA SÉRIE A</span> e mais de <span className="text-green-500">300 FIGURINHAS</span> para a criançada colecionar!
             </p>
             <div className="flex flex-col gap-2 mt-4 min-[400px]:flex-row justify-center">
                 <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
