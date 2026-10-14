@@ -31,7 +31,7 @@ export function PhotoSlider() {
   const backgroundImage = "https://ik.imagekit.io/cbes7rupj/Colagem%20Futebol%C3%ADstica%20no%20Est%C3%A1dio.png";
 
   return (
-    <section className="relative w-full py-16 border-y border-border/50 overflow-hidden">
+    <section className="relative w-full py-16 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
