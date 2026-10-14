@@ -13,8 +13,6 @@ import * as React from "react"
 import { cn } from '@/lib/utils';
 
 const testimonialImages = [
-  "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.33.22.jpeg",
-  "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.33.48.jpeg",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.29.06.jpeg",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.32.25.jpeg",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.29.50.jpeg",
@@ -23,14 +21,12 @@ const testimonialImages = [
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.31.02.jpeg",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.18.12.jpeg",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-17%20at%2022.26.50.jpeg",
-  "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.41.05.jpeg?updatedAt=1770878829713",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.30.59.jpeg?updatedAt=1770878829764",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.45.41.jpeg?updatedAt=1770878829829",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-02-12%20at%2003.32.11.jpeg?updatedAt=1770878830015",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.13.12.jpeg?updatedAt=1772860428565",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.14.40.jpeg?updatedAt=1772860857373",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-07%20at%2002.26.27.jpeg?updatedAt=1772861387374",
-  "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-09%20at%2023.13.02.jpeg?updatedAt=1773108869036",
   "https://ik.imagekit.io/cbes7rupj/WhatsApp%20Image%202026-03-09%20at%2023.12.42.jpeg?updatedAt=1773108869110",
 ];
 
@@ -75,7 +71,7 @@ export function Testimonials() {
             QUEM CONHECE, SE APAIXONA!
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-white font-bold max-w-3xl mx-auto">
-            Veja os relatos de quem já garantiu o Álbum do Brasileirão Kids 2026!
+            Veja os relatos de quem já garantiu o Álbum do Brasileirão Kids!
           </p>
         </div>
         <div className="mx-auto max-w-5xl px-10">
