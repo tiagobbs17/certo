@@ -37,7 +37,7 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
-                      <span>Mais de 400 figurinhas para recortar e colar</span>
+                      <span>Mais de 300 figurinhas para recortar e colar</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
@@ -45,7 +45,7 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
-                      <span>Atualizações com novas seleções e figurinhas</span>
+                      <span>Atualizações com novos jogadores</span>
                     </li>
                 </ul>
               <div className="bg-card/50 text-foreground p-4 rounded-lg border">
@@ -53,9 +53,6 @@ export function FinalOffer() {
                 <ul className="space-y-3 text-left text-card-foreground/80 text-sm font-medium">
                     <li className="flex items-start gap-3"><span>🎁</span> <span>Cards dos jogadores para brincar e colecionar (as crianças amam)</span></li>
                     <li className="flex items-start gap-3"><span>🎁</span> <span>Certificado de colecionador para imprimir</span></li>
-                    <li className="flex items-start gap-3"><span>🎁</span> <span>Desenhos dos jogadores para colorir + caderno</span></li>
-                    <li className="flex items-start gap-3"><span>🎁</span> <span>Kit festa com tema da seleção brasileira</span></li>
-                    <li className="flex items-start gap-3"><span>🎁</span> <span>Receitas kids para fazer em família</span></li>
                     <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                     <li className="flex items-start gap-3"><span>🎁</span> <span>Jogo da memória do Brasileirão Kids 2026</span></li>
                 </ul>
