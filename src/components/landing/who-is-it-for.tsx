@@ -13,7 +13,7 @@ export function WhoIsItFor() {
     <section className="w-full py-16 md:py-24 lg:py-32 bg-muted">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-accent">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#FFD700]">
             Este álbum é para você se:
           </h2>
           <ul className="max-w-3xl mx-auto space-y-4 text-left">
