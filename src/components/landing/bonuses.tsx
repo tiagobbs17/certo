@@ -35,8 +35,8 @@ export function Bonuses() {
         </div>
       </div>
       <div className="container relative z-10 mt-12 flex justify-center px-4 md:px-6">
-        <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white border-0">
-          Quero meu álbum e bônus!
+        <Button asChild size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white border-0">
+          <a href="https://pay.kiwify.com.br/o3C79YL">Quero meu álbum e bônus!</a>
         </Button>
       </div>
     </section>

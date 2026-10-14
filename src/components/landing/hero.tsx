@@ -43,8 +43,8 @@ export function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-2 mt-4 min-[400px]:flex-row justify-center">
-                <Button size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white border-0">
-                    Quero meu álbum agora!
+                <Button asChild size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white border-0">
+                    <a href="https://pay.kiwify.com.br/o3C79YL">Quero meu álbum agora!</a>
                 </Button>
             </div>
           </div>

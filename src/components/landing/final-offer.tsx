@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from 'next/image';
@@ -60,8 +59,8 @@ export function FinalOffer() {
               </div>
             </CardContent>
             <CardFooter className="flex-col gap-4 mt-auto">
-                <Button size="lg" className="w-full h-12 text-base font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-                    👉 QUERO O PACOTE COMPLETO AGORA
+                <Button asChild size="lg" className="w-full h-12 text-base font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
+                    <a href="https://pay.kiwify.com.br/o3C79YL">👉 QUERO O PACOTE COMPLETO AGORA</a>
                 </Button>
             </CardFooter>
           </Card>
