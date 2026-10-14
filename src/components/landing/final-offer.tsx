@@ -60,7 +60,7 @@ export function FinalOffer() {
               </div>
             </CardContent>
             <CardFooter className="flex-col gap-4 mt-auto">
-                <Button size="lg" className="w-full h-12 text-lg font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
+                <Button size="lg" className="w-full h-12 text-base font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
                     👉 QUERO O PACOTE COMPLETO AGORA
                 </Button>
             </CardFooter>
