@@ -22,7 +22,7 @@ export function FinalOffer() {
                 🔥 OFERTA EXCLUSIVA | ⭐ RECOMENDADO
             </div>
             <CardHeader className="text-center pt-8">
-              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO (R$29,90)</CardTitle>
+              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO 2026 (R$29,90)</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
