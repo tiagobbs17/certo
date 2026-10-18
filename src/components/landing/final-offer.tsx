@@ -1,16 +1,32 @@
+
 "use client";
 
+import { useState } from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Mail, XCircle } from 'lucide-react';
+import { Mail, XCircle, Gift, Sparkles } from 'lucide-react';
 import { Card, CardHeader, CardContent, CardFooter, CardTitle } from '@/components/ui/card';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 export function FinalOffer() {
+  const [showUpsell, setShowUpsell] = useState(false);
+
+  const handleBasicClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setShowUpsell(true);
+  };
+
   return (
     <section id="offer" className="scroll-mt-20 w-full py-16 md:py-24 lg:py-32 bg-orange-100 text-foreground">
       <div className="container px-4 md:px-6">
         <div className="w-full max-w-4xl mx-auto text-center space-y-4 mb-12">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter text-yellow-500 uppercase">
             Escolha o melhor plano para o seu pequeno torcedor 👇
           </h2>
         </div>
@@ -66,13 +82,17 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
                       <span>❌</span>
-                      <span>Participe de um sorteio de uma camisa original do time do coração da criança</span>
+                      <span>Participação no sorteio da camisa oficial</span>
                     </li>
                 </ul>
             </CardContent>
             <CardFooter className="flex-col gap-4 mt-auto">
-                <Button asChild size="lg" className="w-full h-12 text-base font-bold bg-yellow-400 hover:bg-yellow-500 text-black border-0">
-                    <a href="https://pay.wiapy.com/chmOrF3EiQZ">QUERO APENAS O ÁLBUM</a>
+                <Button 
+                  onClick={handleBasicClick}
+                  size="lg" 
+                  className="w-full h-12 text-base font-bold bg-yellow-400 hover:bg-yellow-500 text-black border-0"
+                >
+                    QUERO APENAS O ÁLBUM
                 </Button>
             </CardFooter>
           </Card>
@@ -83,7 +103,7 @@ export function FinalOffer() {
                 🔥 OFERTA EXCLUSIVA | ⭐ MAIS ESCOLHIDO
             </div>
             <CardHeader className="text-center pt-8">
-              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO 2026 + 6 BÔNUS</CardTitle>
+              <CardTitle className="font-headline text-xl text-yellow-500 uppercase">🟩 PACOTE COMPLETO 2026 + 6 BÔNUS</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
@@ -112,7 +132,7 @@ export function FinalOffer() {
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo da memória</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Calendário dos jogos do brasileirão 2026</span></li>
-                    <li className="flex items-start gap-2"><span>🎁</span> <span>Participe de um sorteio de uma camisa original do time do coração da criança</span></li>
+                    <li className="flex items-start gap-2"><span>🎁</span> <span>Participação no sorteio da camisa oficial</span></li>
                 </ul>
               </div>
             </CardContent>
@@ -138,6 +158,54 @@ export function FinalOffer() {
             </div>
         </div>
       </div>
+
+      {/* Modal de Upsell */}
+      <Dialog open={showUpsell} onOpenChange={setShowUpsell}>
+        <DialogContent className="sm:max-w-[500px] p-0 overflow-hidden border-none bg-white">
+          <div className="bg-green-600 p-6 text-white text-center space-y-2">
+            <div className="flex justify-center mb-2">
+              <div className="bg-yellow-400 p-2 rounded-full animate-bounce">
+                <Sparkles className="h-6 w-6 text-green-700" />
+              </div>
+            </div>
+            <DialogTitle className="text-2xl md:text-3xl font-headline font-bold uppercase leading-tight">
+              ESPERA! TEMOS UM PRESENTE PARA VOCÊ! 🎁
+            </DialogTitle>
+          </div>
+          
+          <div className="p-6 space-y-6 text-center">
+            <DialogDescription className="text-lg text-foreground font-medium leading-relaxed">
+              Notamos que você quer o álbum. Que tal levar a <span className="text-green-600 font-bold underline">EXPERIÊNCIA COMPLETA</span> com todos os <span className="font-bold">6 BÔNUS</span> por um preço especial?
+            </DialogDescription>
+
+            <div className="bg-orange-50 border-2 border-dashed border-orange-200 p-4 rounded-xl space-y-2">
+              <p className="text-muted-foreground line-through text-lg">De R$ 19,90</p>
+              <p className="text-4xl font-black text-green-600">Por R$ 14,90</p>
+              <p className="text-xs font-bold text-orange-600 uppercase tracking-wider">⚡ Oferta válida apenas neste pop-up ⚡</p>
+            </div>
+
+            <div className="space-y-4">
+              <Button asChild size="lg" className="w-full py-8 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse shadow-lg">
+                <a href="https://pay.wiapy.com/Gp0WOsmksLug">SIM! QUERO O PACOTE COMPLETO POR R$ 14,90</a>
+              </Button>
+              
+              <Button 
+                variant="ghost" 
+                asChild
+                className="text-muted-foreground hover:text-foreground underline decoration-1"
+              >
+                <a href="https://pay.wiapy.com/chmOrF3EiQZ">Não, quero apenas o álbum por R$ 10,00</a>
+              </Button>
+            </div>
+          </div>
+          
+          <div className="bg-gray-50 py-3 px-6 text-center border-t">
+            <p className="text-[10px] text-muted-foreground uppercase tracking-widest font-bold">
+              Garantia de Satisfação de 7 Dias Inclusa
+            </p>
+          </div>
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }
