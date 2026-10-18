@@ -59,7 +59,7 @@ export function Faq() {
         </div>
         <div className="mt-12 flex justify-center">
           <Button asChild size="lg" className="font-bold animate-button-pulse bg-green-500 hover:bg-green-600 text-white">
-            <a href="https://pay.kiwify.com.br/o3C79YL">Resolvi minhas dúvidas, quero comprar agora!</a>
+            <a href="#offer">Resolvi minhas dúvidas, quero comprar agora!</a>
           </Button>
         </div>
       </div>

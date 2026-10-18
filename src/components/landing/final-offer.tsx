@@ -71,8 +71,8 @@ export function FinalOffer() {
                 </ul>
             </CardContent>
             <CardFooter className="flex-col gap-4 mt-auto">
-                <Button asChild size="lg" variant="outline" className="w-full h-12 text-base font-bold border-2">
-                    <a href="https://pay.kiwify.com.br/o3C79YL">QUERO APENAS O ÁLBUM</a>
+                <Button asChild size="lg" className="w-full h-12 text-base font-bold bg-yellow-400 hover:bg-yellow-500 text-black border-0">
+                    <a href="https://pay.wiapy.com/chmOrF3EiQZ">QUERO APENAS O ÁLBUM</a>
                 </Button>
             </CardFooter>
           </Card>
@@ -80,7 +80,7 @@ export function FinalOffer() {
           {/* Offer - Pacote Completo */}
           <Card className="flex flex-col border-2 border-green-500 relative w-full shadow-2xl">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-xs font-bold whitespace-nowrap z-10">
-                🔥 OFERTA EXCLUSIVA | ⭐ RECOMENDADO
+                🔥 OFERTA EXCLUSIVA | ⭐ MAIS ESCOLHIDO
             </div>
             <CardHeader className="text-center pt-8">
               <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO 2026 + 6 BÔNUS</CardTitle>
@@ -118,7 +118,7 @@ export function FinalOffer() {
             </CardContent>
             <CardFooter className="flex-col gap-4 mt-auto">
                 <Button asChild size="lg" className="w-full h-12 text-base font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse">
-                    <a href="https://pay.kiwify.com.br/o3C79YL">👉 QUERO O PACOTE COMPLETO</a>
+                    <a href="https://pay.wiapy.com/Gp0WOsmksLug">👉 QUERO O PACOTE COMPLETO</a>
                 </Button>
             </CardFooter>
           </Card>
