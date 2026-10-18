@@ -54,7 +54,7 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
                       <span>❌</span>
-                      <span>Jogo da memória e Calendário 2026</span>
+                      <span>Jogo da memória</span>
                     </li>
                     <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
                       <span>❌</span>
@@ -102,7 +102,7 @@ export function FinalOffer() {
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Cards dos jogadores para colecionar</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Certificado de colecionador</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
-                    <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo da memória e Calendário 2026</span></li>
+                    <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo da memória</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Calendário dos jogos do brasileirão 2026</span></li>
                 </ul>
               </div>
