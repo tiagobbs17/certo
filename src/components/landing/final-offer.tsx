@@ -60,6 +60,10 @@ export function FinalOffer() {
                       <span>❌</span>
                       <span>Calendário dos jogos do brasileirão 2026</span>
                     </li>
+                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
+                      <span>❌</span>
+                      <span>Sorteio de uma camisa original do time do coração da criança</span>
+                    </li>
                 </ul>
             </CardContent>
             <CardFooter className="flex-col gap-4 mt-auto">
@@ -104,6 +108,7 @@ export function FinalOffer() {
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo da memória</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Calendário dos jogos do brasileirão 2026</span></li>
+                    <li className="flex items-start gap-2"><span>🎁</span> <span>Sorteio de uma camisa original do time do coração da criança</span></li>
                 </ul>
               </div>
             </CardContent>
