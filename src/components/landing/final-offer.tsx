@@ -24,7 +24,7 @@ export function FinalOffer() {
             <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
                     <p className="text-4xl font-bold text-muted-foreground">R$10,00</p>
-                    <p className="text-sm text-muted-foreground font-semibold mt-2">📍 Ideal para quem quer apenas colecionar</p>
+                    <p className="text-sm text-muted-foreground font-semibold mt-2">📍 A maioria das famílias prefere o Pacote Completo</p>
                 </div>
                 <ul className="space-y-3 text-left text-foreground/80 font-medium">
                     <li className="flex items-start gap-3">
