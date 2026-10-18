@@ -33,7 +33,7 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
-                      <span>Mais de 300 figurinhas para recortar e colar</span>
+                      <span>Mais de 400 figurinhas para recortar e colar</span>
                     </li>
                     <li className="pt-4 border-t border-muted-foreground/20">
                       <p className="text-xs font-bold text-muted-foreground mb-2 flex items-center gap-1">
@@ -93,7 +93,7 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
-                      <span>Mais de 300 figurinhas para recortar e colar</span>
+                      <span>Mais de 400 figurinhas para recortar e colar</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
