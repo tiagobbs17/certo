@@ -159,49 +159,49 @@ export function FinalOffer() {
         </div>
       </div>
 
-      {/* Modal de Upsell */}
+      {/* Modal de Upsell Reduzido */}
       <Dialog open={showUpsell} onOpenChange={setShowUpsell}>
-        <DialogContent className="sm:max-w-[500px] p-0 overflow-hidden border-none bg-white">
-          <div className="bg-green-600 p-6 text-white text-center space-y-2">
-            <div className="flex justify-center mb-2">
-              <div className="bg-yellow-400 p-2 rounded-full animate-bounce">
-                <Sparkles className="h-6 w-6 text-green-700" />
+        <DialogContent className="sm:max-w-[380px] p-0 overflow-hidden border-none bg-white">
+          <div className="bg-green-600 p-4 text-white text-center space-y-1">
+            <div className="flex justify-center mb-1">
+              <div className="bg-yellow-400 p-1.5 rounded-full animate-bounce">
+                <Sparkles className="h-4 w-4 text-green-700" />
               </div>
             </div>
-            <DialogTitle className="text-2xl md:text-3xl font-headline font-bold uppercase leading-tight">
-              ESPERA! TEMOS UM PRESENTE PARA VOCÊ! 🎁
+            <DialogTitle className="text-xl font-headline font-bold uppercase leading-tight">
+              PRESENTE EXCLUSIVO! 🎁
             </DialogTitle>
           </div>
           
-          <div className="p-6 space-y-6 text-center">
-            <DialogDescription className="text-lg text-foreground font-medium leading-relaxed">
-              Notamos que você quer o álbum. Que tal levar a <span className="text-green-600 font-bold underline">EXPERIÊNCIA COMPLETA</span> com todos os <span className="font-bold">6 BÔNUS</span> por um preço especial?
+          <div className="p-4 space-y-4 text-center">
+            <DialogDescription className="text-base text-foreground font-medium leading-snug">
+              Leve a <span className="text-green-600 font-bold underline">EXPERIÊNCIA COMPLETA</span> com todos os <span className="font-bold">6 BÔNUS</span> por um preço especial!
             </DialogDescription>
 
-            <div className="bg-orange-50 border-2 border-dashed border-orange-200 p-4 rounded-xl space-y-2">
-              <p className="text-muted-foreground line-through text-lg">De R$ 19,90</p>
-              <p className="text-4xl font-black text-green-600">Por R$ 14,90</p>
-              <p className="text-xs font-bold text-orange-600 uppercase tracking-wider">⚡ Oferta válida apenas neste pop-up ⚡</p>
+            <div className="bg-orange-50 border-2 border-dashed border-orange-200 p-3 rounded-xl space-y-1">
+              <p className="text-muted-foreground line-through text-sm">De R$ 19,90</p>
+              <p className="text-3xl font-black text-green-600">Por R$ 14,90</p>
+              <p className="text-[10px] font-bold text-orange-600 uppercase tracking-wider">⚡ OFERTA ÚNICA AGORA ⚡</p>
             </div>
 
-            <div className="space-y-4">
-              <Button asChild size="lg" className="w-full py-8 text-xl font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse shadow-lg">
-                <a href="https://pay.wiapy.com/Gp0WOsmksLug">SIM! QUERO O PACOTE COMPLETO POR R$ 14,90</a>
+            <div className="space-y-3">
+              <Button asChild size="lg" className="w-full h-14 text-base font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse shadow-md">
+                <a href="https://pay.wiapy.com/Gp0WOsmksLug">SIM! QUERO COM DESCONTO</a>
               </Button>
               
               <Button 
                 variant="ghost" 
                 asChild
-                className="text-muted-foreground hover:text-foreground underline decoration-1"
+                className="text-xs text-muted-foreground hover:text-foreground underline"
               >
-                <a href="https://pay.wiapy.com/chmOrF3EiQZ">Não, quero apenas o álbum por R$ 10,00</a>
+                <a href="https://pay.wiapy.com/chmOrF3EiQZ">Não, quero apenas o álbum por R$ 10</a>
               </Button>
             </div>
           </div>
           
-          <div className="bg-gray-50 py-3 px-6 text-center border-t">
-            <p className="text-[10px] text-muted-foreground uppercase tracking-widest font-bold">
-              Garantia de Satisfação de 7 Dias Inclusa
+          <div className="bg-gray-50 py-2 text-center border-t">
+            <p className="text-[9px] text-muted-foreground uppercase tracking-widest font-bold">
+              Garantia de 7 Dias Inclusa
             </p>
           </div>
         </DialogContent>
