@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from 'react';
@@ -186,7 +185,7 @@ export function FinalOffer() {
 
             <div className="space-y-3">
               <Button asChild size="lg" className="w-full h-14 text-base font-bold bg-green-500 hover:bg-green-600 text-white animate-button-pulse shadow-md">
-                <a href="https://pay.wiapy.com/Gp0WOsmksLug">SIM! QUERO COM DESCONTO</a>
+                <a href="https://pay.wiapy.com/34mgLqByq_-">SIM! QUERO COM DESCONTO</a>
               </Button>
               
               <Button 
