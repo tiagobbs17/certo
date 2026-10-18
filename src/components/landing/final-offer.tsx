@@ -17,7 +17,7 @@ export function FinalOffer() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Offer - Só o Álbum */}
-          <Card className="flex flex-col border-2 border-muted relative w-full opacity-90">
+          <Card className="flex flex-col border-2 border-muted relative w-full opacity-90 shadow-sm">
             <CardHeader className="text-center pt-8">
               <CardTitle className="font-headline text-xl text-muted-foreground">⬜ SÓ O ÁLBUM 2026</CardTitle>
             </CardHeader>
@@ -55,6 +55,10 @@ export function FinalOffer() {
                     <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
                       <span>❌</span>
                       <span>Jogo da memória e Calendário 2026</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
+                      <span>❌</span>
+                      <span>Calendário dos jogos do brasileirão 2026</span>
                     </li>
                 </ul>
             </CardContent>
@@ -99,6 +103,7 @@ export function FinalOffer() {
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Certificado de colecionador</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo da memória e Calendário 2026</span></li>
+                    <li className="flex items-start gap-2"><span>🎁</span> <span>Calendário dos jogos do brasileirão 2026</span></li>
                 </ul>
               </div>
             </CardContent>
