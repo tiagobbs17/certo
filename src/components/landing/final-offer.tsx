@@ -62,7 +62,7 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
                       <span>❌</span>
-                      <span>Sorteio de uma camisa original do time do coração da criança</span>
+                      <span>Participe de um sorteio de uma camisa original do time do coração da criança</span>
                     </li>
                 </ul>
             </CardContent>
@@ -79,7 +79,7 @@ export function FinalOffer() {
                 🔥 OFERTA EXCLUSIVA | ⭐ RECOMENDADO
             </div>
             <CardHeader className="text-center pt-8">
-              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO 2026</CardTitle>
+              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO 2026 + 6 BÔNUS</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
@@ -101,14 +101,14 @@ export function FinalOffer() {
                     </li>
                 </ul>
               <div className="bg-green-50 text-foreground p-4 rounded-lg border border-green-100">
-                <h4 className="text-lg font-headline font-bold mb-4 text-green-600 text-center">🎁 BÔNUS EXCLUSIVOS INCLUSOS</h4>
+                <h4 className="text-lg font-headline font-bold mb-4 text-green-600 text-center">🎁 6 BÔNUS EXCLUSIVOS INCLUSOS</h4>
                 <ul className="space-y-2 text-left text-card-foreground/80 text-sm font-medium">
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Cards dos jogadores para colecionar</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Certificado de colecionador</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo “Quem é o jogador”</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Jogo da memória</span></li>
                     <li className="flex items-start gap-2"><span>🎁</span> <span>Calendário dos jogos do brasileirão 2026</span></li>
-                    <li className="flex items-start gap-2"><span>🎁</span> <span>Sorteio de uma camisa original do time do coração da criança</span></li>
+                    <li className="flex items-start gap-2"><span>🎁</span> <span>Participe de um sorteio de uma camisa original do time do coração da criança</span></li>
                 </ul>
               </div>
             </CardContent>

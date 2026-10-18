@@ -21,7 +21,7 @@ export function Bonuses() {
         <div className="flex flex-col items-center justify-center space-y-8 text-center text-white">
           <div className="px-4 md:px-6 max-w-4xl mx-auto">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-headline font-bold tracking-tighter uppercase leading-tight">
-              🎁 NA COMPRA DO ÁLBUM, SEU PEQUENO TORCEDOR LEVA 5 BÔNUS EXCLUSIVOS PARA UMA EXPERIÊNCIA DE FUTEBOL COMPLETA!
+              🎁 NA COMPRA DO ÁLBUM, SEU PEQUENO TORCEDOR LEVA 6 BÔNUS EXCLUSIVOS PARA UMA EXPERIÊNCIA DE FUTEBOL COMPLETA!
             </h2>
           </div>
           <Image
