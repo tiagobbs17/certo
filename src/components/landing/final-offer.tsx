@@ -42,6 +42,10 @@ export function FinalOffer() {
                     </li>
                     <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
                       <span>❌</span>
+                      <span>Atualizações com novos jogadores</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
+                      <span>❌</span>
                       <span>Cards dos jogadores para colecionar</span>
                     </li>
                     <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
