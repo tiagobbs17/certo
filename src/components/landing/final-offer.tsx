@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Mail } from 'lucide-react';
+import { Mail, XCircle } from 'lucide-react';
 import { Card, CardHeader, CardContent, CardFooter, CardTitle } from '@/components/ui/card';
 
 export function FinalOffer() {
@@ -17,9 +17,9 @@ export function FinalOffer() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Offer - Só o Álbum */}
-          <Card className="flex flex-col border-2 border-muted relative w-full">
+          <Card className="flex flex-col border-2 border-muted relative w-full opacity-90">
             <CardHeader className="text-center pt-8">
-              <CardTitle className="font-headline text-xl text-muted-foreground">⬜ SÓ O ÁLBUM 2026 (R$10,00)</CardTitle>
+              <CardTitle className="font-headline text-xl text-muted-foreground">⬜ SÓ O ÁLBUM 2026</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
@@ -35,9 +35,26 @@ export function FinalOffer() {
                       <span className="mt-1">✅</span>
                       <span>Mais de 300 figurinhas para recortar e colar</span>
                     </li>
-                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through">
-                      <span className="mt-1">❌</span>
-                      <span>Sem bônus inclusos</span>
+                    <li className="pt-4 border-t border-muted-foreground/20">
+                      <p className="text-xs font-bold text-muted-foreground mb-2 flex items-center gap-1">
+                        <XCircle className="h-3 w-3 text-red-400" /> NÃO INCLUSO:
+                      </p>
+                    </li>
+                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
+                      <span>❌</span>
+                      <span>Cards dos jogadores para colecionar</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
+                      <span>❌</span>
+                      <span>Certificado de colecionador</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
+                      <span>❌</span>
+                      <span>Jogo “Quem é o jogador”</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-muted-foreground/50 line-through text-sm">
+                      <span>❌</span>
+                      <span>Jogo da memória e Calendário 2026</span>
                     </li>
                 </ul>
             </CardContent>
@@ -54,7 +71,7 @@ export function FinalOffer() {
                 🔥 OFERTA EXCLUSIVA | ⭐ RECOMENDADO
             </div>
             <CardHeader className="text-center pt-8">
-              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO 2026 (R$19,90)</CardTitle>
+              <CardTitle className="font-headline text-xl text-yellow-500">🟩 PACOTE COMPLETO 2026</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow space-y-4">
                 <div className="text-center">
@@ -69,10 +86,6 @@ export function FinalOffer() {
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
                       <span>Mais de 300 figurinhas para recortar e colar</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="mt-1">✅</span>
-                      <span>Material educativo e criativo</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="mt-1">✅</span>
