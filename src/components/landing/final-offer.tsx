@@ -193,7 +193,7 @@ export function FinalOffer() {
                 asChild
                 className="text-xs text-muted-foreground hover:text-foreground underline"
               >
-                <a href="https://pay.wiapy.com/chmOrF3EiQZ">Não, quero apenas o álbum por R$ 10</a>
+                <a href="https://pay.wiapy.com/ghU791LMnYwx">Não, quero apenas o álbum por R$ 10</a>
               </Button>
             </div>
           </div>
